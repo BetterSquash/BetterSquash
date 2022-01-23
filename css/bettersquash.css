@@ -1,0 +1,7 @@
+a.backhome:link, a.backhome:visited{color: white;background: #000000;padding: 4px;text-decoration: none;font-family: sans-serif;}
+a.backhome:hover {color: white;background: #0066ff;padding: 4px;text-decoration: none;}
+a:hover {color: white;  background: black;  text-decoration: none;}
+h3 { border-top: 3px solid black;padding-top:0.5em}
+:root {
+    --accent-bg: #111111;}
+.whitetext {color:white}
