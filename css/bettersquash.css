@@ -25,3 +25,9 @@ h3 { border-top: 3px solid black;padding-top:0.5em}
   width: 100%;
   height: auto;
 }
+
+.darkdiv {
+        background-color: #111111;
+		padding: 24px;
+		text-align: center;
+    }
