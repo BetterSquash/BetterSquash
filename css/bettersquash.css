@@ -31,3 +31,7 @@ h3 { border-top: 3px solid black;padding-top:0.5em}
 		padding: 24px;
 		text-align: center;
     }
+	
+	li {
+  line-height: 2;
+}
