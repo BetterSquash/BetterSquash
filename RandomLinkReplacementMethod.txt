@@ -1,0 +1,77 @@
+  	  <table class="collapse f4 b--black-10 pv3 ph3 mt4 sans-serif">
+  	    <tbody>
+  		  <tr class="striped--near-white"><td class="pv3 ph3"><strong>Previous:</strong> </td><td class="pv3 ph3"><a class="arc" href="</a></td></tr>
+  	      <tr class="striped--near-white"><td class="pv3 ph3"><strong>Next:</strong></td><td class="pv3 ph3"><a class="arc" href="</a></td></tr>
+  	      <tr class="striped--near-white"><td class="pv3 ph3"><strong>Random:</strong></td><td class="pv3 ph3"><a class="norm" id="RandomLink" title="View a random article"
+ href="PleaseEnableJavascript.html" onclick="RandomArticle();return false;">Take A Chance|!</a></td></tr>
+  	      <tr class="striped--near-white"><td class="pv3 ph3"><strong>Popular:</strong></td><td class="pv3 ph3"><a class="arc" href="</a></td></tr>
+  	    </tbody>
+  	  </table>
+	  
+	  
+  		  <p class="f5 f3-ns lh-copy measure sans-serif">
+			   <span class="fw9">&laquo;</span> <strong>Previous:</strong> <a class="arc" href="202211xx.html">TITLE</a><br>
+			   <span class="fw9">&raquo;</span> <strong>Next:</strong> <a class="arc" href="202211xx.html">Coming Tomorrow</a><br>
+			  <span class="fw9">?</span> <strong>Random:</strong> <a class="arc" href="2022yyyy.html">Take A Chance!</a><br>
+			  
+			  <span class="fw9">&check;</span> <strong>Popular:</strong> <a class="arc" href="20220804.html">Why Do Professional Squash Players Touch The Side Wall before Serving?</a><br>
+			  <span class="fw9">&check;</span> <strong>Popular:</strong> <a class="arc" href="20220621.html">Why Do Pro Squash Players Rally To The Back So Much?</a><br>
+			  <span class="fw9">&check;</span> <strong>Popular:</strong> <a class="arc" href="20220919.html">Is Squash Bad For Your Body?</a><br>
+			  <span class="fw9">&check;</span> <strong>Popular:</strong> <a class="arc" href="20220730.html">Things To Know Before You Have Coaching</a><br>
+			  <span class="fw9">&check;</span> <strong>Popular:</strong> <a class="arc" href="20220912.html">What Is The “Front/Back” Squash Conditioned Game?</a><br>
+			  <span class="fw9">&check;</span> <strong>Popular:</strong> <a class="arc" href="20220903.html">What Is Back Corner Circling in Squash?</a><br>
+			  <span class="fw9">&check;</span> <strong>Popular:</strong> <a class="arc" href="20220812.html">A Brief Introduction To Shot Selection In Squash</a><br>
+			  <span class="fw9">&check;</span> <strong>Popular:</strong> <a class="arc" href="20220904.html">Here Are 3 Crosscourt Shots Every Club Squash Player Should Know</a><br>
+			  <span class="fw9">&check;</span> <strong>Popular:</strong> <a class="arc" href="20220831.html">Stop Playing Your Favourite Squash Shot</a><br>
+			  <span class="fw9">&check;</span> <strong>Popular:</strong> <a class="arc" href="20220628.html">Why Do I have To Watch The Ball Hit My Strings?</a><br>
+			  <span class="fw9">&check;</span> <strong>Popular:</strong> <a class="arc" href="20220910.html">Simple Way To Make Your Solo Drills More Effective And Challenging</a>
+		  </p>
+		  
+		1. Replace
+		    <h2 class="f2 lh-solid sans-serif">Continue Reading</h2> 
+		  	<p class="f5 f3-ns lh-copy measure sans-serif">
+			with
+			<h2 class="f2 lh-solid sans-serif">Continue Reading</h2> 
+	    	  <table class="collapse f4 b--black-10 pv3 ph3 mt4 sans-serif">
+	    	    <tbody>
+				
+		2. Replace
+			<span class="fw9">&laquo;</span> <strong>Previous:</strong> 
+			with
+			<tr class="striped--near-white"><td class="pv3 ph3"><strong>Previous:</strong> </td><td class="pv3 ph3">
+			
+		3. Replace
+			</a><br>
+			with
+			</td></tr>
+		
+		4. Replace
+			</a><br><br>
+			with
+			</td></tr>
+			
+		5. Replace
+			<span class="fw9">&raquo;</span> <strong>Next:</strong>
+			with
+			<tr class="striped--near-white"><td class="pv3 ph3"><strong>Next:</strong></td><td class="pv3 ph3">
+			
+		6. Replace
+			<span class="fw9">&check;</span> <strong>Popular:</strong>
+			with
+			<tr class="striped--near-white"><td class="pv3 ph3"><strong>Popular:</strong></td><td class="pv3 ph3">
+			
+		7. Replace
+			</a>
+				  </p>
+			with
+			</td></tr>
+			  	    </tbody>
+			  	  </table>
+		
+		8. Replace RegEx
+			/<.*>Take A Chance!<.*>/gm
+			with
+			<a class="norm" id="RandomLink" title="View a random article" href="PleaseEnableJavascript.html" onclick="RandomArticle();return false;">Take A Chance!</a>
+		
+		
+			  
