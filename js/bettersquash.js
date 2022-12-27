@@ -1,8 +1,6 @@
- * BetterSquash Javascript File
- */
+ /** BetterSquash Javascript File **/
  
- * Random Popular Article
- */
+ /** Random Popular Article **/
  
  var poparticlelinks=new Array()
 
@@ -23,8 +21,7 @@
  window.location=poparticlelinks[Math.floor(Math.random()*poparticlelinks.length)]
  }
  
- * Random Article
- */
+ /** Random Article **/
  
  var articlelinks=new Array()
 
@@ -241,6 +238,7 @@
  articlelinks[210]="/2022/20221128.html";
  articlelinks[211]="/2022/20221129.html";
  articlelinks[212]="/2022/20221130.html";
+ 
  function RandomArticle(){
  window.location=articlelinks[Math.floor(Math.random()*articlelinks.length)]
  }
