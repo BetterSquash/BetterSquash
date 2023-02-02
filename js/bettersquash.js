@@ -16,6 +16,7 @@
  poparticlelinks[9]="/2022/20220628.html";
  poparticlelinks[10]="/2022/20220910.html";
  poparticlelinks[11]="/2022/20221125.html";
+ poparticlelinks[12]="/2022/20220619.html";  /** The Secret To Great Squash **/
 
  function RandomPopArticle(){
  window.location=poparticlelinks[Math.floor(Math.random()*poparticlelinks.length)]
