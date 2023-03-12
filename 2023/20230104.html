@@ -28,14 +28,37 @@
 		<meta name="theme-color" content="#ffffff">		
 		<!-- CSS -->
 		<link rel="stylesheet" href="/css/bettersquash.css">
-		<style>.bg-colour{background:#FFE87C}</style>	
+		<style>.bg-colour{background:#FFE87C}
+		    .hcontainer {
+		        display: flex;
+		        align-items: center;
+		        justify-content: center
+		      }
+		      img {
+		        max-width: 100%
+		      }
+		      .himage {
+		        flex-basis: 40%
+		      }
+		      .htext {
+		        font-size: 20px;
+		        padding-left: 20px;
+		      }
+		</style>	
 		<!-- Javascript -->
 		<script src="/js/bettersquash.js"></script>
 
 <article>
   <header class="bg-colour sans-serif">
 		  <div class="headermenu">
-			<img src="/img/bs-logo-text.png" height="32" alt="Improve Your Squash Today" title="BetterSquash Logo">
+		      <div class="hcontainer">
+		        <div class="himage">
+		          <img src="/img/bs-logo-text.png" height="32" alt="Improve Your Squash Today" title="BetterSquash Logo">
+		        </div>
+		        <div class="htext">
+		          <p class="logo bg-white black ma1 f3">BETTERSQUASH</p>
+		        </div>
+		      </div>
 		    <input class="menu-btn" type="checkbox" id="menu-btn" />
 		    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 		    <ul class="menu">
