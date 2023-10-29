@@ -155,87 +155,63 @@
 23			
 			<!--Video Analysis Ad Start-->
 			<div class="bt bw2 bg-black pa4">
-				<h1 class="f1 fw1 yellow i">Are you having trouble improving your squash? Try my video analysis service.</h1>
+				<h1 class="f1 fw1 yellow i">"The service provided by Phillip helped me see rapid improvement in my game."</h1>
 				<p class="tr f2 sans-serif"><a class="bg-white black bg-animate hover-bg-black hover-white pa2" href="/services.html#videoanalysis">LEARN MORE &#8227;</a></p>
 			</div>
 			<!--Video Analysis Ad End-->
 24			
 			<!--Video Analysis Ad Start-->
 			<div class="bt bw2 bg-black pa4">
-				<h1 class="f1 fw1 yellow i">Are you aware of your squash weaknesses? Try my video analysis service.</h1>
+				<h1 class="f1 fw1 yellow i">I've helped hundreds of players improve their game, and I can help you improve yours.</h1>
 				<p class="tr f2 sans-serif"><a class="bg-white black bg-animate hover-bg-black hover-white pa2" href="/services.html#videoanalysis">LEARN MORE &#8227;</a></p>
 			</div>
 			<!--Video Analysis Ad End-->
 25			
 			<!--Video Analysis Ad Start-->
 			<div class="bt bw2 bg-black pa4">
-				<h1 class="f1 fw1 yellow i">By using my video analysis service, you can quickly learn the key areas of your squash to improve.</h1>
+				<h1 class="f1 fw1 yellow i">Don't have access to a local coach?  Want a different perspective?  Let me help improve your game.</h1>
 				<p class="tr f2 sans-serif"><a class="bg-white black bg-animate hover-bg-black hover-white pa2" href="/services.html#videoanalysis">LEARN MORE &#8227;</a></p>
 			</div>
 			<!--Video Analysis Ad End-->
 26			
 			<!--Video Analysis Ad Start-->
 			<div class="bt bw2 bg-black pa4">
-				<h1 class="f1 fw1 yellow i">Stop wondering how good your squash can be, and start making decisions that help you improve.</h1>
+				<h1 class="f1 fw1 yellow i">Often times you can improve your game with just a few tweaks of your thinking.  The first tweak is to click the link.</h1>
 				<p class="tr f2 sans-serif"><a class="bg-white black bg-animate hover-bg-black hover-white pa2" href="/services.html#videoanalysis">LEARN MORE &#8227;</a></p>
 			</div>
 			<!--Video Analysis Ad End-->
 27			
 			<!--Video Analysis Ad Start-->
 			<div class="bt bw2 bg-black pa4">
-				<h1 class="f1 fw1 yellow i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
+				<h1 class="f1 fw1 yellow i">You can't improve if you don't know what needs improving.  Try my video analysis service and find out.</h1>
 				<p class="tr f2 sans-serif"><a class="bg-white black bg-animate hover-bg-black hover-white pa2" href="/services.html#videoanalysis">LEARN MORE &#8227;</a></p>
 			</div>
 			<!--Video Analysis Ad End-->
 28			
 			<!--Video Analysis Ad Start-->
 			<div class="bt bw2 bg-black pa4">
-				<h1 class="f1 fw1 yellow i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
+				<h1 class="f1 fw1 yellow i">Reading this sentence can be the difference between playing better squash and staying the same level for another year.</h1>
 				<p class="tr f2 sans-serif"><a class="bg-white black bg-animate hover-bg-black hover-white pa2" href="/services.html#videoanalysis">LEARN MORE &#8227;</a></p>
 			</div>
 			<!--Video Analysis Ad End-->
 29			
 			<!--Video Analysis Ad Start-->
 			<div class="bt bw2 bg-black pa4">
-				<h1 class="f1 fw1 yellow i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
+				<h1 class="f1 fw1 yellow i">It's not about having the best shots, it's about using the ones you have more effectively.</h1>
 				<p class="tr f2 sans-serif"><a class="bg-white black bg-animate hover-bg-black hover-white pa2" href="/services.html#videoanalysis">LEARN MORE &#8227;</a></p>
 			</div>
 			<!--Video Analysis Ad End-->
 30			
 			<!--Video Analysis Ad Start-->
 			<div class="bt bw2 bg-black pa4">
-				<h1 class="f1 fw1 yellow i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
+				<h1 class="f1 fw1 yellow i">send me a 5-minute video you your playing and I will send you an analysis video highlighting what you need to improve upon.</h1>
 				<p class="tr f2 sans-serif"><a class="bg-white black bg-animate hover-bg-black hover-white pa2" href="/services.html#videoanalysis">LEARN MORE &#8227;</a></p>
 			</div>
 			<!--Video Analysis Ad End-->			
 31			
 			<!--Video Analysis Ad Start-->
 			<div class="bt bw2 bg-black pa4">
-				<h1 class="f1 fw1 yellow i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
+				<h1 class="f1 fw1 yellow i">Reading this article can make you a better player, but a video analysis WILL make you a better player!</h1>
 				<p class="tr f2 sans-serif"><a class="bg-white black bg-animate hover-bg-black hover-white pa2" href="/services.html#videoanalysis">LEARN MORE &#8227;</a></p>
 			</div>
-			<!--Video Analysis Ad End-->			
-			<h1 class="f1 fw1 dark-red i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
-
-
-
-
-
-
-
-
-
-
-
-<h1 class="f1 fw1 navy i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
-<h1 class="f1 fw1 dark-blue i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
-<h1 class="f1 fw1 blue i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
-<h1 class="f1 fw1 light-blue i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
-<h1 class="f1 fw1 lightest-blue i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
-<h1 class="f1 fw1 washed-blue i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
-<h1 class="f1 fw1 washed-green i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
-<h1 class="f1 fw1 washed-yellow i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
-<h1 class="f1 fw1 light-pink i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
-<h1 class="f1 fw1 light-yellow i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
-<h1 class="f1 fw1 light-red i">Don't simply wait for your squash to improve.  Do something about it today! Try my video analysis service.</h1>
-
+			<!--Video Analysis Ad End-->
