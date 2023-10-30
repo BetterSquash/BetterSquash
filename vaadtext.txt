@@ -150,13 +150,7 @@
 			</div>
 			<!--Video Analysis Ad End-->
 20			
-			<!--Video Analysis Ad Start-->
-			<div class="bt bb bw2 bg-light-gray pa4">
-				<h2 class="f2 sans-serif">Video Analysis</h2>
-				<p class="f2 fw1 dark-pink i">"Phillip’s match analysis is pure gold. It is jam packed with actionable insights and his commentary is entertaining to boot. The product way exceeded my expectations!"</p>
-				<p class="tr f3 sans-serif"><a class="bg-white black bg-animate hover-bg-black hover-white pa2" href="/services.html#videoanalysis">LEARN MORE &#8227;</a></p>
-			</div>
-			<!--Video Analysis Ad End-->
+			<c
 21			
 			<!--Video Analysis Ad Start-->
 			<div class="bt bb bw2 bg-light-gray pa4">
