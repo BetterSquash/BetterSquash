@@ -233,7 +233,7 @@
 			<!--Video Analysis Ad Start-->
 			<div class="bt bb bw2 bg-light-gray pa4">
 				<h2 class="f2 sans-serif">Video Analysis</h2>
-				<p class="f2 fw1 dark-pink i">send me a 5-minute video you your playing and I will send you an analysis video highlighting what you need to improve upon.</p>
+				<p class="f2 fw1 dark-pink i">Send me a 5-minute video you your playing and I will send you an analysis video highlighting what you need to improve upon.</p>
 				<p class="tr f3 sans-serif"><a class="bg-white black bg-animate hover-bg-black hover-white pa2" href="/services.html#videoanalysis">LEARN MORE &#8227;</a></p>
 			</div>
 			<!--Video Analysis Ad End-->			
