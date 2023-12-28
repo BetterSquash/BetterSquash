@@ -285,7 +285,8 @@
  articlelinks[256]="/2023/20231110.html";
  articlelinks[257]="/2023/20231119.html";
  articlelinks[258]="/2023/20231216.html";
- articlelinks[259]="/2023/20231221.html";				 
+ articlelinks[259]="/2023/20231221.html";	
+ articlelinks[260]="/2023/20231228.html";				 
  
  function RandomArticle(){
  window.location=articlelinks[Math.floor(Math.random()*articlelinks.length)]
