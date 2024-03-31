@@ -267,6 +267,8 @@ articlelinks[263]="/2024/20240115.html";
 articlelinks[264]="/2024/20240122.html";
 articlelinks[265]="/2024/20240129.html";
 articlelinks[266]="/2024/20240205.html";
+articlelinks[267]="/2024/20240324.html";
+articlelinks[268]="/2024/20240331.html";
 
 function RandomArticle(){
 window.location=articlelinks[Math.floor(Math.random()*articlelinks.length)]
