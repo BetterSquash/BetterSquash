@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Squash Timeline | BetterSquash</title>
+		<link rel="canonical" href="https://bettersquash.com/index.html">
+ 	    <!-- Meta -->
+		<meta charset="UTF-8">
+		<meta name="description" content="If you are looking to improve your squash, you have visited the right website!">
+		<meta name="keywords" content="Remote, Squash, Coaching, Game, Rackets, Racquets, Analysis, Videos, Free, Online, Solo, Pairs, Drills, Beginner, Club, Advanced, Squash Tips, Movement, Ghosting, Squash 101, Routines, Technique, Swing, Serves, Returns, Boasts, Drops, Nicks, Sport, Improve, Training, Tips, Video, Lessons, Game, Court, Fitness, Equipment, Review, Skill, Tactics, Challenges, ">
+		<meta name="author" content="Phillip Marlowe AKA SquashCoachPhillip">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--  Open Graph -->
+		<meta property="og:locale" content="en_GB">
+		<meta property="og:url" content="https://bettersquash.com">
+		<meta property="og:title" content="BetterSquash - Start Your Squash Improvement Journey!">
+		<meta property="og:description" content="Free online squash coaching videos & articles to improve your game">
+		<meta property="og:type" content="Website">
+		
+		<meta property="og:image" content="https://bettersquash.com/fav/og-bettersquash.jpg">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta property="og:image:alt" content="Free online squash coaching videos & articles to improve your game">
+		
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="BetterSquash - Start Your Squash Improvement Journey!">
+		<meta name="twitter:description" content="Free online squash coaching videos & articles to improve your game">
+		<meta name="twitter:site" content="@bettersquash">
+		<meta name="twitter:image" content="https://bettersquash.com/fav/og-bettersquash.jpg">
+		<meta name="twitter:creator" content="@bettersquash">
+		<meta name="twitter:image:alt" content="Free online squash coaching videos & articles to improve your game">
+
+		<meta property="fb:app_id" content="500370387453797">
+	
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+		<link rel="manifest" href="fav/site.webmanifest">
+		<link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">		
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/bettersquash.css">
+		<style>.bg-colour{background:#307D7E}
+		
+			.hexa{
+			  border: 0px;
+			  float: left;
+			  text-align: center;
+			  height: 35px;
+			  width: 60px;
+			  font-size: 22px;
+			  background: #f0f0f0;
+			  color: #3c3c3c;
+			  position: relative;
+			  margin-top: 15px;
+			}
+
+			.hexa:before{
+			  content: ""; 
+			  position: absolute; 
+			  left: 0; 
+			  width: 0; 
+			  height: 0;
+			  border-bottom: 15px solid #f0f0f0;
+			  border-left: 30px solid transparent;
+			  border-right: 30px solid transparent;
+			  top: -15px;
+			}
+
+			.hexa:after{
+			  content: ""; 
+			  position: absolute; 
+			  left: 0; 
+			  width: 0; 
+			  height: 0;
+			  border-left: 30px solid transparent;
+			  border-right: 30px solid transparent;
+			  border-top: 15px solid #f0f0f0;
+			  bottom: -15px;
+			}
+
+			.timeline {
+			  position: relative;
+			  padding: 0;
+			  width: 100%;
+			  margin-top: 20px;
+			  list-style-type: none;
+			}
+
+			.timeline:before {
+			  position: absolute;
+			  left: 50%;
+			  top: 0;
+			  content: ' ';
+			  display: block;
+			  width: 2px;
+			  height: 100%;
+			  margin-left: -1px;
+			  background: rgb(213,213,213);
+			  background: -moz-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
+			  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+			  background: -webkit-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
+			  background: -o-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
+			  background: -ms-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
+			  background: linear-gradient(to bottom, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
+			  z-index: 5;
+			}
+
+			.timeline li {
+			  padding: 2em 0;
+			}
+
+			.timeline .hexa{
+			  width: 16px;
+			  height: 10px;
+			  position: absolute;
+			  background: #00c4f3;
+			  z-index: 5;
+			  left: 0;
+			  right: 0;
+			  margin-left:auto;
+			  margin-right:auto;
+			  top: -30px;
+			  margin-top: 0;
+			}
+
+			.timeline .hexa:before {
+			  border-bottom: 4px solid #00c4f3;
+			  border-left-width: 8px;
+			  border-right-width: 8px;
+			  top: -4px;
+			}
+
+			.timeline .hexa:after {
+			  border-left-width: 8px;
+			  border-right-width: 8px;
+			  border-top: 4px solid #00c4f3;
+			  bottom: -4px;
+			}
+
+			.direction-l,
+			.direction-r {
+			  float: none;
+			  width: 100%;
+			  text-align: center;
+			}
+
+			.flag-wrapper {
+			  text-align: center;
+			  position: relative;
+			}
+
+			.flag {
+			  position: relative;
+			  display: inline;
+			  background: rgb(255,255,255);
+			  font-weight: 600;
+			  z-index: 15;
+			  padding: 6px 10px;
+			  text-align: left;
+			  border-radius: 5px;
+			}
+
+			.direction-l .flag:after,
+			.direction-r .flag:after {
+			  content: "";
+			  position: absolute;
+			  left: 50%;
+			  top: -15px;
+			  height: 0;
+			  width: 0;
+			  margin-left: -8px;
+			  border: solid transparent;
+			  border-bottom-color: rgb(255,255,255);
+			  border-width: 8px;
+			  pointer-events: none;
+			}
+
+			.direction-l .flag {
+			  -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+			  -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+			  box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+			}
+
+			.direction-r .flag {
+			  -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+			  -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+			  box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+			}
+
+			.time-wrapper {
+			  display: block;
+			  position: relative;
+			  margin: 4px 0 0 0;
+			  z-index: 14;
+			  line-height: 1em;
+			  vertical-align: middle;
+			  color: #fff;
+			}
+
+			.direction-l .time-wrapper {
+			  float: none;
+			}
+
+			.direction-r .time-wrapper {
+			  float: none;
+			}
+
+			.time {
+			  background: #00c4f3;
+			  display: inline-block;
+			  padding: 8px;
+			}
+
+			.desc {
+			  position: relative;
+			  margin: 1em 0 0 0;
+			  padding: 1em;
+			  background: rgb(254,254,254);
+			  -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+			  -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+			  box-shadow: 0 0 1px rgba(0,0,0,0.20);
+			  z-index: 15;
+			}
+
+			.direction-l .desc,
+			.direction-r .desc {
+			  position: relative;
+			  margin: 1em 1em 0 1em;
+			  padding: 1em;
+			  z-index: 15;
+			}
+
+			@media(min-width: 768px){
+			  .timeline {
+			    width: 660px;
+			    margin: 0 auto;
+			    margin-top: 20px;
+			  }
+
+			  .timeline li:after {
+			    content: "";
+			    display: block;
+			    height: 0;
+			    clear: both;
+			    visibility: hidden;
+			  }
+  
+			  .timeline .hexa {
+			    left: -28px;
+			    right: auto;
+			    top: 8px;
+			  }
+
+			  .timeline .direction-l .hexa {
+			    left: auto;
+			    right: -28px;
+			  }
+
+			  .direction-l {
+			    position: relative;
+			    width: 310px;
+			    float: left;
+			    text-align: right;
+			  }
+
+			  .direction-r {
+			    position: relative;
+			    width: 310px;
+			    float: right;
+			    text-align: left;
+			  }
+
+			  .flag-wrapper {
+			    display: inline-block;
+			  }
+  
+			  .flag {
+			    font-size: 18px;
+			  }
+
+			  .direction-l .flag:after {
+			    left: auto;
+			    right: -16px;
+			    top: 50%;
+			    margin-top: -8px;
+			    border: solid transparent;
+			    border-left-color: rgb(254,254,254);
+			    border-width: 8px;
+			  }
+
+			  .direction-r .flag:after {
+			    top: 50%;
+			    margin-top: -8px;
+			    border: solid transparent;
+			    border-right-color: rgb(254,254,254);
+			    border-width: 8px;
+			    left: -8px;
+			  }
+
+			  .time-wrapper {
+			    display: inline;
+			    vertical-align: middle;
+			    margin: 0;
+			  }
+
+			  .direction-l .time-wrapper {
+			    float: left;
+			  }
+
+			  .direction-r .time-wrapper {
+			    float: right;
+			  }
+
+			  .time {
+			    padding: 5px 10px;
+			  }
+
+			  .direction-r .desc {
+			    margin: 1em 0 0 0.75em;
+			  }
+			}
+
+			@media(min-width: 992px){
+			  .timeline {
+			    width: 800px;
+			    margin: 0 auto;
+			    margin-top: 20px;
+			  }
+
+			  .direction-l {
+			    position: relative;
+			    width: 380px;
+			    float: left;
+			    text-align: right;
+			  }
+
+			  .direction-r {
+			    position: relative;
+			    width: 380px;
+			    float: right;
+			    text-align: left;
+			  }
+			}</style>
+		<!-- Javascript -->
+		<script src="js/bettersquash.js"></script>
+	</head>
+  	<body>
+	  <header class="bg-black-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph7-l sans-serif">
+	    <nav class="f6 fw6 ttu tracked">
+	      <a class="link dim white dib mr3" href="/articles.html">Articles</a>
+	      <a class="link dim white dib mr3" href="https://youtube.com/bettersquash/">Videos</a>
+		  <a class="link dim white dib" href="/services.html">Services</a>
+	    </nav>
+	  </header>	  
+  	  <header class="bg-colour sans-serif">
+	    <div class="mw9 center pa4 pt5-ns ph7-l pt7"> 
+      	  <h1 class="f2 f1-m f-headline-l measure-narrow lh-title mv0 pt3">
+          <span class="bg-white lh-copy black pa1 tracked-tight">
+           BETTERSQUASH
+          </span>
+		  <br>
+          <span class="bg-black-90 lh-copy white pa1 tracked-tight">
+           Squash Timeline
+          </span>
+          </h1>
+          <h4 class="f3 fw1 georgia i white ">A work in progress of a squash timeline</h4>
+   	    </div>
+     </header>
+  <!--Details-->
+  	<div class="tl bt b--black-10 bg-light-silver black" id="details">
+  		<div class="pa4 ph7-l courier mw9-l center">
+               <p class="f5 mb2 dib ttu tracked reading-time"><a class="linknodec" href="https://bettersquash-com.translate.goog/index.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=en-US&_x_tr_pto=wapp">Translate&#8599;</a></p>
+  		 </div>
+  	 </div>
+ 		 <!--articles-->
+ 		 <div class="tl bt b--black-10 pa3 bg-white black" id="timeline">
+ 		 	<div class="pa4 ph7-l Avenir mw9-l center">
+ 				<h2 class="f2 f1-m f-headline-l lh-solid sans-serif">Timeline</h2>
+ 						<p class="f5 f3-ns lh-copy measure sans-serif">Last updated April 2024</p>
+  					
+					
+					<ul class="timeline">
+					  <!-- Item 1 -->
+					  <li>
+					    <div class="direction-r">
+					      <div class="flag-wrapper">
+					        <span class="hexa"></span>
+					        <span class="flag">Lorem ipsum.</span>
+					        <span class="time-wrapper"><span class="time">Feb 2015</span></span>
+					      </div>
+					      <div class="desc">Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation deserunt proident.</div>
+					    </div>
+					  </li>
+
+					  <!-- Item 2 -->
+					  <li>
+					    <div class="direction-l">
+					      <div class="flag-wrapper">
+					        <span class="hexa"></span>
+					        <span class="flag">Lorem ipsum Anim.</span>
+					        <span class="time-wrapper"><span class="time">Dec 2014</span></span>
+					      </div>
+					      <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore aliquip enim cupidatat laborum dolore.</div>
+					    </div>
+					  </li>
+
+					  <!-- Item 3 -->
+					  <li>
+					    <div class="direction-r">
+					      <div class="flag-wrapper">
+					        <span class="hexa"></span>
+					        <span class="flag">Lorem Occaecat.</span>
+					        <span class="time-wrapper"><span class="time">July 2014</span></span>
+					      </div>
+					      <div class="desc">Lorem ipsum Minim labore Ut cupidatat quis qui deserunt proident fugiat pariatur cillum cupidatat reprehenderit sit id dolor consectetur ut.</div>
+					    </div>
+					  </li>
+					</ul>
+					
+					
+					
+					
+					
+					
+		   
+ 			</div>
+ 		</div>
+		
+  	  
+			 
+<!--Tagline-->
+	<div class="tl bt b--black-10 pa3 pa5-ns bg-colour black" id="tagline">
+		<div class="pa4 ph7-l Avenir mw9-l center">
+             <h3 class="f2 lh-solid sans-serif"><span class="bg-black-90 lh-copy white pa1 tracked-tight">DO SOMETHING EVERY SINGLE DAY TO IMPROVE YOUR SQUASH!</span></h3>
+		 </div>
+	 </div>
+
+<!--About Me-->
+	<div class="tl bt b--black-10 pa3 pa5-ns bg-black white" id="aboutme">
+		<div class="pa4 ph7-l mw9-l center">
+        	  <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0 pt3">
+            <span class="bg-white lh-copy black pa1 tracked-tight">
+             ABOUT ME
+            </span>
+			 </h3>
+			 <h4 class="f3 fw1 avenir">I am a squash coach with nearly 40 years experience, teaching complete beginners through to professionals.</h4>
+			 <h4 class="f3 fw1 avenir">Currently, I call myself an "online squash coach" as I rarely coach on court.</h4>
+		     <h4 class="f3 fw1 avenir">I enjoy working with club players and strive to present information in an entertaining and engaging way.</h4>
+		</div>
+	</div>
+	
+<!--Random-->
+	<div class="tl bt b--black-10 pa3 pa5-ns bg-white black" id="random">
+		<div class="pa4 ph7-l mw9-l center">
+		     <h2 class="f2 fw1 courier">Read a <a class="arc" id="RandomLink" title="Read a random article" href="/random.html" onclick="RandomArticle();return false;">Random Article</a>.</h2>
+			 <h2 class="f2 fw1 courier">Follow me on <a class="arc" title="Follow me on Instagram" href="https://www.instagram.com/bettersquash/">Instagram</a> or <a class="arc" title="Follow me on LinkedIn" href="https://www.linkedin.com/in/phillip-marlowe/">LinkedIn</a>.</h2>
+		</div>
+	</div>
+	
+	
+<!--Footer-->
+	<div class="tl bt b--black-10 pa3 pa5-ns bg-colour white" id="footer">
+		<div class="pa4 ph7-l Avenir mw9-l center">
+			<p class="f4 sans-serif">© 2024 Phillip Marlowe - phillip@bettersquash.com</p>
+			<p class="tr f4 sans-serif"><a class="bg-white black bg-animate hover-bg-black hover-white pa2" href="#top">BACK TO TOP &#8593;</a></p>
+		</div>
+	</div>
+  </body>
+</html>
