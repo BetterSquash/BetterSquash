@@ -22,6 +22,22 @@
  window.location=poparticlelinks[Math.floor(Math.random()*poparticlelinks.length)]
  }
  
+  /** Random Video **/
+ var videolinks=new Array()
+
+ videolinks[0]="https://youtu.be/hTXG-0tugUU";
+ videolinks[1]="https://youtu.be/4LJjEODRVOY";
+ videolinks[2]="https://youtu.be/GJGwUq_jAO4";
+ videolinks[3]="https://youtu.be/QzDdDswBYAI";
+ videolinks[4]="https://youtu.be/go7GWoSJQxA";
+ videolinks[5]="https://youtu.be/-1EeNriiRN0";
+
+ function RandomVideo(){
+ window.location=videolinks[Math.floor(Math.random()*videolinks.length)]
+ }
+ 
+ 
+ 
  /** Random Article **/
  
  var articlelinks=new Array()
