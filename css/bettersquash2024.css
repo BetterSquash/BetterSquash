@@ -25,7 +25,10 @@ h1, h2, h3, h4 {
     color: #111;
  }
 
-
+ h1 {
+     font-size: 180%;
+     color: #083e45;
+  }
 p {
     margin: 1em 0;
     line-height: 1.5;
