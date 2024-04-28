@@ -22,6 +22,7 @@ a:hover{color:#000;background:#ff0;text-decoration:underline solid 2px black}
   width: 100%;
   height: auto;
 }
+body {margin-bottom: 3em;}
 body {
             width: 80%; /* Set default width */
             max-width: 1000px; /* Maximum width */
@@ -44,4 +45,6 @@ body {
                 padding: 0 10px; /* Adjust padding for even smaller screens */
             }
         }
-	   Body {margin-bottom: 3em;}
+	   B
+	   
+.mantra {color:red;font-weight:bold;font-size:2em;} 
