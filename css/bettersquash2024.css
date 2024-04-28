@@ -1,83 +1,47 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
- }
 
-html {
-    overflow-y: scroll;
-    height: 100%;
-    font: 100%/1.5 sans-serif;
-    word-wrap: break-word;
-    margin: 0 auto;
-    padding: 1.5em;
- }
-
-@media (min-width: 768px) {
-    html {
-        font-size: 125%;
-        max-width: 42em;
- } }
-
-h1, h2, h3, h4 {
-    margin: 2.5rem 0 1rem 0;
-    line-height: 1.25;
-    color: #111;
- }
-
-p {
-    margin: 1em 0;
-    line-height: 1.5;
- }
-p code {
-    background-color: #eee;
-    padding: 0.05em 0.2em;
-    border: 1px solid #ccc;
- }
-
-ol, ul {
-    margin: 1em;
- }
-ol li ol, ol li ul, ul li ol, ul li ul {
-    margin: 0 2em;
- }
-ol li p, ul li p {
-    margin: 0;
- }
-
-dl {
-    font-family: monospace, monospace;
- }
-dl dt {
-    font-weight: bold;
- }
-dl dd {
-    margin: -1em 0 1em 1em;
- }
-
-img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-    padding: 0.5em;
- }
-
-blockquote {
-    padding-left: 1em;
-    font-style: italic;
-    border-left: solid 1px #fa6432;
- }
- 
- body {margin-bottom:100px;}
+header,nav{display:block;}
+h1{font-size:2em;margin:.67em 0;}
+svg:not(:root){overflow:hidden;}
+hr{box-sizing:content-box;height:0;overflow:visible;}
+*{box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";font-size:var(--body-font-size, 14px);line-height:1.5;color:var(--color-fg-default);background-color:var(--color-canvas-default);}
+h1,h2,h3{margin-top:0;margin-bottom:0;}
+h1{font-size:var(--h1-size, 48px);font-weight:var(--base-text-weight-semibold, 600);color:#033E3E;}
+h2{font-size:var(--h2-size, 24px);font-weight:var(--base-text-weight-semibold, 600);}
+h3{font-size:var(--h3-size, 20px);font-weight:var(--base-text-weight-semibold, 600);}
+p{margin-top:0;margin-bottom:10px;}
+.f5{font-size:var(--h5-size, 14px)!important;}
+/*! CSS Used from: Embedded */
+body{margin: 10px,40px,80px,40px;}
+a:link,a:active,a:hover,a:visited{color:#0000EE;text-decoration:underline solid 2px;}
+a:hover{color:#000;background:#ff0;text-decoration:underline solid 2px black;}
+.responsive{width:100%;height:auto;}
 a:link, a:active, a:visited {color:#0000EE;text-decoration:underline solid 2px}
 a:hover{color:#000;background:#ff0;text-decoration:underline solid 2px black}
- a:visited {color:#0000EE;text-decoration:underline solid 2px}
 .responsive {
   width: 100%;
   height: auto;
 }
-.leader {color:#444;}
- h1 {
-     font-size: 3.5em;
-     color: #033E3E;
-  }
+body {
+            width: 80%; /* Set default width */
+            max-width: 1000px; /* Maximum width */
+            margin: 0 auto; /* Center content horizontally */
+            padding: 0 20px; /* Add some padding to the sides for better readability */
+        }
+
+        /* Media queries for different screen widths */
+        @media only screen and (max-width: 768px) {
+            /* Styles for screens up to 768px wide */
+            body {
+                width: 80%; /* Adjust width for smaller screens */
+                padding: 0 15px; /* Adjust padding for smaller screens */
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            /* Styles for screens up to 480px wide */
+            body {
+                width: 90%; /* Adjust width for even smaller screens */
+                padding: 0 10px; /* Adjust padding for even smaller screens */
+            }
+        }
+	   Body {margin-bottom: 3em;}
