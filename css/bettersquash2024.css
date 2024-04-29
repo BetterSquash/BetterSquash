@@ -21,7 +21,8 @@ a:hover{color:#000;background:#ff0;text-decoration:underline solid 2px black}
   width: 100%;
   height: auto;
 }
-.mantra {color:red;font-weight:bold;font-size:2em;} 
+
+.mantra {color:red;font-weight:bold;font-size:1.5em;line-height:85%;} 
 .leader {color:#3D3C3A;}
 .tcolor {font-weight:bold;}
 
