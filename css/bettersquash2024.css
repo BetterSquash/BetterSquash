@@ -22,7 +22,7 @@ a:hover{color:#000;background:#ff0;text-decoration:underline solid 2px black}
   height: auto;
 }
 
-.mantra {color:red;font-weight:bold;font-size:1.5em;line-height:90%;} 
+.mantra {font-weight:bold;font-size:1.5em;line-height:90%;} 
 .tleader {color:#0C090A;font-weight:bold;}
 .tcolor {font-weight:bold;}
 
@@ -50,3 +50,17 @@ body {
             }
         }
 	   
+	   
+		.finalsent{margin-bottom: 6em;}
+		.topnav{margin-top:1.5em;margin-bottom:1em;} 
+		.footerp {margin-top: 3em;}
+		.imagep{text-align:right; color:gray;font-size:0.8em;}
+		hr.footerdivider {
+		  border: 0.5px solid #DCDCDC;
+		  width:60%;
+		}
+		
+		hr.contentend {
+		  border: 1px solid black;
+		}
+		
