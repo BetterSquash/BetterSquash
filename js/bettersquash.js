@@ -25,12 +25,20 @@
   /** Random Video **/
  var videolinks=new Array()
 
- videolinks[0]="https://youtu.be/hTXG-0tugUU";
- videolinks[1]="https://youtu.be/4LJjEODRVOY";
- videolinks[2]="https://youtu.be/GJGwUq_jAO4";
- videolinks[3]="https://youtu.be/QzDdDswBYAI";
- videolinks[4]="https://youtu.be/go7GWoSJQxA";
- videolinks[5]="https://youtu.be/-1EeNriiRN0";
+ videolinks[0]="https://youtu.be/hTXG-0tugUU"; /** 5 Common Backhand Mistakes! **/
+ videolinks[1]="https://youtu.be/4LJjEODRVOY"; /** 5 Solo Drills EVERY Squash Player Should Try **/
+ videolinks[2]="https://youtu.be/GJGwUq_jAO4"; /** Side to Sides **/
+ videolinks[3]="https://youtu.be/QzDdDswBYAI"; /** Get The Ball Out Of The Back Corners **/
+ videolinks[4]="https://youtu.be/go7GWoSJQxA"; /** How To Properly Grip A Squash Racket **/
+ videolinks[5]="https://youtu.be/-1EeNriiRN0"; /** Improve Your Squash Footwork **/
+ videolinks[6]="https://youtu.be/cAYemJ0soI8"; /** 5 Swings to improve your squash WITHOUT the ball! **/
+ videolinks[7]="https://youtu.be/0OMYcVkXLQk"; /** Learn To Hit The Ball Tight **/
+ videolinks[8]="https://youtu.be/1voaKNnQ2RE"; /** Squash Tips: Solo Squash Practice: Volley Block **/
+ videolinks[9]="https://youtu.be/C-dxMogZLDM"; /** Squash Tips: 5 Things To Try On Your Bad Days **/
+ videolinks[10]="https://youtu.be/NZCQh01sN78"; /** Put On a New Squash Grip + The 2 Main Types of Grip - Squash For Beginners [010] **/
+ videolinks[11]="https://youtu.be/2JjL0K3BNZU"; /** Figure of Eights: **/
+ 
+ 
 
  function RandomVideo(){
  window.location=videolinks[Math.floor(Math.random()*videolinks.length)]
@@ -88,7 +96,7 @@
  articlelinks[43]="/2022/20220614.html";
  articlelinks[44]="/2022/20220615.html";
  articlelinks[45]="/2022/20220616.html";
- articlelinks[46]="/2022/20220617.html";
+ articlelinks[46]="/2022/20220616.html";
  articlelinks[47]="/2022/20220618.html";
  articlelinks[48]="/2022/20220619.html";
  articlelinks[49]="/2022/20220620.html";
