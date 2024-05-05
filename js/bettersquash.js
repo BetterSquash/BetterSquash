@@ -302,7 +302,19 @@
  articlelinks[257]="/2023/20231119.html";
  articlelinks[258]="/2023/20231216.html";
  articlelinks[259]="/2023/20231221.html";	
- articlelinks[260]="/2023/20231228.html";				 
+ articlelinks[260]="/2023/20231228.html";
+ articlelinks[261]="/2024/20240101.html";
+ articlelinks[262]="/2024/20240104.html";
+ articlelinks[263]="/2024/20240108.html";
+ articlelinks[264]="/2024/20240111.html";
+ articlelinks[265]="/2024/20240115.html";
+ articlelinks[266]="/2024/20240122.html";
+ articlelinks[267]="/2024/20240129.html";
+ articlelinks[268]="/2024/20240205.html";
+ articlelinks[269]="/2024/20240324.html";
+ articlelinks[270]="/2024/20240331.html";
+ articlelinks[271]="/2024/20240416.html";
+ articlelinks[272]="/2024/20240505.html";					 
  
  function RandomArticle(){
  window.location=articlelinks[Math.floor(Math.random()*articlelinks.length)]
