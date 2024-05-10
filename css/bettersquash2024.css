@@ -12,15 +12,10 @@ p{margin-top:0;margin-bottom:10px;}
 .f5{font-size:var(--h5-size, 14px)!important;}
 /*! CSS Used from: Embedded */
 body{margin: 10px,40px,80px,40px;}
-a:link,a:active,a:hover,a:visited{color:#0000EE;text-decoration:underline solid 2px;}
+a:link,a:active,a:hover,a:visited{color:#0000FF;text-decoration:underline solid 2px;}
+a:visited{color:#800080;text-decoration:underline solid 2px;}
 a:hover{color:#000;background:#ff0;text-decoration:underline solid 2px black;}
 .responsive{width:100%;height:auto;}
-a:link, a:active, a:visited {color:#0000EE;text-decoration:underline solid 2px}
-a:hover{color:#000;background:#ff0;text-decoration:underline solid 2px black}
-.responsive {
-  width: 100%;
-  height: auto;
-}
 
 .mantra {font-weight:bold;font-size:1.5em;line-height:90%;} 
 .tleader {color:#0C090A;font-weight:bold;}
@@ -76,3 +71,7 @@ body {
 		  a:link {
 		    color: #58a6ff;
 		  }
+		  
+		  a:visited {
+		     color: #8e96f0;
+		   }
