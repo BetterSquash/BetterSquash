@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<atom:link href="https://bettersquash_feed.xml" rel="self" type="application/rss+xml" />
 <channel>
    <title>BETTERSQUASH</title>
    <description>If you are looking to improve your squash, you have visited the right website!</description>
