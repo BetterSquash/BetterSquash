@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<atom:link href="https://bettersquash_feed.xml" rel="self" type="application/rss+xml" />
 <channel>
    <title>BETTERSQUASH</title>
    <description>If you are looking to improve your squash, you have visited the right website!</description>
@@ -16,7 +15,7 @@
      <height>32</height>
      <width>32</width>
    </image>
-   
+   <atom:link href="https://bettersquash_feed.xml" rel="self" type="application/rss+xml" />
 
    <item>
        <title>Better Than Nothing - Why Even Doing 5 Minutes Solo Drilling Is Worth It</title>
