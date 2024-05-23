@@ -68,3 +68,4 @@ body {
 		.tcolor {font-weight:bold;color:#E42217;}
 		.greydash {color:#C0C0C0;}
 		.phlarge {color:white;padding:4px;background-color:black;font-size:2em;font-weight:bold;display:inline;}
+		.tldr {border: 1px black solid; background:#F5F5F5;padding: 6px; margin-bottom:1em;}
