@@ -70,3 +70,8 @@ body {
 		.phlarge {color:white;padding:4px;background-color:black;font-size:2em;font-weight:bold;display:inline;}
 		.tldr {background:#F5F5F5;padding: 6px; margin-bottom:1em;}
 		.ultldr { list-style-type: square; }
+
+/* Input Box Styling for Aticles page */		
+#myInput{font-size:1.5em;font-family:sans-serif}
+*{box-sizing:border-box}
+#myInput{width:100%;padding:12px 20px 12px 12px;border:1px solid #111;margin-bottom:12px}
