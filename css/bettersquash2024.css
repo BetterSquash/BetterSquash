@@ -72,6 +72,4 @@ body {
 		.ultldr { list-style-type: square; }
 
 /* Input Box Styling for Aticles page */		
-#myInput{font-size:1.5em;font-family:sans-serif}
-*{box-sizing:border-box}
-#myInput{width:100%;padding:12px 20px 12px 12px;border:1px solid #111;margin-bottom:12px}
+#myInput{font-size:1.5em;width:100%;padding:12px 20px 12px 12px;border:1px solid #111;margin-bottom:12px}
