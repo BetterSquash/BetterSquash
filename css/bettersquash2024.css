@@ -70,6 +70,7 @@ body {
 		.phlarge {color:white;padding:4px;background-color:black;font-size:2em;font-weight:bold;display:inline;}
 		.tldr {background:#F5F5F5;padding: 6px; margin-bottom:1em;}
 		.comphr {background:#eeeeee;padding: 6px; margin-bottom:1em;}
+		.prevnext {background:#CECECE;padding: 6px; margin-bottom:1em;}
 		.ultldr { list-style-type: square; }
 
 /* Input Box Styling for Aticles page */		
