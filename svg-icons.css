@@ -1,0 +1,43 @@
+    a[href^="https:"] {
+        background: url("external-link.svg") no-repeat 100% 0;
+        background-size: 11px 11px;
+        padding-right: 12px;
+    }
+    a:hover[href^="https:"] {
+        background-color: #ff0;
+        color: #000;
+        text-decoration: underline solid 2px black;
+    }
+    
+    a[href^="https://wikipedia.com"] {
+        background: url("wikipedia.svg") no-repeat 100% 0;
+        background-size: 11px 11px;
+        padding-right: 12px;
+    }
+    a:hover[href^="https://wikipedia.com"] {
+        background-color: #ff0;
+        color: #000;
+        text-decoration: underline solid 2px black;
+    }
+    
+    a[href^="https://reddit.com"] {
+        background: url("reddit-link.svg") no-repeat 100% 0;
+        background-size: 10px 10px;
+        padding-right: 12px;
+    }
+    a:hover[href^="https://reddit.com"] {
+        background-color: #ff0;
+        color: #000;
+        text-decoration: underline solid 2px black;
+    }
+	
+    a[href^="/bettersquash_feed.xml"] {
+        background: url("feed-link.svg") no-repeat 100% 0;
+        background-size: 10px 10px;
+        padding-right: 12px;
+    }
+    a:hover[href^="/bettersquash_feed.xml"] {
+        background-color: #ff0;
+        color: #000;
+        text-decoration: underline solid 2px black;
+    }
