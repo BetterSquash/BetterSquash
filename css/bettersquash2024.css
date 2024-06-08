@@ -78,9 +78,10 @@ body {
 		.prevnext {background:#eeeeee;padding: 6px; margin-bottom:1em; border: solid 1px black;}
 		.ultldr { list-style-type: square; }
 
-/* Input Box Styling for Aticles page */		
+/* Input Box Styling for Articles page */		
 #myInput{font-size:1.5em;width:100%;padding:12px 20px 12px 12px;border:1px solid #111;margin-bottom:12px}
 
+/* Rules for SVG icons */	
 a[href^="/"] {
     background: url("/img/svg/sinternal-link.svg") no-repeat 100% 0;
     background-size: 10px 10px;
