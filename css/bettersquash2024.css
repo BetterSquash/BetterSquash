@@ -81,9 +81,21 @@ body {
 /* Input Box Styling for Articles page */		
 #myInput{font-size:1.5em;width:100%;padding:12px 20px 12px 12px;border:1px solid #111;margin-bottom:12px}
 
+
+ul.artlist li a{
+    background: none;
+    padding-right: 0px;
+}
+
+ul.artlist li a:hover{
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
 /* Rules for SVG icons */	
 a[href^="/"] {
-    background: url("/img/svg/sinternal-link.svg") no-repeat 100% 0;
+    background: url("/img/svg/internal-link.svg") no-repeat 100% 0;
     background-size: 10px 10px;
     padding-right: 12px;
 }
@@ -202,8 +214,7 @@ a:hover[href^="https://reddit.com"] {
 
 a.nointlink[href^="/"] {
     background: none;
-    background-size: 10px 10px;
-    padding-right: 12px;
+    padding-right: 0px;
 }
 
 a.nointlink:hover[href^="/"] {
