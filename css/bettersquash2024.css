@@ -80,3 +80,184 @@ body {
 
 /* Input Box Styling for Aticles page */		
 #myInput{font-size:1.5em;width:100%;padding:12px 20px 12px 12px;border:1px solid #111;margin-bottom:12px}
+
+a[href^="/"] {
+    background: url("internal-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="/"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+
+a[href^="https:"] {
+    background: url("external-link.svg") no-repeat 100% 0;
+    background-size: 11px 11px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https:"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+a.noextlink[href^="https:"] {
+    background: none;
+	padding-right: 0px;
+}
+
+a.noextlink:hover[href^="https:"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}  
+a[href^="https://en.wikipedia"] {
+    background: url("wikipedia-link.svg") no-repeat 100% 0;
+    background-size: 11px 11px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://en.wikipedia"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="https://youtu"] {
+    background: url("youtube-link.svg") no-repeat 100% 0;
+    background-size: 11px 11px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://youtu"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="/randomvideo.html"] {
+    background: url("youtube-link.svg") no-repeat 100% 0;
+    background-size: 11px 11px;
+    padding-right: 12px;
+}
+
+a:hover[href^="/randomvideo.html"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="https://wikipedia"] {
+    background: url("wikipedia-link.svg") no-repeat 100% 0;
+    background-size: 11px 11px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://wikipedia"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="https://instagram"] {
+    background: url("instagram-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://instagram"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="https://www.instagram"] {
+    background: url("instagram-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://www.instagram"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="https://reddit.com"] {
+    background: url("reddit-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://reddit.com"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a.nointlink[href^="/"] {
+    background: none;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a.nointlink:hover[href^="/"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}	
+a.nointlink[href^=""] {
+    background: none;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a.nointlink:hover[href^=""] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a.tnl[href^="/"] {
+    background: none;
+}
+
+a.tnl:hover[href^="/"] {
+	color:#fff;background:#123456;text-decoration:none;padding:3px
+}
+
+a.tnl[href^="https"] {
+    background: none;
+}
+
+a.tnl:hover[href^="https"] {
+	color:#fff;background:#123456;text-decoration:none;padding:3px
+}
+
+a[href^="/bettersquash_feed.xml"] {
+    background: url("feed-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="/bettersquash_feed.xml"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="/articles.html#features"] {
+    background: url("gallery-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="/articles.html#features"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
