@@ -236,6 +236,7 @@ a.nointlink:hover[href^=""] {
 
 a.tnl[href^="/"] {
     background: none;
+	margin-right: 18px;
 }
 
 a.tnl:hover[href^="/"] {
