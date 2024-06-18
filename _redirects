@@ -4,6 +4,9 @@
 /wp-content/*    /articles.html   301
 /category/*    /articles.html   301
 /tag/*         /articles.html   301
+/content-keywords/*         /articles.html   301
+/feed/*         /bettersquash_feed.xml   301
+/player-types/*         /articles.html   301
 
 /if-you-lose-a-squash-match-can-you-blame-the-court /2022/20221015.html 301
 /two-fitness-concepts-to-improve-your-squash /2022/20221009.html 301
