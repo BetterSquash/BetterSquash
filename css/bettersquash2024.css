@@ -75,7 +75,7 @@ body {
 		.phlarge {color:white;padding:4px;background-color:#123456;font-size:2em;font-weight:bold;display:inline;}
 		.tldr {background:#F5F5F5;padding: 6px; margin-bottom:1em;}
 		.comphr {background:#eeeeee;padding: 6px; margin-bottom:1em;}
-		.prevnext {background:#eeeeee;padding: 6px; margin-bottom:1em; border: solid 1px black;}
+		.prevnext {padding: 6px; margin-bottom:1em; border: solid 1px black;}
 		.ultldr { list-style-type: square; }
 
 /* Input Box Styling for Articles page */		
