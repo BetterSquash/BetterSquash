@@ -12,8 +12,8 @@ p{margin-top:0;margin-bottom:10px;}
 body{margin: 10px,40px,80px,40px;}
 
 /* Link Styles */
-a:link,a:active,a:hover,a:visited{color:#0077aa;text-decoration:underline solid 2px;}
-a:visited{color:#7A5DC7;text-decoration:underline solid 2px;}
+a:link,a:active,a:hover,a:visited{color:#0000EE;text-decoration:underline solid 2px;}
+a:visited{color:#551A8B;text-decoration:underline solid 2px;}
 a:hover{color:#000;background:#ff0;text-decoration:underline solid 2px black;}
 
 .topnav a:link{color:black;text-decoration:none;padding:3px;}
