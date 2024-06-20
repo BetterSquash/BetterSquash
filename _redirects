@@ -1,6 +1,7 @@
 /services.html /index.html#services 301
 /gallery.html https://www.flickr.com/photos/bettersquash/albums/ 301
 
+/200* /articles.html 301
 /201* /articles.html 301
 /2020/* /articles.html 301
 /2021/* /articles.html 301
