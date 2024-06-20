@@ -13,15 +13,41 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://bettersquash.com/index.html</loc>
+  <lastmod>2024-06-13T08:38:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://bettersquash.com/articles.html</loc>
   <lastmod>2024-06-13T08:38:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bettersquash.com/services.html</loc>
+  <loc>https://bettersquash.com/srm/</loc>
   <lastmod>2024-06-13T08:38:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://bettersquash.com/va/</loc>
+  <lastmod>2024-06-13T08:38:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bettersquash.com/rightball.html</loc>
+  <lastmod>2024-06-13T08:38:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bettersquash.com/shotbudget.html</loc>
+  <lastmod>2024-06-13T08:38:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bettersquash.com/2024/20240620.html</loc>
+  <lastmod>2024-06-20T08:38:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 <url>
   <loc>https://bettersquash.com/2024/20240614.html</loc>
   <lastmod>2024-06-14T08:38:40+00:00</lastmod>
@@ -92,36 +118,7 @@
   <lastmod>2024-06-13T08:38:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://bettersquash.com/srm/</loc>
-  <lastmod>2024-06-13T08:38:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bettersquash.com/random.html</loc>
-  <lastmod>2024-06-13T08:38:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://bettersquash.com/index.html</loc>
-  <lastmod>2024-06-13T08:38:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://bettersquash.com/rightball.html</loc>
-  <lastmod>2024-06-13T08:38:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://bettersquash.com/shotbudget.html</loc>
-  <lastmod>2024-06-13T08:38:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://bettersquash.com/gallery.html</loc>
-  <lastmod>2024-06-13T08:38:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 <url>
   <loc>https://bettersquash.com/2022/20221116.html/loc>
   <lastmod>2024-06-13T08:38:40+00:00</lastmod>
