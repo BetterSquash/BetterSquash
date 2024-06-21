@@ -1,6 +1,6 @@
 /services.html /index.html#services 301
 /gallery.html https://www.flickr.com/photos/bettersquash/albums/ 301
-/video-coaching/ /index.html#services.html 301
+/video-coaching/ /index.html#services 301
 
 /3-reasons-why-you-should-be-able-to-serve-backhand/ /2022/20221007.html 301
 /3-secret-squash-tips-i-never-thought-i-would-share-with-my-online-pupils/ /2022/20221006.html 301
@@ -222,6 +222,7 @@
 /201* /articles.html 301
 /2020/* /articles.html 301
 /2021/* /articles.html 301
+/2022/0* /articles.html 301
 /wp-content/* /articles.html   301
 /category/* /articles.html   301
 /tag/* /articles.html   301
