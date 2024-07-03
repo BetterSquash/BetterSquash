@@ -446,3 +446,4 @@
 /feed/* /bettersquash_feed.xml   301
 /player-types/*  /articles.html   301
 /*/1000 /articles.html 301
+/*/embed*  /articles.html 301
