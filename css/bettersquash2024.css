@@ -24,6 +24,11 @@ a:hover{color:#000;background:#ff0;text-decoration:underline solid 1px black;}
 
 /* Image Styles */
 .responsive{width:100%;height:auto;}
+.responsivewide {
+    width: 100vw; /* Full viewport width */
+    margin-left: calc(-50vw + 50%); /* Center align by negative margins */
+    height: auto;
+}
 
 body {margin-bottom: 3em;}
 body {
