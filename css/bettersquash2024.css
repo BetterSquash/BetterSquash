@@ -64,8 +64,9 @@ body {
 /* Text Styles */	   
 		.finalsent{margin-bottom: 6em;}
 		.topnav{margin-top:1.5em;margin-bottom:1em;} 
-		.footerp {margin-top: 3em;}
+		.footerp3 {margin-top: 3em;}
 		.footerp1 {margin-top: 3em;font-family:courier; font-size: 14px;}
+		.footerp2 {margin-top: 1em;font-family:courier; font-size: 14px;}
 		.imagep{text-align:right; color:#033E3E;font-size:0.8em;}
 		.theader {margin: 0;}
 		.iheader {margin: 0 0 1em;}
