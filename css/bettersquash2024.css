@@ -74,7 +74,7 @@ body {
 		.footerp2 {margin-top: 1em;font-family:courier; font-size: 15px;text-align: center;}
 		.imagep{text-align:right; color:#033E3E;font-size:0.8em;}
 		.theader {margin: 0;}
-		.iheader {margin: 0 0 1em; font-size: 22px; font weight: 400;}
+		.iheader {margin: 0 0 1em; font-size: 22px; font weight: 400; line-height:0.9em;}
 		.mantra {font-weight:bold;font-size:1.5em;line-height:90%;} 
 		.tleader {color:#0C090A;font-weight:bold;}
 		.tcolor {font-weight:bold;color:#E42217;}
