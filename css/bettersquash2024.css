@@ -74,10 +74,10 @@ body {
 		.footerp2 {margin-top: 1em;font-family:courier; font-size: 15px;text-align: center;}
 		.imagep{text-align:right; color:#033E3E;font-size:0.8em;}
 		.theader {margin: 0;}
-		.iheader {margin: 0 0 1em; font-size: 22px; font weight: 200; line-height:1em;}
+		.iheader {margin: 0 0 1em; font-size: 22px; font weight: 200; line-height:1em; text-align:center;}
 		.mantra {font-weight:bold;font-size:1.5em;line-height:90%;} 
 		.tleader {color:#0C090A;font-weight:bold;}
-		.tcolor {font-weight:bold;color:#E42217;}
+		.tcolor {font-weight:bold;color:#E42217; text-align:center;}
 		.greydash {color:#C0C0C0;}
 		.phlarge {color:white;padding:4px;background-color:#123456;font-size:2em;font-weight:bold;display:inline;}
 		.tldr {background:#F5F5F5;padding: 6px; margin-bottom:1em;}
