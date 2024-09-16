@@ -277,6 +277,7 @@ articlelinks[273]="/2024/20240614.html";
 articlelinks[274]="/2024/20240620.html";
 articlelinks[275]="/2024/20240627.html";
 articlelinks[276]="/2024/20240716.html";
+articlelinks[277]="/2024/20240913.html";
 
 function RandomArticle(){
 window.location=articlelinks[Math.floor(Math.random()*articlelinks.length)]
