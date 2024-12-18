@@ -360,7 +360,7 @@ BetterSquash Landing Page CSS
   -----------------------------------------*/
 
   .hero {
-    background-image: url(https://bettersquash.com/img/index/index-bg.webp');
+    background-image: url(img/index/index-bg.webp');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
