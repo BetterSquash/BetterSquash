@@ -106,7 +106,7 @@ a:link,a:active,a:hover,a:visited{color:#0000EE;text-decoration:underline solid 
 a:visited{color:#551A8B;text-decoration:underline solid 1px;}
 a:hover{color:#000;background:#ff0;text-decoration:underline solid 1px black;}
 
-.topnav{margin-top:1em;margin-bottom:1em;font-size: 0.8em; text-align:center;} 
+.topnav{margin-top:0.5em;margin-bottom:1em;font-size: 0.8em; text-align:center;  letter-spacing:0.1em;} 
 .topnav a:link{color:black;text-decoration:none;padding:3px;}
 .topnav a:active{color:black;text-decoration:none;padding:3px;}
 .topnav a:visited{color:black;text-decoration:none;padding:3px}
