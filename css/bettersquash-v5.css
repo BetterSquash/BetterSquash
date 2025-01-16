@@ -123,7 +123,7 @@ BetterSquash Landing Page CSS version 5
   }
 
   .section {
-    padding: 2rem 0 1rem 0;
+    padding: 7rem 0;
   }
 
 
@@ -673,5 +673,7 @@ BetterSquash Landing Page CSS version 5
 
   .divider {
     background-color:#f13a11;
+    padding: 2rem 0 1rem 0;
+    }
 	
   }
