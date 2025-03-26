@@ -626,34 +626,26 @@
 
 
 
-     <!-- PURCHASE -->
-     <section class="schedule section" id="purchase">
-               <div class="container">
-                    <div class="row">
-	                            <div class="col-lg-12 col-12 text-center mb-5">
-									<h2 class="text-white">Buy A Set Now!</h2>
-	                                <h6 class="text-white">Ready to purchase?</h6>
-									<hr style="border-color: #ff5733;">
-	                             </div>
-	                             <div class="mt-lg-5 mb-lg-0 mb-4 col-lg-6 col-md-10 mx-auto col-12">
-	                                <h4 class="mb-2 text-white">Monthly Squash Challenges:<br>Set One: Individuals</h4>
-	                             </div>
-	                             <div class="ml-lg-auto col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="700">
-	                                 <h4 class="mb-2 text-white">Monthly Squash Challenges:<br>Set One: Commercial</h4>
-									<script async
-									  src="https://js.stripe.com/v3/buy-button.js">
-									</script>
-
-									<stripe-buy-button
-									  buy-button-id="buy_btn_1R3bjnGLoIyVj0GHjhCafrIV"
-									  publishable-key="pk_live_hmP3pNOgJJtGJFbEUbW6NYOo"
-									>
-									</stripe-buy-button>
-	                             </div>
-                    </div>
-               </div>
-          </div>
-     </section>
+	<!-- PURCHASE -->
+	<section class="schedule section" id="purchase">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-12 text-center mb-5">
+					<h2 class="text-white">Buy A Set Now!</h2>
+					<h6 class="text-white">Ready to purchase?</h6>
+					<hr style="border-color: #ff5733;">
+				</div>
+				<div class="mt-lg-5 mb-lg-0 mb-4 col-lg-6 col-md-10 mx-auto col-12">
+					<h4 class="mb-2 text-white">Monthly Squash Challenges:<br>Set One: Individuals</h4>
+					<stripe-buy-button buy-button-id="buy_btn_1R6vZIGLoIyVj0GHhE5kPLiT" publishable-key="pk_live_hmP3pNOgJJtGJFbEUbW6NYOo"></stripe-buy-button>
+				</div>
+				<div class="ml-lg-auto col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="700">
+					<h4 class="mb-2 text-white">Monthly Squash Challenges:<br>Set One: Commercial</h4>
+					<stripe-buy-button buy-button-id="buy_btn_1R3bjnGLoIyVj0GHjhCafrIV" publishable-key="pk_live_hmP3pNOgJJtGJFbEUbW6NYOo"></stripe-buy-button>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 
@@ -692,6 +684,7 @@
      <script src="js/aos.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
+	 <script async src="https://js.stripe.com/v3/buy-button.js"></script>
 
 </body>
 </html>
