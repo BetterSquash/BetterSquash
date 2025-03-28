@@ -68,6 +68,42 @@
   #banner{
   	margin: auto;
   }
+  /* Style the buttons that are used to open and close the accordion panel */
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
  </style>
 <!-- Javascript -->
 <script src="js/bettersquash.js"></script>	
@@ -257,88 +293,227 @@
 
 
 
-	 <!-- Frequently Asked Questions -->
+	<!-- Frequently Asked Questions -->
 	<section class="class section" id="faqs">
 		<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-12 text-center">
-						<h2 class="text-dark" data-aos="fade-up" data-aos-delay="200">Frequently Asked Questions</h2>
-						<h6 data-aos="fade-up">Got some questions?  Try here.</h6>
-						<hr>
-						<h2 class="mb-3 text-center" data-aos="fade-up">Jump To...</h2>
-						<p class="text-center"><a href="#faqgq">General Questions</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqgs">Getting Started</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqutrt">Using The Routine Timer</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqcf">Customisation & Features</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqtc">Technical & Compatibility</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqts">Troubleshooting & Support</a>nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqaccess">Access</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqps">Privacy and Security</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqfu">Feedback & Updates</a>&</p>
-						<hr id="faqgq">
-						<div class="text-left">
+			<div class="row">
+				<div class="col-lg-12 col-12 text-center">
+					<h2 class="text-dark" data-aos="fade-up" data-aos-delay="200">Frequently Asked Questions</h2>
+					<h6 data-aos="fade-up">Got some questions?  Try here.</h6>
+					<hr style="width:50%" class="mt-5 mb-5">
+					<h2 class="mb-3 text-center" data-aos="fade-up">Jump To...</h2>
+					<p class="text-center"><a href="#faqgq">General Questions</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqgs">Getting Started</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqutrt">Using The Routine Timer</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqcf">Customisation & Features</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqtc">Technical & Compatibility</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqaccess">Access</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqps">Privacy and Security</a>&nbsp;&nbsp;.&nbsp;&nbsp;<a href="#faqfu">Feedback & Updates</a>&</p>
+					<hr id="faqgq">
+					<div class="text-left">
 						<h2>General Questions</h2>  
-						<p><strong>What is the Routine Timer?</strong><br><em>The Routine Timer is a companion app to the <a href="soloroutines.html">Solo Routines</a> programme, which is sets of 12 detailed solo routines to improve your ball control.</em></p>
-						<p><strong>How does the Routine Timer work?</strong><br><em>After you enter a code for one of the routines, it loads the drills plus voice recordings and works like a countdown timer; displaying the drill title, description and time left.  There is also voice instruction.</em></p>
-						<p><strong>Do I need an internet connection to use the Routine Timer?</strong><br><em>Initially, yes, but once you have loaded a routine, the details and voices are stored on your device.</em></p>
-						<p><strong>Is the Routine Timer only for squash, or can it be used for other sports?</strong><br><em>Currently, it is exclusive to BetterSquash, but in the future it may be possible for other sports to create their own routines.</em></p>
-						<p><strong>Can I use the Routine Timer without signing up for the Solo Routines programme?</strong><br><em>Only for the sample routine.  You need access to the Solo Routines for the Routine Timer app to be really useful.</em></p>
-						<p><strong>What are the benefits of using the Routine Timer instead of just following the PDF?</strong><br><em>By listening to the voices via the Routine Timer, you can avoid having to refer to the PDF for each drill.  It essentially means, you have guided solo practice. In addition to giving you basic instructions, some drills have guidance min-drill, for example "<em>Keep adjusting the angle</em>" or "<em>Don't forget early preparation!</em>".</em></p>
-						<p><strong>Can I try the Routine Timer before purchasing?</strong><br><em>Yes, the app is free, it's the <em>Solo Routines</em> that must be purchased.  However, there is a free <a href="soloroutines.html#sample">Solo Routines sample</a> for you to use with the Routine Timer.</em></p>
-						<p id="faqgs"><strong>Who is this app designed for?</strong><br><em>Dedicated squash players who want planned and themed solo practice routines.</em></p>
-						<p><strong>Who designed and built the app?</strong><br><em><a href="https://floless.fr">Florent Fauchille</a>, a Solo Routines user, built the basic app for his personal use and together with Phillip refined some aspects of it to make it available to other users.</em></p>
-						<hr>
-						<h2>Getting Started</h2>  
-						<p><strong>How do I access/download and install the Routine Timer?</strong><br><em>Use the links above to install the Routine Timer for your device.  Currently only Android and iOS are supported.</em></p>
-						<p><strong>Where do I enter my routine code?</strong><br><em>You press on the "<em>Enter a shortcode</em>" box on the start page, and type in the case-sensitive shortcode found on the PDF sheet.</em></p>
-						<p><strong>What do I do if my routine code isn’t working?</strong><br><em>In the unlikely event that happens (Phillip and Florent tested them all thoroughly), please send an email to routinetimer@BetterSquash.com including your device details.</em></p>
-						<p><strong>Do I need to purchase the Solo Routines programme to use the Routine Timer?</strong><br><em>No but Yes.  You can use the free <a href="soloroutines.html#sample">Solo Routines sample</a>, but all other routines must be purchased.</em></p>
-						<p><strong>How much does the Solo Routines programme cost?</strong><br><em>The Solo Routines programme coast 35 Euros per set - currently only one set is available, but more will be added soon.  Each set includes 12 carefully planned and themed routines lasting between 30 to 40 minutes, a detailed email explaining each drill, a summary PDF sheet (with the Routine Timer shortcode), a private explainer video and access to the Solo Routines channel on the <a href="https://discord.gg/qgPkaT6f">BetterSquash Discord server</a>.</em></p>
-						<hr>
-						<h2 id="faqutrt">Using the Routine Timer</h2>  
-						<p><strong>How do I start a routine?</strong><br><em>Open the app, enter the shortcode and press START.</em></p>
-						<p><strong>Can I pause or restart a routine?</strong><br><em>Yes, both.  On the routine's page, you can press the PAUSE button at any time or use the back arrow to go back to the main page and enter the same or different shortcode to start again.</em></p>
-						<p><strong>Can I adjust the drill duration?</strong><br><em>Currently no, but this may be a feature in future versions.</em></p>
-						<p><strong>Can I skip or repeat drills during a session?</strong><br><em>Yes, there are "Previous" and "Next" buttons that can be used to skip or repeat drills respectively.</em></p>
-						<p><strong>Is there an audio guide, or do I need to watch the screen?</strong><br><em>A routine can be followed by view the screen or simply by listening to the audio instructions.</em></p>
-						<p><strong>Can I use Bluetooth speakers or headphones?</strong><br><em>Absolutely!  That's one of the most important aspects of the app.  Phillip tested the app using his bone conduction headphones and found it very comfortable.</em></p>
-						<p><strong>What happens if I receive a call or notification while using the app?</strong><br><em>The app will continue working as normal.</em></p>
-						
-						<hr>
-						<h2 id="faqcf">Customisation & Features</h2>  
-						<p><strong>Can I customise the order of drills in a routine?</strong><br><em>No, because they have been carefully designed to work in that order.  But there is nothing stopping you jumping back to repeat a drill or skipping forward to a leter drill.</em></p>
-						<p><strong>Can I create my own routines?</strong><br><em>No, that's not on our list of potential feature updates.  However, Phillip does offer a <a href="soloroutines.html#personalised">personalised Solo Routines service</a>.</em></p>
-						<p><strong>Does the app save my progress or history?</strong><br><em>No, each time you need to start from the beginning.  However, you can pause a routine and as long as you don't close the app, you can come back to it later.'</em></p>
-						<p><strong>Can I adjust the volume of audio instructions?</strong><br><em>Yes, via your device's volume control.</em></p>
-						<p><strong>Is there a way to track my progress across multiple sessions?</strong><br><em>No, not at this time.  We decided to make a simple app with a very specific focus.  there are plenty of tracker apps that could be used for tracking your training sessions.</em></p>
-						<p><strong>Can multiple people use the same app with different routine codes?</strong><br><em>Yes, there are no "accounts" to use, just the app and the routine's shortcode.</em></p>
-						<p><strong>Does the app support voice commands?</strong><br><em>No, and it's not on our list of potential features.</em></p>
-						<p><strong>Is there a dark mode or theme customisation?</strong><br><em>The app displays things in "dark mode" all the time, and there is no option to change that.</em></p>
-						<hr>
-						<h2 id="faqtc">Technical & Compatibility</h2>  
-						<p><strong>Which devices and operating systems support the Routine Timer?</strong><br><em>Apple's iOS and Google's Android systems are supported and any devices that run those systems should run the Routine Timer app.</em></p>
-						<p><strong>Do I need to install an app, or does it run in a browser?</strong><br><em>The app needs to be installed.  We chose this method to allow for offline use.</em></p>
-						<p><strong>Is the Routine Timer available for iOS and Android?</strong><br><em>Yes, both.</em></p>
-						<p><strong>How much storage space does the Routine Timer require?</strong><br><em>Less than 50 MB</em></p>
-						<p><strong>Can I use the Routine Timer on multiple devices?</strong><br><em>Yes, there are no accounts connected to the app.</em></p>
-						<p><strong>Can I sync my routines across multiple devices?</strong><br><em>No syncing needed as you just enter the shortcode and start your routine.  It's not possible to pause midway through a routine and continue from the same point on another device.  As has been said, there are no accounts connected to the app.</em></p>
-						<p><strong>Does the app work offline?</strong><br><em>Yes, but you need to load the voices and routine once online and from then on it should be available offline, even if you close the app and reopen it.</em></p>
-						<p><strong>Are there pre-built routines available?</strong><br><em>YES!  That's the whole reason for the <a href="soloroutines.html">Solo Routines</a> programme.</em></p>
-						<p><strong>Does the app integrate with other tools (e.g., calendars, fitness apps)?</strong><br><em>No, again we wanted to keep the app very focused and simple.</em></p>
-						<hr>
-						<h2 id="faqts">Troubleshooting & Support</h2>  
-						<hr>
-						<h2 id="faqaccess">Access</h2>  
-						<p><strong>Do I have to pay extra for the Routine Timer if I purchase a set from the Solo Routines programme?</strong><br><em>No, the Routine Timer is a free companion app to the <a href="soloroutines.html">Solo Routines</a> programme.</em></p>
-						<p><strong>Will I lose access to the Routine Timer if my Solo Routines subscription expires?</strong><br><em>No, as long as the app is on your phone and you have previously downloaded the voices and routines, you can continue to use the routines and app forever, well until the Sun expands and fries the Earth to a ball of ash, but don't panic that's not for another 5 Billion or so years.<br>But on a serious note, the <a href="soloroutines.html">Solo Routines</a> programme is NOT a subscription service.  You purchase a set of 12 routines and can use them for as much or as little as you want. </em></p>
-						<p><strong>Can I share my Routine Timer access with a friend or coach?</strong><br><em>Not officially, we don't track usage. If you are a club or other sort of facility or organisation, then a commercial licence for the <a href="soloroutines.html#commercial">Solo Routines</a> programme is available which will allow you to use the Solo Routines and this Routine Timer app within your club.</em></p>
-						<p><strong>Can I set reminders for my routines?</strong><br><em>No, we recommend a tracker or calendar app for that</em></p>
-						<hr>
-						<h2 id="faqpsq">Privacy & Security</h2>  
-						<p><strong>Is my data safe with the Routine Timer?</strong><br><em>Yes, we do not access any of your data, so we have none to share.  Remember, no account is needed to use the app and no usage data is stored or recorded.  The only data we have is how many times the app has been downloaded from the respective App and Play stores.</em></p>
-						<p><strong>Does the app collect personal information?</strong><br><em>No, nothing.  Not even how many unforced errors you hit into the tin!  And let's be honest, it's probably more than it should be, right?</em></p>
-						<p><strong>Can I use the app without creating an account?</strong><br><em>Yes, in fact, there is no possibility of even creating an account.</em></p>
-						<hr>
-						<h2 id="faqfu">Feedback & Updates</h2>  
-						<p><strong>How often is the app updated?</strong><br><em>Not very often.  Only if a serious bug is discovered and needs fixing or when we feel an important new feature should be added.</em></p>
-						<p><strong>Where can I leave a review for the app?</strong><br><em>Only if it's a good review - just joking.  Leave a fair and honest review on the store where you downloaded it from.  All we ask is that if you do have problems with the app, let us know and give us a chance to fix it.</em></p>
-								</div>
+						<button class="accordion mb-2"><strong>What is the Routine Timer?</strong></button>
+							<div class="panel">
+								<p><em>The Routine Timer is a companion app to the <a href="soloroutines.html">Solo Routines</a> programme, which is sets of 12 detailed solo routines to improve your ball control.</em></p>
 							</div>
-                    </div>
-               </div>
-     </section>
+						<button class="accordion mb-2"><strong>How does the Routine Timer work?</strong></button>
+							<div class="panel">
+								<p><em>After you enter a code for one of the routines, it loads the drills plus voice recordings and works like a countdown timer; displaying the drill title, description and time left.  There is also voice instruction.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Do I need an internet connection to use the Routine Timer?</strong></button>
+							<div class="panel">
+								<p><em>Initially, yes, but once you have loaded a routine, the details and voices are stored on your device.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Is the Routine Timer only for squash, or can it be used for other sports?</strong></button>
+							<div class="panel">
+								<p><em>Currently, it is exclusive to BetterSquash, but in the future it may be possible for other sports to create their own routines.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I use the Routine Timer without signing up for the Solo Routines programme?</strong></button>
+							<div class="panel">
+								<p><em>Only for the sample routine.  You need access to the Solo Routines for the Routine Timer app to be really useful.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>What are the benefits of using the Routine Timer instead of just following the PDF?</strong></button>
+							<div class="panel">
+								<p><em>By listening to the voices via the Routine Timer, you can avoid having to refer to the PDF for each drill.  It essentially means, you have guided solo practice. In addition to giving you basic instructions, some drills have guidance min-drill, for example "<em>Keep adjusting the angle</em>" or "<em>Don't forget early preparation!</em>".</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I try the Routine Timer before purchasing?</strong></button>
+							<div class="panel">
+								<p><em>Yes, the app is free, it's the <em>Solo Routines</em> that must be purchased.  However, there is a free <a href="soloroutines.html#sample">Solo Routines sample</a> for you to use with the Routine Timer.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Who is this app designed for?</strong></button>
+							<div class="panel">
+								<p><em>Dedicated squash players who want planned and themed solo practice routines.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Who designed and built the app?</strong></button>
+							<div class="panel">
+								<p><em><a href="https://floless.fr">Florent Fauchille</a>, a Solo Routines user, built the basic app for his personal use and together with Phillip refined some aspects of it to make it available to other users.</em></p>
+							</div>
+						<hr style="width:50%" class="mt-5 mb-5">
+						<h2>Getting Started</h2>  
+						<button class="accordion mb-2"><strong>How do I access/download and install the Routine Timer?</strong></button>
+							<div class="panel">
+								<p><em>Use the links above to install the Routine Timer for your device.  Currently only Android and iOS are supported.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Where do I enter my routine code?</strong></button>
+							<div class="panel">
+								<p><em>You press on the "<em>Enter a shortcode</em>" box on the start page, and type in the case-sensitive shortcode found on the PDF sheet.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>What do I do if my routine code isn’t working?</strong></button>
+							<div class="panel">
+								<p><em>In the unlikely event that happens (Phillip and Florent tested them all thoroughly), please send an email to routinetimer@BetterSquash.com including your device details.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Do I need to purchase the Solo Routines programme to use the Routine Timer?</strong></button>
+							<div class="panel">
+								<p><em>No but Yes.  You can use the free <a href="soloroutines.html#sample">Solo Routines sample</a>, but all other routines must be purchased.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>How much does the Solo Routines programme cost?</strong></button>
+							<div class="panel">
+								<p><em>The Solo Routines programme coast 35 Euros per set - currently only one set is available, but more will be added soon.  Each set includes 12 carefully planned and themed routines lasting between 30 to 40 minutes, a detailed email explaining each drill, a summary PDF sheet (with the Routine Timer shortcode), a private explainer video and access to the Solo Routines channel on the <a href="https://discord.gg/qgPkaT6f">BetterSquash Discord server</a>.</em></p>
+							</div>
+						<hr style="width:50%" class="mt-5 mb-5">
+						<h2 id="faqutrt">Using the Routine Timer</h2>  
+						<button class="accordion mb-2"><strong>How do I start a routine?</strong></button>
+							<div class="panel">
+								<p><em>Open the app, enter the shortcode and press START.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I pause or restart a routine?</strong></button>
+							<div class="panel">
+								<p><em>Yes, both.  On the routine's page, you can press the PAUSE button at any time or use the back arrow to go back to the main page and enter the same or different shortcode to start again.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I adjust the drill duration?</strong></button>
+							<div class="panel">
+								<p><em>Currently no, but this may be a feature in future versions.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I skip or repeat drills during a session?</strong></button>
+							<div class="panel">
+								<p><em>Yes, there are "Previous" and "Next" buttons that can be used to skip or repeat drills respectively.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Is there an audio guide, or do I need to watch the screen?</strong></button>
+							<div class="panel">
+								<p><em>A routine can be followed by view the screen or simply by listening to the audio instructions.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I use Bluetooth speakers or headphones?</strong></button>
+							<div class="panel">
+								<p><em>Absolutely!  That's one of the most important aspects of the app.  Phillip tested the app using his bone conduction headphones and found it very comfortable.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>What happens if I receive a call or notification while using the app?</strong></button>
+							<div class="panel">
+								<p><em>The app will continue working as normal.</em></p>
+							</div>
+						
+						<hr style="width:50%" class="mt-5 mb-5">
+						<h2 id="faqcf">Customisation & Features</h2>  
+						<button class="accordion mb-2"><strong>Can I customise the order of drills in a routine?</strong></button>
+							<div class="panel">
+								<p><em>No, because they have been carefully designed to work in that order.  But there is nothing stopping you jumping back to repeat a drill or skipping forward to a leter drill.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I create my own routines?</strong></button>
+							<div class="panel">
+								<p><em>No, that's not on our list of potential feature updates.  However, Phillip does offer a <a href="soloroutines.html#personalised">personalised Solo Routines service</a>.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Does the app save my progress or history?</strong></button>
+							<div class="panel">
+								<p><em>No, each time you need to start from the beginning.  However, you can pause a routine and as long as you don't close the app, you can come back to it later.'</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I adjust the volume of audio instructions?</strong></button>
+							<div class="panel">
+								<p><em>Yes, via your device's volume control.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Is there a way to track my progress across multiple sessions?</strong></button>
+							<div class="panel">
+								<p><em>No, not at this time.  We decided to make a simple app with a very specific focus.  there are plenty of tracker apps that could be used for tracking your training sessions.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can multiple people use the same app with different routine codes?</strong></button>
+							<div class="panel">
+								<p><em>Yes, there are no "accounts" to use, just the app and the routine's shortcode.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Does the app support voice commands?</strong></button>
+							<div class="panel">
+								<p><em>No, and it's not on our list of potential features.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Is there a dark mode or theme customisation?</strong></button>
+							<div class="panel">
+								<p><em>The app displays things in "dark mode" all the time, and there is no option to change that.</em></p>
+							</div>
+						<hr style="width:50%" class="mt-5 mb-5">
+						<h2 id="faqtc">Technical & Compatibility</h2>  
+						<button class="accordion mb-2"><strong>Which devices and operating systems support the Routine Timer?</strong></button>
+							<div class="panel">
+								<p><em>Apple's iOS and Google's Android systems are supported and any devices that run those systems should run the Routine Timer app.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Do I need to install an app, or does it run in a browser?</strong></button>
+							<div class="panel">
+								<p><em>The app needs to be installed.  We chose this method to allow for offline use.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Is the Routine Timer available for iOS and Android?</strong></button>
+							<div class="panel">
+								<p><em>Yes, both.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>How much storage space does the Routine Timer require?</strong></button>
+							<div class="panel">
+								<p><em>Less than 50 MB</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I use the Routine Timer on multiple devices?</strong></button>
+							<div class="panel">
+								<p><em>Yes, there are no accounts connected to the app.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I sync my routines across multiple devices?</strong></button>
+							<div class="panel">
+								<p><em>No syncing needed as you just enter the shortcode and start your routine.  It's not possible to pause midway through a routine and continue from the same point on another device.  As has been said, there are no accounts connected to the app.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Does the app work offline?</strong></button>
+							<div class="panel">
+								<p><em>Yes, but you need to load the voices and routine once online and from then on it should be available offline, even if you close the app and reopen it.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Are there pre-built routines available?</strong></button>
+							<div class="panel">
+								<p><em>YES!  That's the whole reason for the <a href="soloroutines.html">Solo Routines</a> programme.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Does the app integrate with other tools (e.g., calendars, fitness apps)?</strong></button>
+							<div class="panel">
+								<p><em>No, again we wanted to keep the app very focused and simple.</em></p>
+							</div>
+						<hr style="width:50%" class="mt-5 mb-5">
+						<h2 id="faqaccess">Access</h2>  
+						<button class="accordion mb-2"><strong>Do I have to pay extra for the Routine Timer if I purchase a set from the Solo Routines programme?</strong></button>
+							<div class="panel">
+								<p><em>No, the Routine Timer is a free companion app to the <a href="soloroutines.html">Solo Routines</a> programme.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Will I lose access to the Routine Timer if my Solo Routines subscription expires?</strong></button>
+							<div class="panel">
+								<p><em>No, as long as the app is on your phone and you have previously downloaded the voices and routines, you can continue to use the routines and app forever, well until the Sun expands and fries the Earth to a ball of ash, but don't panic that's not for another 5 Billion or so years.<br>But on a serious note, the <a href="soloroutines.html">Solo Routines</a> programme is NOT a subscription service.  You purchase a set of 12 routines and can use them for as much or as little as you want. </em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I share my Routine Timer access with a friend or coach?</strong></button>
+							<div class="panel">
+								<p><em>Not officially, we don't track usage. If you are a club or other sort of facility or organisation, then a commercial licence for the <a href="soloroutines.html#commercial">Solo Routines</a> programme is available which will allow you to use the Solo Routines and this Routine Timer app within your club.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I set reminders for my routines?</strong></button>
+							<div class="panel">
+								<p><em>No, we recommend a tracker or calendar app for that</em></p>
+							</div>
+						<hr style="width:50%" class="mt-5 mb-5">
+						<h2 id="faqps">Privacy & Security</h2>  
+						<button class="accordion mb-2"><strong>Is my data safe with the Routine Timer?</strong></button>
+							<div class="panel">
+								<p><em>Yes, we do not access any of your data, so we have none to share.  Remember, no account is needed to use the app and no usage data is stored or recorded.  The only data we have is how many times the app has been downloaded from the respective App and Play stores.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Does the app collect personal information?</strong></button>
+							<div class="panel">
+								<p><em>No, nothing.  Not even how many unforced errors you hit into the tin!  And let's be honest, it's probably more than it should be, right?</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Can I use the app without creating an account?</strong></button>
+							<div class="panel">
+								<p><em>Yes, in fact, there is no possibility of even creating an account.</em></p>
+							</div>
+						<hr style="width:50%" class="mt-5 mb-5">
+						<h2 id="faqfu">Feedback & Updates</h2>  
+						<button class="accordion mb-2"><strong>How often is the app updated?</strong></button>
+							<div class="panel">
+								<p><em>Not very often.  Only if a serious bug is discovered and needs fixing or when we feel an important new feature should be added.</em></p>
+							</div>
+						<button class="accordion mb-2"><strong>Where can I leave a review for the app?</strong></button>
+							<div class="panel">
+								<p><em>Only if it's a good review - just joking.  Leave a fair and honest review on the store where you downloaded it from.  All we ask is that if you do have problems with the app, let us know and give us a chance to fix it.</em></p>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 
