@@ -70,6 +70,43 @@
   #banner{
   	margin: auto;
   }
+  
+  /* Style the buttons that are used to open and close the accordion panel */
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
  </style>
 <!-- Javascript -->
 <script src="js/bettersquash.js"></script>	
@@ -138,7 +175,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
-					<h2  class="text-white" data-aos="fade-up" data-aos-delay="200">Hit every shot with clear intention.</h2>
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Hit every shot with clear intention.</h3>
 				</div>
 			</div>
 		</div>
@@ -164,7 +201,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
-					<h2  class="text-white" data-aos="fade-up" data-aos-delay="200">You are not a pro but you can train like one!</h2>
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">You are not a pro but you can train like one!</h3>
 				</div>
 			</div>
 		</div>
@@ -209,7 +246,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
-					<h2  class="text-white" data-aos="fade-up" data-aos-delay="200">There Are Three Types Of Shots: Attack, Probe and Defend.</h2>
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">There Are Three Types Of Shots: Attack, Probe and Defend.</h3>
 				</div>
 			</div>
 		</div>
@@ -244,7 +281,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
-					<h2  class="text-white" data-aos="fade-up" data-aos-delay="200">All of my services would make thoughtful gifts.</h2>
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">All of my services would make thoughtful gifts.</h3>
 				</div>
 			</div>
 		</div>
@@ -261,15 +298,49 @@
 					<h6>Got some questions?  Try here.</h6>
 					<hr>
 					<div class="text-left">
-						<p><strong>After using this service, will I be able to beat my arch-nemesis?</strong><br><em>ABSOLUTELY! Well, possibly. If your video is of you playing him or her, make sure you tell me that you specifically want to beat this player and I will give you tips to not only improve your game, but also counter your nemesis’ strengths and exploit their weaknesses.</em></p>
-						<p><strong>Do I need permission from my opponent to record my match?</strong><br><em>I don't require proof that permission has been granted, but I suggest you at least ask your opponent before you record and tell them that it will be used for an analysis.  I have never heard of an opponent refusing, although it might happen.</em></p>
-						<p><strong>English is not my first language, can I still use the service?</strong><br><em>Yes, definitely. If I know English is not your first language, I will speak slower, use clearer words and avoid phrasal verbs. Please let me know when you send your initial email.</em></p>
-						<p><strong>What type of feedback will I receive?</strong><br><em>I focus on two aspects: the tactical and technical. I will highlight tactical mistakes you made, but also highlight the correct shot selection too. I will talk about the technical issues you may have and how that affects your tactical choices.</em></p>
-						<p><strong>I am a junior, can I still use this service?</strong><br><em>Yes, but I require contact and communication through a parent or guardian.</em></p>
-						<p><strong>Can I pay with my credit card?</strong><br><em>Yes, but I require all payments to go through Stripe. You can use your credit card to pay via Stripe.</em></p>
-						<p><strong>I only have a mobile phone. Can I use that to record my video?</strong><br><em>I have received videos recorded via a mobile phone and it was fine. Of course, it depends on the quality of your phone and where it is positioned.</em></p>
-						<p><strong>Can I see a sample feedback video?</strong><br><em>Yes, of course.  Please scroll down for the video.</em></p>
-						<p><strong>I have a question that is not answered here, what should I do?</strong> <em>Send an email to: videoanalysis@bettersquash.com or ask in the <a href="https://discord.gg/xJt4af7d">BetterSquash Discord Server</a></em></p>
+						<button class="accordion"><strong>After using this service, will I be able to beat my arch-nemesis?</strong></button>
+							<div class="panel">
+								<p><em>ABSOLUTELY! Well, possibly. If your video is of you playing him or her, make sure you tell me that you specifically want to beat this player and I will give you tips to not only improve your game, but also counter your nemesis’ strengths and exploit their weaknesses.</em></p>
+							</div>
+						<p></p>
+						<button class="accordion"><strong>Do I need permission from my opponent to record my match?</strong></button>
+							<div class="panel">
+								<p><em>I don't require proof that permission has been granted, but I suggest you at least ask your opponent before you record and tell them that it will be used for an analysis.  I have never heard of an opponent refusing, although it might happen.</em></p>
+							</div>
+						<p></p>
+						<button class="accordion"><strong>English is not my first language, can I still use the service?</strong></button>
+							<div class="panel">
+								<p><em>Yes, definitely. If I know English is not your first language, I will speak slower, use clearer words and avoid phrasal verbs. Please let me know when you send your initial email.</em></p>
+						</div>
+						<p></p>
+						<button class="accordion"><strong>What type of feedback will I receive?</strong></button>
+							<div class="panel">
+								<p><em>I focus on two aspects: the tactical and technical. I will highlight tactical mistakes you made, but also highlight the correct shot selection too. I will talk about the technical issues you may have and how that affects your tactical choices.</em></p>
+						<button class="accordion"><strong>I am a junior, can I still use this service?</strong></button>
+							<div class="panel">
+								<p><em>Yes, but I require contact and communication through a parent or guardian.</em></p>
+							</div>
+						<p></p>
+						<button class="accordion"><strong>Can I pay with my credit card?</strong></button>
+							<div class="panel">
+								<p><em>Yes, but I require all payments to go through Stripe. You can use your credit card to pay via Stripe.</em></p>
+							</div>
+						<p></p>
+						<button class="accordion"><strong>I only have a mobile phone. Can I use that to record my video?</strong></button>
+							<div class="panel">
+								<p><em>I have received videos recorded via a mobile phone and it was fine. Of course, it depends on the quality of your phone and where it is positioned.</em></p>
+							</div>
+						<p></p>
+						<button class="accordion"><strong>Can I see a sample feedback video?</strong></button>
+							<div class="panel">
+								<p><em>Yes, of course.  Please scroll down for the video.</em></p>
+							</div>
+						<p></p>
+						<button class="accordion"><strong>I have a question that is not answered here, what should I do?</strong></button>
+							<div class="panel">
+								<p><em>Send an email to: videoanalysis@bettersquash.com or ask in the <a href="https://discord.gg/xJt4af7d">BetterSquash Discord Server</a></em></p>
+							</div>
+						<p></p>
 					</div>
 				</div>
 			</div>
@@ -316,7 +387,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
-					<h2  class="text-white" data-aos="fade-up" data-aos-delay="200">Heat Up:You should be sweating before you even begin hitting the ball.</h2>
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Heat Up:You should be sweating before you even begin hitting the ball.</h3>
 				</div>
 			</div>
 		</div>
@@ -363,7 +434,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
-					<h2  class="text-white" data-aos="fade-up" data-aos-delay="200">Try this: 70% straight, 20% crosscourt and 10% Boasts</h2>
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Try this: 70% straight, 20% crosscourt and 10% Boasts</h3>
 				</div>
 			</div>
 		</div>
@@ -395,7 +466,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
-					<h2  class="text-white" data-aos="fade-up" data-aos-delay="200">Take your serve more seriously - you can win a lot of points from it.</h2>
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Take your serve more seriously - you can win a lot of points from it.</h3>
 				</div>
 			</div>
 		</div>
@@ -452,13 +523,12 @@
 						<h2>Need help?</h2>
 						<ul>
 							<li>Discord Support: <a href="https://support.discord.com">https://support.discord.com</a></li>
-							<li>Contact Phillip: <a href="mailto:discord@bettersquash.com">discord@bettersquash.com</a></li>
+							<li>Contact Phillip: <a href="mailto:discordserver@bettersquash.com">discordserver@bettersquash.com</a></li>
 						</ul>
 						<div class="note">
 							<strong>Note</strong>: The BetterSquash Discord server currently supports text messaging only.
 						</div>
-						<p><em>Let's improve our squash game together!</em></p>
-						<h2 class="display-3"><a href="https://discord.gg/EhxwqcvZ">VISIT THE DISCORD SERVER NOW!</a></h2>
+						<a href="https://discord.gg/EhxwqcvZ" class="btn custom-btn bordered mt-3 pr-20" data-aos="fade-up" data-aos-delay="100">VISIT THE BETTERSQUASH DISCORD SERVER NOW!</a>
 					</div>
 				</div>
 			</div>
@@ -497,7 +567,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
-					<h2  class="text-white" data-aos="fade-up" data-aos-delay="200">DO SOMETHING EVERY SINGLE DAY TO IMPROVE YOUR SQUASH!</h2>
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">DO SOMETHING EVERY SINGLE DAY TO IMPROVE YOUR SQUASH!</h3>
 				</div>
 			</div>
 		</div>
@@ -526,6 +596,22 @@
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/custom.js"></script>
 	<script async src="https://js.stripe.com/v3/buy-button.js"></script>
+	<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+	    this.classList.toggle("active");
+	    var panel = this.nextElementSibling;
+	    if (panel.style.display === "block") {
+	      panel.style.display = "none";
+	    } else {
+	      panel.style.display = "block";
+	    }
+	  });
+	}
+	</script>
 
 </body>
 </html>
