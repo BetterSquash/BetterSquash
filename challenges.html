@@ -156,6 +156,43 @@
         background-color: #CD5C5C;
       }
 	.divdarkindi {background:#333366} 
+	
+    /* Style the buttons that are used to open and close the accordion panel */
+    .accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active, .accordion:hover {
+      background-color: #ccc;
+    }
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+    }
+    .accordion:after {
+      content: '\02795'; /* Unicode character for "plus" sign (+) */
+      font-size: 13px;
+      color: #777;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active:after {
+      content: "\2796"; /* Unicode character for "minus" sign (-) */
+    }
  </style>
 <!-- Javascript -->
 <script src="js/bettersquash.js"></script>	
@@ -237,7 +274,7 @@
 	<section class="section" id="overview">
 		<div class="container">
 			<h1 class="text-center">Monthly Squash Challenges That Improve Your Mindset And Approach</h1>
-			<h2 class="mb-3">Challenges Overview</h2>
+			<h2 class="mb-3 text-center">Challenges Overview</h2>
 				<p>For €35, you receive <strong>12 groups</strong> of <strong>6 challenges</strong>. The challenges are divided into <em>Solo Drills</em>, <em>Pairs' Drills</em>, <em>Condition games</em>, <em>Match Play</em>, <em>Mindset</em>, and <em>Physical Training</em>.</p>
 				<p>They are provided as a two-page PDF. Each PDF explains the challenge, shows you how to do it, and highlights the benefits. Relevant challenges include <strong>four progressions</strong>.</p>
 				<p>Each group of challenges comes with a short explainer video and access to the <a href="https://discord.gg/urbX35XG">BetterSquash Discord server</a>, where you can chat with me and other users about the challenges, progressions, and how they’ve helped your squash.</p>
@@ -275,7 +312,7 @@
 					<p>Most of us also need some guidance, a gentle <strong>nudge</strong> in the right direction, and, perhaps most importantly, a <strong>spark</strong> of inspiration.</p>
 					<p>That’s why I created the Monthly Squash Challenges: to provide squash players with guided nudges and sparks of inspiration!</p>
 				</div>
-				<div class="ml-lg-auto col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="700">
+				<div class="ml-lg-auto col-lg-6 col-md-6 col-12">
 					<div class="team-thumb">
 						<img src="img/index/challenges-why-2.webp" class="img-fluid" alt="Facing challenges is the difference">
 					</div>
@@ -308,14 +345,14 @@
 					<h6>Try the challenges for yourself.</h6>
 				</div>
 				<div class="mt-lg-5 mb-lg-0 mb-4 col-lg-5 col-md-10 mx-auto col-12">
-					<h2 class="mb-4" data-aos="fade-up" data-aos-delay="300">Notes</h2>
-					<p data-aos="fade-up" data-aos-delay="500">This is the sample PDF sheet available. It has two pages (only one shown here).</p>
-					<p data-aos="fade-up" data-aos-delay="500">The sample sheet has QR code links to the explainer video and to the <a href="https://discord.gg/urbX35XG">Challenges</a> channel of the BetterSquash Discord server.</p>
-					<p data-aos="fade-up" data-aos-delay="500">Each challenge has <strong>4 progressions</strong>, but they are just for guidelines.</p>
-					<p data-aos="fade-up" data-aos-delay="500">There is also a section for you to make notes - this action solidifies your learning and improvement.</p>
-					<p data-aos="fade-up" data-aos-delay="500">Click the image to download the sample Challenge Sheet PDF.</p>
+					<h2 class="mb-4">Notes</h2>
+					<p>This is the sample PDF sheet available. It has two pages (only one shown here).</p>
+					<p>The sample sheet has QR code links to the explainer video and to the <a href="https://discord.gg/urbX35XG">Challenges</a> channel of the BetterSquash Discord server.</p>
+					<p>Each challenge has <strong>4 progressions</strong>, but they are just for guidelines.</p>
+					<p>There is also a section for you to make notes - this action solidifies your learning and improvement.</p>
+					<p>Click the image to download the sample Challenge Sheet PDF.</p>
 				</div>
-				<div class="ml-lg-auto col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="700">
+				<div class="ml-lg-auto col-lg-4 col-md-6 col-12">
 					<div class="team-thumb">
 						<a href="challenges/pdf/Challenges-Sample-1.pdf"><img src="img/index/Challenges-Sample-1-v3-1-800.webp" class="img-fluid" alt="Challenges Sample 1 PDF Sheet"></a>
 					</div>
@@ -348,34 +385,50 @@
 					<h6>Got some questions?  Try here.</h6>
 					<hr>
 						<div class="text-left">
-							<p><strong>What’s included in the price?</strong><br>
-							<em>One Set includes 12 groups of 6 challenges. Current participants receive one group per month, while late joiners receive all past groups in their first email.</em></p>
-
-							<p><strong>Is this suitable for beginners?</strong><br>
-							<em>The challenges are designed for intermediate and advanced players, but motivated beginners can also benefit. I recommend trying the free samples to see if it suits you.</em></p>
-
-							<p><strong>Do I have to complete all the challenges in each group?</strong><br>
-							<em>No, you can pick and choose the challenges that interest you.</em></p>
-
-							<p><strong>Do I need to watch the Explainer Video?</strong><br>
-							<em>No, it's optional. The PDF includes all the necessary details, but the video may provide additional insights into <strong>how</strong> to perform the challenge and <em>why</em> it is beneficial.</em></p>
-
-							<p><strong>Do I have to join the BetterSquash Discord server?</strong><br>
-							<em>No, it's entirely optional. The server is there for players who want to discuss the challenges, share progress, and ask questions.</em></p>
-
-							<p><strong>Can I share the PDF with my friends?</strong><br>
-							<em>You can share it with a couple of friends, but if you have a training squad or group, please purchase the Commercial Licence.<br>
-							This allows you to post the PDF on your facility's noticeboard and distribute up to 25 photocopies within one location.<br></em></p>
-
-							<p><strong>Do I need special equipment to complete the challenges?</strong><br>
-							<em>No, most challenges can be done with standard squash equipment. Some solo, pairs' drills and condition games may require targets, but a sheet of A4/Letter sized paper will be perfect.</em></p>
-
-							<p><strong>Can I access previous months' challenges if I join later in the year?</strong><br>
-							<em>Yes! When you sign up, you get access to all challenges released so far in the current set.</em></p>
-
-							<p><strong>I have a question not listed here. How can I contact you?</strong><br>
-							<em>Send an email to <em>challenges@BetterSquash.com</em> or join the <a href="https://discord.gg/urbX35XG">BetterSquash Discord server</a> and ask there.</em></p>
-							
+							<button class="accordion mb-2"><strong>What’s included in the price?</strong></button>
+							<div class="panel">
+								<p><em>One Set includes 12 groups of 6 challenges. Current participants receive one group per month, while late joiners receive all past groups in their first email.</em></p>
+							</div>
+					
+							<button class="accordion mb-2"><strong>Is this suitable for beginners?</strong></button>
+							<div class="panel">
+								<p><em>The challenges are designed for intermediate and advanced players, but motivated beginners can also benefit. I recommend trying the free samples to see if it suits you.</em></p>
+							</div>
+					
+							<button class="accordion mb-2"><strong>Do I have to complete all the challenges in each group?</strong></button>
+							<div class="panel">
+								<p><em>No, you can pick and choose the challenges that interest you.</em></p>
+							</div>
+					
+							<button class="accordion mb-2"><strong>Do I need to watch the Explainer Video?</strong></button>
+							<div class="panel">
+								<p><em>No, it's optional. The PDF includes all the necessary details, but the video may provide additional insights into <strong>how</strong> to perform the challenge and <em>why</em> it is beneficial.</em></p>
+							</div>
+					
+												<button class="accordion mb-2"><strong>Do I have to join the BetterSquash Discord server?</strong></button>
+							<div class="panel">
+								<p><em>No, it's entirely optional. The server is there for players who want to discuss the challenges, share progress, and ask questions.</em></p>
+							</div>
+					
+							<button class="accordion mb-2"><strong>Can I share the PDF with my friends?</strong></button>
+							<div class="panel">
+								<p><em>You can share it with a couple of friends, but if you have a training squad or group, please purchase the Commercial Licence.  This allows you to post the PDF on your facility's noticeboard and distribute up to 25 photocopies within one location.</em></p>
+							</div>
+					
+							<button class="accordion mb-2"><strong>Do I need special equipment to complete the challenges?</strong></button>
+							<div class="panel">
+								<p><em>No, most challenges can be done with standard squash equipment. Some solo, pairs' drills and condition games may require targets, but a sheet of A4/Letter sized paper will be perfect.</em></p>
+							</div>
+					
+							<button class="accordion mb-2"><strong>Can I access previous months' challenges if I join later in the year?</strong></button>
+							<div class="panel">
+								<p><em>Yes! When you sign up, you get access to all challenges released so far in the current set.</em></p>
+							</div>
+					
+							<button class="accordion mb-2"><strong>I have a question not listed here. How can I contact you?</strong></button>
+							<div class="panel">
+								<p><em>Send an email to <em>challenges@BetterSquash.com</em> or join the <a href="https://discord.gg/urbX35XG">BetterSquash Discord server</a> and ask there.</em></p>
+							</div>
 						</div>
 				</div>
 			</div>
@@ -751,6 +804,22 @@
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
 	 <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+	 <script>
+	 var acc = document.getElementsByClassName("accordion");
+	 var i;
+
+	 for (i = 0; i < acc.length; i++) {
+	   acc[i].addEventListener("click", function() {
+	     this.classList.toggle("active");
+	     var panel = this.nextElementSibling;
+	     if (panel.style.display === "block") {
+	       panel.style.display = "none";
+	     } else {
+	       panel.style.display = "block";
+	     }
+	   });
+	 }
+	 </script>
 
 </body>
 </html>
