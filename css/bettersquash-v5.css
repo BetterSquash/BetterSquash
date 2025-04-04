@@ -677,3 +677,15 @@ BetterSquash Landing Page CSS version 5
     }
 	
   }
+  
+  
+  /*DIVIDER COLOURS*/
+  /*INDEX*/ 			.divindex	{background:#641e16}
+  /*SOLO ROUTINES*/		.divsolo	{background:#78281f}
+  /*ROUTINE TIMER*/		.divtimer	{background:#512e5f}
+  /*CHALLENGES*/		.divchall	{background:#4a235a}
+  /*VIDEO ANALYSIS*/	.divvideo	{background:#154360}
+  /*PPP*/				.divppp		{background:#1b4f72}
+  /*REFERRALS*/			.divref		{background:#0e6251}
+  /*TESTIMONIALS*/		.divdtesti	{background:#0b5345}
+  /*DISCORD*/			.divdiscord	{background:#145a32}
