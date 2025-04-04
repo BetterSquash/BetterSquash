@@ -689,3 +689,12 @@ BetterSquash Landing Page CSS version 5
   /*REFERRALS*/			.divref		{background:#0e6251}
   /*TESTIMONIALS*/		.divdtesti	{background:#0b5345}
   /*DISCORD*/			.divdiscord	{background:#145a32}
+  
+.hero {
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  min-height: 100vh;
+  position: relative;
+}
