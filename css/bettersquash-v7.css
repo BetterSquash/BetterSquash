@@ -405,70 +405,6 @@ BetterSquash Landing Page CSS version 5
   }
 
 
-  /*---------------------------------------
-     SCHEDULE             
-  -----------------------------------------*/
-
-  .schedule {
-    background: var(--dark-color);
-  }
-
-  .schedule-table {
-    display: table;
-    border: 0;
-    text-align: center;
-  }
-
-  .schedule-table strong,
-  .schedule-table span {
-    display: block;
-    text-align: center;
-  }
-
-  .schedule-table strong {
-    color: var(--white-color);
-  }
-
-  .schedule-table span {
-    color: var(--gray-color);
-  }
-
-  .schedule-table span,
-  .schedule-table small {
-    font-size: var(--menu-font-size);
-    text-transform: uppercase;
-  }
-
-  .schedule-table small {
-    position: relative;
-    top: 10px;
-  }
-
-  .table .thead-light th,
-  .schedule-table tr td:first-child {
-    background: var(--primary-color);
-    border: 1px solid #212122;
-    color: var(--white-color);
-  }
-
-  .schedule-table .thead-light th {
-    border-bottom: 0;
-    text-transform: uppercase;
-  }
-
-  .table-bordered td, 
-  .table-bordered th {
-    border: 1px solid #212122;
-  }
-
-  .table-bordered td {
-    padding-bottom: 22px;
-  }
-
-  .table td, .table th {
-    padding: 1rem;
-  }
-
 
   /*---------------------------------------
       ABOUT & TEAM            
@@ -684,98 +620,13 @@ BetterSquash Landing Page CSS version 5
   position: relative;
 }
 
-table {
-  border: 1px solid #ccc;
-  border-collapse: collapse;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  table-layout: fixed;
+
+#banner {
+  margin: auto;
 }
 
-table caption {
-  font-size: 1.3em;
-  margin: .5em 0 .75em;
-}
 
-table tr {
-  background-color: #f8f8f8;
-  border: 1px solid #ddd;
-  padding: .35em;
-  border-bottom: 3px solid #ddd;
-  display: block;
-  margin-bottom: .625em;
-}
 
-table th,
-  table td {
-  padding: .625em;
-  text-align: center;
-  border-right: 1px solid #ddd;
-}
-
-table th {
-  font-size: .85em;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-}
-
-@media screen and (max-width: 600px) {
-  table {
-    border: 0;
-  }
-}
-
-table thead {
-  border: none;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-table td {
-  border-bottom: 1px solid #ddd;
-  display: block;
-  font-size: .8em;
-  text-align: right;
-}
-
-table td::before {
-  /*
-      * aria-label has no advantage, it won't be read inside a table
-      content: attr(aria-label);
-  */
-      content: attr(data-label);
-  float: left;
-  font-weight: bold;
-  text-transform: uppercase;
-  /*
-        * aria-label has no advantage, it won't be read inside a table
-        content: attr(aria-label);
-  */
-        content: attr(data-label);
-  /*
-	      * aria-label has no advantage, it won't be read inside a table
-	      content: attr(aria-label);
-  */
-	      content: attr(data-label);
-}
-
-table td:last-child {
-  border-bottom: 0;
-}
-
-.tgreen {
-  background-color: #8FBC8F;
-}
-
-.tred {
-  background-color: #CD5C5C;
-}
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
@@ -820,24 +671,7 @@ table td:last-child {
   content: "\2796";
 }
 
-.inline-block {
-  display: inline-block;
-}
 
-#banner {
-  margin: auto;
-}
-
-table th,
-    table td {
-  padding: .625em;
-  text-align: center;
-  border-right: 1px solid #ddd;
-}
-
-.tgreen {
-  background-color: #8FBC8F;
-}
 
 /* Style the buttons that are used to open and close the accordion panel */
   	  .accordion {
@@ -916,13 +750,10 @@ table th,
   transition: 0.4s;
 }
 
-table th,
-	  table td {
-  padding: .625em;
-  text-align: center;
-  border-right: 1px solid #ddd;
-}	 
-  
+/*---------------------------------------
+   RESOPNSIVE AND COLLAPSABLE TABLE             
+-----------------------------------------*/
+
 table {
   border: 1px solid #ccc;
   border-collapse: collapse;
@@ -930,4 +761,84 @@ table {
   padding: 0;
   width: 100%;
   table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+.tgreen {
+  background-color: #8FBC8F;
+}
+
+.tred {
+  background-color: #CD5C5C;
 }
