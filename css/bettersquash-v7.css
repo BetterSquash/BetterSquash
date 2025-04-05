@@ -669,7 +669,7 @@ BetterSquash Landing Page CSS version 5
   /*SOLO ROUTINES*/		.divsolo	{background-color:#78281f;}
   /*ROUTINE TIMER*/		.divtimer	{background-color:#512e5f;}
   /*CHALLENGES*/		.divchall	{background-color:#4a235a;}
-  /*VIDEO ANALYSIS*/	.divvideo	{background-color:#154360;}
+  /*VIDEO ANALYSIS*/	.divvideoa	{background-color:#154360;}
   /*PPP*/				.divppp		{background-color:#1b4f72;}
   /*REFERRALS*/			.divref		{background-color:#0e6251;}
   /*TESTIMONIALS*/		.divdtesti	{background-color:#0b5345;}
@@ -931,4 +931,3 @@ table {
   width: 100%;
   table-layout: fixed;
 }
-}}
