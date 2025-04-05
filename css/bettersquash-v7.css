@@ -637,6 +637,7 @@ BetterSquash Landing Page CSS version 5
     .modal-content {
       padding: 2rem;
     }
+}
 
   @media screen and (max-width: 767px) {
 
@@ -652,28 +653,28 @@ BetterSquash Landing Page CSS version 5
     .contact h2 span {
       display: block;
     }
+}
 
   /*---------------------------------------
      DIVIDER             
   -----------------------------------------*/
 
   .divider {
-    background-color:#f13a11;
     padding: 2rem 0 1rem 0;
-    }	
-  
+    text-align: center;
+  }
   
   /*DIVIDER COLOURS*/
-  /*INDEX*/ 			.divindex	{background:#641e16}
-  /*SOLO ROUTINES*/		.divsolo	{background:#78281f}
-  /*ROUTINE TIMER*/		.divtimer	{background:#512e5f}
-  /*CHALLENGES*/		.divchall	{background:#4a235a}
-  /*VIDEO ANALYSIS*/	.divvideo	{background:#154360}
-  /*PPP*/				.divppp		{background:#1b4f72}
-  /*REFERRALS*/			.divref		{background:#0e6251}
-  /*TESTIMONIALS*/		.divdtesti	{background:#0b5345}
-  /*DISCORD*/			.divdiscord	{background:#145a32}
-  
+  /*INDEX*/ 			.divindex	{background-color:#641e16;}
+  /*SOLO ROUTINES*/		.divsolo	{background-color:#78281f;}
+  /*ROUTINE TIMER*/		.divtimer	{background-color:#512e5f;}
+  /*CHALLENGES*/		.divchall	{background-color:#4a235a;}
+  /*VIDEO ANALYSIS*/	.divvideo	{background-color:#154360;}
+  /*PPP*/				.divppp		{background-color:#1b4f72;}
+  /*REFERRALS*/			.divref		{background-color:#0e6251;}
+  /*TESTIMONIALS*/		.divdtesti	{background-color:#0b5345;}
+  /*DISCORD*/			.divdiscord	{background-color:#145a32;}
+
 .hero {
   background-size: cover;
   background-position: top;
