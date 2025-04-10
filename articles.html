@@ -39,12 +39,29 @@
 <meta name="theme-color" content="#ffffff">	
 <!-- CSS -->
 <link rel="stylesheet" href="/css/bettersquash2024.css">
-<style>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collapsible Menu</title>
+  <style>
+    /* Reset and general styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    
     /* Unique namespace for the menu */
     .cxm-nav-container {
       position: relative;
-      background-color: #f8f8f8;
+      background-color: #fff;
       padding: 15px 20px;
     }
     
@@ -129,16 +146,64 @@
     
     /* Show menu when checkbox is checked */
     .cxm-burger-input:checked ~ .cxm-menu {
-      max-height: 500px;
+      max-height: 1000px; /* Increased from 500px to accommodate more menu items */
     }
     
     /* Add margin below the navigation for content separation */
     .cxm-content-container {
       margin-top: 40px;
-	  padding-bottom: 80px;
       padding: 20px;
     }
   </style>
+</head>
+<body>
+  <nav class="cxm-nav-container">
+    <input type="checkbox" id="cxm-burger" class="cxm-burger-input">
+    <label for="cxm-burger" class="cxm-burger-label">
+      <div class="cxm-burger-icon"><span></span></div>
+    </label>
+    
+    <ul class="cxm-menu">
+      <li class="cxm-menu-item">
+        <a href="https://youtube.com/channel/UCPGrK0PC0Yt7i2sUQbdJoGA/comments/" class="cxm-menu-link">Videos</a>
+      </li>
+      <li class="cxm-menu-item">
+        <a href="soloroutines.html" class="cxm-menu-link">Solo Routines</a>
+      </li>
+      <li class="cxm-menu-item">
+        <a href="routinetimer.html" class="cxm-menu-link">Routine Timer App</a>
+      </li>
+      <li class="cxm-menu-item">
+        <a href="challenges.html" class="cxm-menu-link smoothScroll">Challenges</a>
+      </li>
+      <li class="cxm-menu-item">
+        <a href="videoanalysis.html" class="cxm-menu-link">Video Analysis</a>
+      </li>
+      <li class="cxm-menu-item">
+        <a href="personalised.html" class="cxm-menu-link">Personalised Practice Plans</a>
+      </li>
+      <li class="cxm-menu-item">
+        <a href="articles.html" class="cxm-menu-link">Articles</a>
+      </li>
+      <!-- Example of additional menu items -->
+      <li class="cxm-menu-item">
+        <a href="about.html" class="cxm-menu-link">About</a>
+      </li>
+      <li class="cxm-menu-item">
+        <a href="contact.html" class="cxm-menu-link">Contact</a>
+      </li>
+      <li class="cxm-menu-item">
+        <a href="faq.html" class="cxm-menu-link">FAQ</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <div class="cxm-content-container">
+    <h1>Main Content Area</h1>
+    <p>Your website content would go here. The menu is now collapsed on all devices.</p>
+  </div>
+</body>
+</html>
 <!-- Javascript -->
 <script src="/js/bettersquash.js"></script>
 </head>
