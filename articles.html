@@ -45,12 +45,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Collapsible Menu</title>
-  <style>
+<style>
+
     
     /* Unique namespace for the menu */
     .cxm-nav-container {
       position: relative;
-      background-color: #fff;
+      background-color: #f8f8f8;
       padding: 15px 20px;
     }
     
@@ -78,10 +79,21 @@
       text-decoration: none;
       color: #333;
       font-weight: 500;
-      display: block;
+      display: flex;
+      align-items: center;
       width: 100%;
     }
     
+    .cxm-menu-link:hover {
+      color: #0066cc;
+      background-color: #f9f9f9;
+    }
+    
+    /* Fix for icon placement */
+    .cxm-menu-link .icon {
+      margin-left: 5px;
+      display: inline-block;
+    }
     
     /* Burger menu checkbox and label */
     .cxm-burger-input {
@@ -132,13 +144,32 @@
     
     /* Show menu when checkbox is checked */
     .cxm-burger-input:checked ~ .cxm-menu {
-      max-height: 1000px; /* Increased from 500px to accommodate more menu items */
+      max-height: 1000px;
     }
     
     /* Add margin below the navigation for content separation */
     .cxm-content-container {
       margin-top: 40px;
       padding: 20px;
+    }
+    
+    /* Example of indicator icon */
+    .menu-indicator {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-color: red;
+      border-radius: 50%;
+      margin-left: 5px;
+    }
+    
+    /* Active/current page highlight */
+    .cxm-menu-item.active {
+      background-color: #fff9d9;
+    }
+    
+    .cxm-menu-item.active .cxm-menu-link {
+      font-weight: bold;
     }
   </style>
 <!-- Javascript -->
