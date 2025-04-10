@@ -56,25 +56,35 @@
     .cxm-nav-container {
       position: relative;
       background-color: #f8f8f8;
-      padding: 0 20px;
+      padding: 15px 20px;
     }
     
     .cxm-menu {
       list-style: none;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
+      display: block;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+      background-color: white;
+      position: absolute;
+      top: 55px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      z-index: 100;
     }
     
     .cxm-menu-item {
-      padding: 15px 10px;
+      padding: 15px 20px;
+      border-bottom: 1px solid #f0f0f0;
     }
     
     .cxm-menu-link {
       text-decoration: none;
       color: #333;
       font-weight: 500;
-      transition: color 0.3s ease;
+      display: block;
+      width: 100%;
     }
     
     .cxm-menu-link:hover {
@@ -87,12 +97,12 @@
     }
     
     .cxm-burger-label {
-      display: none;
+      display: block;
       cursor: pointer;
       position: absolute;
       top: 15px;
       right: 20px;
-      z-index: 2;
+      z-index: 101;
     }
     
     /* Burger icon */
@@ -128,42 +138,15 @@
       bottom: 0;
     }
     
-    /* Mobile styles */
-    @media (max-width: 768px) {
-      .cxm-burger-label {
-        display: block;
-      }
-      
-      .cxm-nav-container {
-        padding: 15px 20px;
-      }
-      
-      .cxm-menu {
-        display: block;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.5s ease;
-        background-color: white;
-        position: absolute;
-        top: 55px;
-        left: 0;
-        width: 100%;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      }
-      
-      .cxm-burger-input:checked ~ .cxm-menu {
-        max-height: 500px;
-      }
-      
-      .cxm-menu-item {
-        padding: 15px 20px;
-        border-bottom: 1px solid #f0f0f0;
-      }
-      
-      .cxm-menu-link {
-        display: block;
-        width: 100%;
-      }
+    /* Show menu when checkbox is checked */
+    .cxm-burger-input:checked ~ .cxm-menu {
+      max-height: 500px;
+    }
+    
+    /* Add margin below the navigation for content separation */
+    .cxm-content-container {
+      margin-top: 40px;
+      padding: 20px;
     }
   </style>
 <!-- Javascript -->
