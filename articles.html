@@ -38,146 +38,16 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">	
 <!-- CSS -->
-<link rel="stylesheet" href="/css/bettersquash2024.css">
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Collapsible Menu</title>
+<link rel="stylesheet" href="/css/bettersquash-articles.css">
 <style>
-
-    
-    /* Unique namespace for the menu */
-    .cxm-nav-container {
-      position: relative;
-      background-color: #fff;
-      padding: 15px 20px;
-    }
-    
-    .cxm-menu {
-      list-style: none;
-      display: block;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.5s ease;
-      background-color: white;
-      position: absolute;
-      top: 55px;
-      left: 0;
-      width: 100%;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      z-index: 100;
-    }
-    
-    .cxm-menu-item {
-      padding: 15px 20px;
-      border-bottom: 1px solid #f0f0f0;
-    }
-    
-    .cxm-menu-link {
-      text-decoration: none;
-      color: #333;
-      font-weight: 500;
-      display: flex;
-      align-items: center;
-      width: 100%;
-    }
-    
-    .cxm-menu-link:hover {
-      color: #0066cc;
-      background-color: #f9f9f9;
-    }
-    
-    /* Fix for icon placement */
-    .cxm-menu-link .icon {
-      margin-left: 5px;
-      display: inline-block;
-    }
-    
-    /* Burger menu checkbox and label */
-    .cxm-burger-input {
-      display: none;
-    }
-    
-    .cxm-burger-label {
-      display: block;
-      cursor: pointer;
-      position: absolute;
-      top: 15px;
-      right: 20px;
-      z-index: 101;
-    }
-    
-    /* Burger icon */
-    .cxm-burger-icon {
-      display: block;
-      position: relative;
-      width: 30px;
-      height: 24px;
-    }
-    
-    .cxm-burger-icon::before,
-    .cxm-burger-icon::after,
-    .cxm-burger-icon span {
-      background-color: #333;
-      content: '';
-      display: block;
-      height: 4px;
-      border-radius: 2px;
-      position: absolute;
-      width: 100%;
-      transition: all 0.3s ease;
-    }
-    
-    .cxm-burger-icon::before {
-      top: 0;
-    }
-    
-    .cxm-burger-icon span {
-      top: 10px;
-    }
-    
-    .cxm-burger-icon::after {
-      bottom: 0;
-    }
-    
-    /* Show menu when checkbox is checked */
-    .cxm-burger-input:checked ~ .cxm-menu {
-      max-height: 1000px;
-    }
-    
-    /* Add margin below the navigation for content separation */
-    .cxm-content-container {
-      margin-top: 40px;
-      padding: 20px;
-    }
-    
-    /* Example of indicator icon */
-    .menu-indicator {
-      display: inline-block;
-      width: 8px;
-      height: 8px;
-      background-color: red;
-      border-radius: 50%;
-      margin-left: 5px;
-    }
-    
-    /* Active/current page highlight */
-    .cxm-menu-item.active {
-      background-color: #fff9d9;
-    }
-    
-    .cxm-menu-item.active .cxm-menu-link {
-      font-weight: bold;
-    }
-  </style>
+</style>
 <!-- Javascript -->
 <script src="/js/bettersquash.js"></script>
 </head>
 <body>
 <header>
 <nav class="cxm-nav-container" style="margin-bottom:40px">
+	<img src="img/index/bs-logo-100.png" height="16" alt="The BetterSquash logo"><span style="font-size:24px"> BETTERSQUASH</h2>
     <input type="checkbox" id="cxm-burger" class="cxm-burger-input">
     <label for="cxm-burger" class="cxm-burger-label">
       <div class="cxm-burger-icon"><span></span></div>
