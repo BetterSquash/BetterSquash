@@ -1,4 +1,3 @@
-<script>
   const servicePromos = [
     {
       title: "🎯 Personalised Practice Plans",
@@ -42,4 +41,3 @@
   }
 
   insertServicePromo();
-</script>
