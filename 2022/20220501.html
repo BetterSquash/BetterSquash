@@ -38,33 +38,7 @@
 <meta name="theme-color" content="#ffffff">	
 <!-- CSS -->
 <link rel="stylesheet" href="https://bettersquash.com/css/bettersquash-articles.css">
-<style>
-	.service {
-	  margin-bottom: 2em;
-	}
-
-	.service-title {
-	  font-size: 1.5em;
-	  font-weight: bold;
-	  display: block;
-	  cursor: pointer;
-	  margin-bottom: 0.3em;
-	}
-
-	.service-title input[type="checkbox"] {
-	  margin-right: 0.5em;
-	  transform: scale(1.2);
-	  vertical-align: middle;
-	}
-
-	.description {
-	  display: none;
-	  font-size: 1em;
-	  line-height: 1.5;
-	  margin-left: 1.5em;
-	}
-	
-</style>
+<style></style>
 </head>
 <body>
 <header>
@@ -99,55 +73,7 @@
 <p>Anybody who has played tournaments will tell you that they are a lot of fun. There are times when it's a little boring waiting for your match or when you meet and play disagreeable people (it does happen!) but overall playing in tournaments is so much fun. Even though it is a competitive situation there is a lot of cooperation too. Talking to players in-between games, seeing other peoples heat up routines, watching a meltdown when an obvious stroke is given as a no let, the social aspect of eating and drinking together after (if that aspect interests you) and just the general camaraderie of being modern gladiators who enter the pit for fun but also with the hope of glory.</p>
 <p class="finalsent"><strong>Well, there you have them; 5 reasons to play in your first tournament. Now go and register for the next squash tournament!</strong></p>
 
-<div class="service">
-  <label class="service-title">
-    <input type="checkbox" class="toggle-description" />
-    Solo Routines
-  </label>
-  <div class="description">
-    This video programme teaches you how to practice squash on your own. If you want to improve your movement and shot quality without needing a partner, <a href="/solo-routines.html">you can explore the full Solo Routines programme here</a>.
-  </div>
-</div>
-
-<div class="service">
-  <label class="service-title">
-    <input type="checkbox" class="toggle-description" />
-    Routine Timer App
-  </label>
-  <div class="description">
-    This simple tool keeps your training focused and on-track. If you'd rather not use printed PDFs and want coaching tips built in, <a href="/timer-app.html">take a look at the Routine Timer App</a>.
-  </div>
-</div>
-
-<div class="service">
-  <label class="service-title">
-    <input type="checkbox" class="toggle-description" />
-    Monthly Challenges
-  </label>
-  <div class="description">
-    Each month, you get a mix of drills, games, and mindset tasks to stay sharp. To see what kind of variety is included, <a href="/monthly-challenges.html">see the latest Monthly Challenges</a>.
-  </div>
-</div>
-
-<div class="service">
-  <label class="service-title">
-    <input type="checkbox" class="toggle-description" />
-    Video Analysis
-  </label>
-  <div class="description">
-    Send in a clip and get clear, personalised coaching feedback. If you’re curious how it works, <a href="/video-analysis.html">see a sample Video Analysis here</a>.
-  </div>
-</div>
-
-<div class="service">
-  <label class="service-title">
-    <input type="checkbox" class="toggle-description" />
-    Personalised Practice Plans
-  </label>
-  <div class="description">
-    These plans focus on your individual weaknesses with tailored solo and pairs training. If you’re tired of generic plans, <a href="/personalised-practice-plans.html">learn more about the Personalised Practice Plans</a>.
-  </div>
-</div>
+<div id="service-cta"></div>
 
 <div class="prevnext">
 <div style="float: left">&lt;&lt; <a class="nointlink" href="/articles.html">Article List</a></div>
@@ -199,16 +125,6 @@
 </footer>
 <!-- Javascript -->
 <script src="https://bettersquash.com/js/bettersquash.js"></script>	
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const toggles = document.querySelectorAll('.toggle-description');
-    toggles.forEach(toggle => {
-      toggle.addEventListener('change', function () {
-        const description = this.closest('.service').querySelector('.description');
-        description.style.display = this.checked ? 'block' : 'none';
-      });
-    });
-  });
-</script>
+<script src="https://bettersquash.com/js/services-cta.js"></script>	
 </body>
 </html>
