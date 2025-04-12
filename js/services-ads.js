@@ -6,7 +6,7 @@
     },
     {
       title: "✅ Enjoyed this article?",
-      text: "You might find my Video Analysis service useful — get personalised feedback on your game without leaving your club.",
+      text: "You might find my <a href="/videoanalysis.html">Video Analysis</a> service useful — get personalised feedback on your game without leaving your club.",
       link: "/videoanalysis.html"
     },
     {
@@ -32,9 +32,8 @@
     if (container) {
       container.innerHTML = `
         <div class="serviceads">
-          <H2>${promo.title}</H2><br>
-          <p>${promo.text}</p><br>
-          <p><a href="${promo.link}">Learn more</a></p>
+          <h2><strong>${promo.title}</strong></h2>
+          <h2>${promo.text}</h2>
         </div>
       `;
     }
