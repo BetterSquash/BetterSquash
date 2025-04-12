@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     {
       title: " Enjoyed this article?",
-      text: "<a href=\"/routinetimer.html\">The Routine Timer companion app</a> simplifies your solo training with one tap.<br><br>It handles the timings and transitions so you don’t have to stop and think. You just practice."
+      text: "My FREE <a href=\"/routinetimer.html\">Routine Timer</a> app simplifies your solo training with one tap.<br><br>It handles the timings and transitions so you don’t have to stop and think. You just practice."
     },
     {
       title: " Enjoyed this article?",
