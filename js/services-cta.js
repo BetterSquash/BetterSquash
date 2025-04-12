@@ -10,15 +10,15 @@ document.addEventListener('DOMContentLoaded', function() {
   const options = [
     {
       title: "Enjoyed this article?",
-      text: "<a href=\"/soloroutines.html\">Solo Routines</a> help transform solo court time from filler into something focused and rewarding. These sessions are designed to make practice more productive by giving you a clear structure to follow, with emphasis on movement, shot quality, and timing."
+      text: "<a href=\"/soloroutines.html\">Solo Routines</a> help transform solo court time from filler into something focused and rewarding.<br><br>These sessions are designed to make practice more productive by giving you a clear structure to follow, with emphasis on movement, shot quality, and timing."
     },
     {
       title: "Enjoyed this article?",
-      text: "<a href=\"/routinetimer.html\"The Routine Timer companion app</a> simplifies your solo training with one tap. It handles the timings and transitions so you don’t have to stop and think. You just practice."
+      text: "<a href=\"/routinetimer.html\">The Routine Timer companion app</a> simplifies your solo training with one tap.<br><br>It handles the timings and transitions so you don’t have to stop and think. You just practice."
     },
     {
       title: "Enjoyed this article?",
-      text: "Take advantage of our <a href=\"/videoanalysis.html\">Video Analysis</a> service — have your system up and running in less than 24 hours."
+      text: "The <a href=\"/challenges.html\">Monthly Squash Challenges</a>  offer something fresh to aim for.<br><br>Each group includes a blend of technical, tactical, and physical tasks - ranging from solo drills to match play rules and mental toughness tests."
     },
     {
       title: "Enjoyed this article?",
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     {
       title: "Enjoyed this article?",
-      text: "Get a <a href=\"/personalised.html\">Personalised Practice Plan</a> that covers solo + pairs routines based on your weaknesses and objectives. Ideal for players stuck at a plateau."
+      text: "Get a <a href=\"/personalised.html\">Personalised Practice Plan</a> that covers solo and pairs routines based on your objectives and weaker areas.<br><br>Ideal for players stuck at a plateau or for somebody looking to take their game to the next level.."
     }
   ];
   
