@@ -31,10 +31,10 @@
     const container = document.getElementById('service-cta');
     if (container) {
       container.innerHTML = `
-        <div style="border: 1px solid #ccc; margin-top: 1rem; margin-bottom: 1rem; padding: 1rem">
+        <div class="serviceads">
           <H2>${promo.title}</H2><br>
-          <span>${promo.text}</span><br>
-          <a href="${promo.link}">Learn more</a>
+          <p>${promo.text}</p><br>
+          <p><a href="${promo.link}">Learn more</a></p>
         </div>
       `;
     }
