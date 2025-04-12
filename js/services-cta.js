@@ -35,14 +35,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Apply styling to the container
   serviceCta.style.borderLeft = '3px solid';
-  serviceCta.style.backgroundColor = '#FDFDFD';
+  serviceCta.style.backgroundColor = '#EEEEE';
   serviceCta.style.padding = '15px';
   serviceCta.style.margin = '20px 0';
   
   // Create the HTML content
   serviceCta.innerHTML = `
     <div style="display: flex; align-items: center; margin-bottom: 12px;">
-      <span style="font-size: 24px; margin-right: 10px;">✅</span>
+      <span style="font-size: 36px; margin-right: 10px;">✅</span>
       <h2 style="font-weight: bold; margin: 0;">${randomOption.title}</h2>
     </div>
     <div style="font-size: 1.2em;">
