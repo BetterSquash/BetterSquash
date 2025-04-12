@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const options = [
     {
       title: "Enjoyed this article?",
-      text: "You might find my <a href=\"/videoanalysis.html\">Video Analysis</a> service useful — get expert advice tailored to your specific needs."
+      text: "<a href=\"/soloroutines.html\">Solo Routines</a> help transform solo court time from filler into something focused and rewarding. These sessions are designed to make practice more productive by giving you a clear structure to follow, with emphasis on movement, shot quality, and timing."
     },
     {
       title: "Enjoyed this article?",
-      text: "Our <a href=\"/videoanalysis.html\">Video Analysis</a> package provides priority assistance whenever you need it — 24/7 access to our team of experts."
+      text: "<a href=\"/routinetimer.html\"The Routine Timer companion app</a> simplifies your solo training with one tap. It handles the timings and transitions so you don’t have to stop and think. You just practice."
     },
     {
       title: "Enjoyed this article?",
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     {
       title: "Enjoyed this article?",
-      text: "Don't miss our current <a href=\"/videoanalysis.html\">Video Analysis</a> — limited time discount available for all new customers this month."
+      text: "You might find my <a href=\"/videoanalysis.html\">Video Analysis</a> service useful. By reviewing your matches or drills, I highlight patterns, habits, and blind spots that might otherwise go unnoticed."
     },
     {
       title: "Enjoyed this article?",
