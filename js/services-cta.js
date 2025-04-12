@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     {
       title: " Enjoyed this article?",
-      text: "Get a <a href=\"/personalised.html\">Personalised Practice Plan</a> that covers solo and pairs routines based on your objectives and weaker areas.<br><br>Ideal for players stuck at a plateau or for somebody looking to take their game to the next level.."
+      text: "Get a <a href=\"/personalised.html\">Personalised Practice Plan</a> that covers solo and pairs routines based on your objectives and weaker areas.<br><br>Ideal for players stuck at a plateau or for somebody looking to take their game to the next level."
     }
   ];
   
