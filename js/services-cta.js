@@ -10,15 +10,15 @@ document.addEventListener('DOMContentLoaded', function() {
   const options = [
     {
       title: " Enjoyed this article?",
-      text: "<a href=\"/soloroutines.html\">Solo Routines</a> help transform solo court time from filler into something focused and rewarding."
+      text: "These <a href=\"/soloroutines.html\">Solo Routines</a> help transform solo court time from filler into something focused and rewarding."
     },
     {
       title: " Enjoyed this article?",
-      text: "My FREE <a href=\"/routinetimer.html\">Routine Timer</a> app simplifies your solo training with one tap."
+      text: "My FREE <a href=\"/routinetimer.html\">Routine Timer</a> app simplifies your solo training with one tap, but must be used with the <a href=\"/soloroutines.html\">Solo Routines</a>."
     },
     {
       title: " Enjoyed this article?",
-      text: "The <a href=\"/challenges.html\">Monthly Squash Challenges</a> includes a blend of technical, tactical, and physical tasks."
+      text: "The <a href=\"/challenges.html\">Monthly Squash Challenges</a> includes a blend of technical, tactical, and physical tasks, and will take your squash to the next level."
     },
     {
       title: " Enjoyed this article?",
