@@ -417,3 +417,36 @@ a:hover[href^="/articles.html#features"] {
 		
 /* SERVICE ADS */
 .serviceads {border-left: 3px solid #000; margin-top: 10px; margin-bottom: 10px; padding: 0 10px 0 10px; background:#F8F8F8;}
+
+/* Next Article */
+.nextart {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+    border-left: 5px solid #3498db;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nextart h2 {
+    color: #2c3e50;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.nextart p {
+    color: #7f8c8d;
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.nextart a {
+    display: inline-block;
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
