@@ -421,7 +421,7 @@ a:hover[href^="/articles.html#features"] {
 	    padding: 20px;
 	    margin: 30px 0;
 	    border-radius: 8px;
-	    border-left: 5px solid #78281f;
+	    border-left: 5px solid #50C878;
 	    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	}
 
@@ -441,15 +441,14 @@ a:hover[href^="/articles.html#features"] {
 
 	.serviceads a {
 	    display: inline-block;
-	    color: #3498db;
+	    color: #50C878;
 	    text-decoration: none;
 	    font-size: 1.1em;
 	    transition: color 0.3s;
 	}
 
 	.serviceads a:hover {
-	    color: #2980b9;
-	    text-decoration: underline;
+	    color:#000;background:#ff0;text-decoration:underline solid 1px black;
 	}
 	
 	
@@ -485,4 +484,8 @@ a:hover[href^="/articles.html#features"] {
     text-decoration: none;
     font-size: 1.1em;
     transition: color 0.3s;
+}
+
+.nextart a:hover {
+    color:#000;background:#ff0;text-decoration:underline solid 1px black;
 }
