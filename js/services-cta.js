@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     {
       title: "Looking to challenge yourself?",
-      text: "The <a href=\"/challenges.html\">Monthly Squash Challenges</a> includes a blend of technical, tactical, and physical tasks, and will take your squash to the next level."
+      text: "The <a class=\"nointlink\" href=\"/challenges.html\">Monthly Squash Challenges</a> includes a blend of technical, tactical, and physical tasks, and will take your squash to the next level."
     },
     {
       title: "Want to hear the truth about your squash?",
