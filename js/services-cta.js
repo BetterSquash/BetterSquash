@@ -9,23 +9,23 @@ document.addEventListener('DOMContentLoaded', function() {
   // Define the 5 different content options
   const options = [
     {
-      title: " Enjoyed this article?",
+      title: "Want to improve your ball control?",
       text: "These <a href=\"/soloroutines.html\">Solo Routines</a> help transform solo court time from filler into something focused and rewarding."
     },
     {
-      title: " Enjoyed this article?",
+      title: "Make solo drilling easier with this free app?",
       text: "My FREE <a href=\"/routinetimer.html\">Routine Timer</a> app simplifies your solo training with one tap, but must be used with the <a href=\"/soloroutines.html\">Solo Routines</a>."
     },
     {
-      title: " Enjoyed this article?",
+      title: "Looking to challenge yourself?",
       text: "The <a href=\"/challenges.html\">Monthly Squash Challenges</a> includes a blend of technical, tactical, and physical tasks, and will take your squash to the next level."
     },
     {
-      title: " Enjoyed this article?",
+      title: "Want to hear the truth about your squash?",
       text: "You might find my <a href=\"/videoanalysis.html\">Video Analysis</a> service useful for highlighting patterns, habits, and blind spots that might otherwise go unnoticed."
     },
     {
-      title: " Enjoyed this article?",
+      title: "There's nothing better than a customised training plan.",
       text: "Get a <a href=\"/personalised.html\">Personalised Practice Plan</a> that covers solo and pairs routines based on your objectives and weaker areas."
     }
   ];
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Create the HTML content
   serviceCta.innerHTML = `
     <div style="display: flex; align-items: center; margin-bottom: 12px;>
-      <span style="font-size: 36px; margin-right: 10px;">✅</span>
+      <span style="font-size: 36px; margin-right: 10px;">✅&nbsp;</span>
       <h2 style="font-weight: bold; margin: 0;">${randomOption.title}</h2>
     </div>
     <div style="font-size: 1.2em;">
