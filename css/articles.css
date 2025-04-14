@@ -1,0 +1,491 @@
+header,nav{display:block;}
+h1{font-size:2em;margin:.67em 0;}
+svg:not(:root){overflow:hidden;}
+hr{box-sizing:content-box;height:0;overflow:visible;}
+*{box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";font-size:var(--body-font-size, 18px);line-height:1.5;color:var(--color-fg-default);background-color:var(--color-canvas-default);}
+h1,h2,h3{margin-top:0;margin-bottom:0;}
+h1{font-size:var(--h1-size, 40px);font-weight:var(--base-text-weight-semibold, 600);line-height:0.8em;line-height:1em;margin-bottom:0.5em;}
+h2{font-size:var(--h2-size, 24px);font-weight:var(--base-text-weight-semibold, 600);margin-top:2em;color:#36454F;font-size: 22px; font weight: 400;}
+h3{font-size:var(--h3-size, 20px);font-weight:var(--base-text-weight-semibold, 600);}
+p{margin-top:0;margin-bottom:10px;}
+body{margin: 10px,40px,80px,40px;}
+
+/* Link Styles */
+a:link,a:active,a:hover,a:visited{color:#0000EE;text-decoration:underline solid 1px;}
+a:visited{color:#551A8B;text-decoration:underline solid 1px;}
+a:hover{color:#000;background:#ff0;text-decoration:underline solid 1px black;}
+
+.topnav{margin-top:1.5em;margin-bottom:1em; border-bottom: 1px solid #1F3546; font-size: 0.8em; text-align:center;} 
+.topnav a:link{color:black;text-decoration:none;padding:3px;}
+.topnav a:active{color:black;text-decoration:none;padding:3px;}
+.topnav a:visited{color:black;text-decoration:none;padding:3px}
+.topnav a:hover{color:#fff;background:#1F3546;text-decoration:none;padding:3px}
+
+/* Image Styles */
+.responsive{width:100%;height:auto;}
+.responsivewide {
+    width: 100vw; /* Full viewport width */
+    margin-left: calc(-50vw + 50%); /* Center align by negative margins */
+    height: auto;
+}
+
+body {margin-bottom: 3em;}
+body {
+            width: 80%; /* Set default width */
+            max-width: 1000px; /* Maximum width */
+            margin: 0 auto; /* Center content horizontally */
+            padding: 0 20px; /* Add some padding to the sides for better readability */
+        }
+
+        /* Media queries for different screen widths */
+        @media only screen and (max-width: 768px) {
+            /* Styles for screens up to 768px wide */
+            body {
+                width: 80%; /* Adjust width for smaller screens */
+                padding: 0 15px; /* Adjust padding for smaller screens */
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            /* Styles for screens up to 480px wide */
+            body {
+                width: 90%; /* Adjust width for even smaller screens */
+                padding: 0 10px; /* Adjust padding for even smaller screens */
+            }
+        }
+						
+/* Line Styles */						
+		hr.footerdivider {
+		  border: 0.5px solid #DCDCDC;
+		  width:100%;
+		}
+		
+		hr.content {
+		  border: 0.5px solid black;
+		}
+		
+/* YouTube Styles */	
+		lite-youtube{background-color:#000;position:relative;display:block;contain:content;background-position:center center;background-size:cover;cursor:pointer;max-width:720px}lite-youtube::before{content:'';display:block;position:absolute;top:0;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADGCAYAAAAT+OqFAAAAdklEQVQoz42QQQ7AIAgEF/T/D+kbq/RWAlnQyyazA4aoAB4FsBSA/bFjuF1EOL7VbrIrBuusmrt4ZZORfb6ehbWdnRHEIiITaEUKa5EJqUakRSaEYBJSCY2dEstQY7AuxahwXFrvZmWl2rh4JZ07z9dLtesfNj5q0FU3A5ObbwAAAABJRU5ErkJggg==);background-position:top;background-repeat:repeat-x;height:60px;padding-bottom:50px;width:100%;transition:.2s cubic-bezier(0, 0, .2, 1)}lite-youtube::after{content:"";display:block;padding-bottom:calc(100% / (16 / 9))}lite-youtube>iframe{width:100%;height:100%;position:absolute;top:0;left:0;border:0}lite-youtube>.lty-playbtn{display:block;width:68px;height:48px;position:absolute;cursor:pointer;transform:translate3d(-50%,-50%,0);top:50%;left:50%;z-index:1;background-color:transparent;background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg>');filter:grayscale(100%);transition:filter .1s cubic-bezier(0, 0, .2, 1);border:none}lite-youtube .lty-playbtn:focus,lite-youtube:hover>.lty-playbtn{filter:none}lite-youtube.lyt-activated{cursor:unset}lite-youtube.lyt-activated::before,lite-youtube.lyt-activated>.lty-playbtn{opacity:0;pointer-events:none}.lyt-visually-hidden{clip:rect(0 0 0 0);clip-path:inset(50%);height:1px;overflow:hidden;position:absolute;white-space:nowrap;width:1px}
+		
+/* Text Styles */	   
+		.finalsent{margin-bottom: 1em;}
+		.footerp3 {margin-top: 1em;text-align: center;}
+		.footerp1 {margin-top: 3em;font-family:courier; font-size: 15px;text-align: center;}
+		.footerp2 {margin-top: 1em;font-family:courier; font-size: 15px;text-align: center;}
+		.imagep{text-align:right; color:#033E3E;font-size:0.8em;}
+		.theader {margin: 0;}
+		.iheader {margin: 0 0 1em; font-size: 22px; font weight: 200; line-height:1em; text-align:center;}
+		.mantra {font-weight:bold;font-size:1.5em;line-height:90%;} 
+		.tleader {color:#0C090A;font-weight:bold;}
+		.tcolor {font-weight:bold;color:#E42217; text-align:center;}
+		.greydash {color:#C0C0C0;}
+		.phlarge {color:white;padding:4px;background-color:#123456;font-size:2em;font-weight:bold;display:inline;}
+		.tldr {background:#F5F5F5;padding: 6px; margin-bottom:1em;}
+		.comphr {background:#eeeeee;padding: 6px; margin-bottom:1em;}
+		.prevnext {padding: 6px; margin-bottom:1em; border: solid 1px black;}
+		.ultldr { list-style-type: square; }
+		.pred{color: red;}
+		.detailsp {text-align:center; color:#033E3E;font-size:0.7em;}
+
+/* Input Box Styling for Articles page */		
+#myInput{font-size:1.5em;width:100%;padding:12px 20px 12px 12px;border:1px solid #111;margin-bottom:12px}
+
+
+ul.artlist li a{
+    background: none;
+    padding-right: 0px;
+}
+
+ul.artlist li a:hover{
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+/* Rules for SVG icons */	
+a[href^="/"] {
+    background: url("/img/svg/internal-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="/"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+
+a[href^="https:"] {
+    background: url("/img/svg/external-link.svg") no-repeat 100% 0;
+    background-size: 11px 11px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https:"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+a.noextlink[href^="https:"] {
+    background: none;
+	padding-right: 0px;
+}
+
+a.noextlink:hover[href^="https:"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}  
+a[href^="https://en.wikipedia"] {
+    background: url("/img/svg/wikipedia-link.svg") no-repeat 100% 0;
+    background-size: 11px 11px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://en.wikipedia"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="https://youtu"] {
+    background: url("/img/svg/youtube-link.svg") no-repeat 100% 0;
+    background-size: 11px 11px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://youtu"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="/randomvideo.html"] {
+    background: url("/img/svg/youtube-link.svg") no-repeat 100% 0;
+    background-size: 11px 11px;
+    padding-right: 12px;
+}
+
+a:hover[href^="/randomvideo.html"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="https://wikipedia"] {
+    background: url("/img/svg/wikipedia-link.svg") no-repeat 100% 0;
+    background-size: 11px 11px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://wikipedia"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="https://instagram"] {
+    background: url("/img/svg/instagram-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://instagram"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="https://www.instagram"] {
+    background: url("/img/svg/instagram-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://www.instagram"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="https://reddit.com"] {
+    background: url("/img/svg/reddit-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://reddit.com"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="https://flickr.com"] {
+    background: url("/img/svg/flickr-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="https://flickr.com"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a.nointlink[href^="/"] {
+    background: none;
+    padding-right: 0px;
+}
+
+a.nointlink:hover[href^="/"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}	
+a.nointlink[href^=""] {
+    background: none;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a.nointlink:hover[href^=""] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a.tnl[href^="/"] {
+    background: none;
+	margin-right: 12px;
+}
+
+a.tnl:hover[href^="/"] {
+	color:#fff;background:#123456;text-decoration:none;padding:3px
+}
+
+a.tnl[href^="https"] {
+    background: none;
+}
+
+a.tnl:hover[href^="https"] {
+	color:#fff;background:#123456;text-decoration:none;padding:3px
+}
+
+a[href^="/bettersquash_feed.xml"] {
+    background: url("/img/svg/feed-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="/bettersquash_feed.xml"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+a[href^="/articles.html#features"] {
+    background: url("/img/svg/gallery-link.svg") no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:hover[href^="/articles.html#features"] {
+    background-color: #ff0;
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+
+/* Unique namespace for the menu */
+    .cxm-nav-container {
+      position: relative;
+      background-color: transparent;
+      padding: 15px 20px;
+	  border-bottom: 1px #dddddd;
+    }
+    
+	    .cxm-menu {
+	      list-style: none;
+	      display: block;
+	      max-height: 0;
+	      overflow: hidden;
+	      transition: max-height 0.5s ease;
+	      background-color: white;
+	      position: absolute;
+	      top: 55px;
+	      right: 20px;
+	      width: auto;
+	      min-width: 200px;
+	      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+	      z-index: 100;
+	    }
+    
+	    .cxm-menu-item {
+	      padding: 10px 15px;
+	      border-bottom: 1px solid #f0f0f0;
+	      white-space: nowrap;
+	    }
+    
+	    .cxm-menu-link {
+	      text-decoration: none;
+	      color: #0000EE;
+	      font-weight: 400;
+	      display: inline-block;
+	      width: 100%;
+	      position: relative;
+	      background: none !important; /* Remove all background images */
+	      padding-right: 0 !important; /* Remove all padding from icons */
+	    }
+    
+	    .cxm-menu-link:visited {
+	      color: #551A8B;
+	    }
+    
+	    /* Match the site's hover style but without icon */
+	    .cxm-menu-link:hover {
+	      color: #000;
+	      background-color: #ff0 !important;
+	      text-decoration: underline solid 2px black;
+	    }
+    
+	    /* Burger menu checkbox and label */
+	    .cxm-burger-input {
+	      display: none;
+	    }
+    
+	    .cxm-burger-label {
+	      display: block;
+	      cursor: pointer;
+	      position: absolute;
+	      top: 15px;
+	      right: 20px;
+	      z-index: 101;
+	    }
+    
+	    /* Burger icon */
+	    .cxm-burger-icon {
+	      display: block;
+	      position: relative;
+	      width: 30px;
+	      height: 24px;
+	    }
+    
+	    .cxm-burger-icon::before,
+	    .cxm-burger-icon::after,
+	    .cxm-burger-icon span {
+	      background-color: #333;
+	      content: '';
+	      display: block;
+	      height: 4px;
+	      border-radius: 2px;
+	      position: absolute;
+	      width: 100%;
+	      transition: all 0.3s ease;
+	    }
+    
+	    .cxm-burger-icon::before {
+	      top: 0;
+	    }
+    
+	    .cxm-burger-icon span {
+	      top: 10px;
+	    }
+    
+	    .cxm-burger-icon::after {
+	      bottom: 0;
+	    }
+    
+	    /* Show menu when checkbox is checked */
+	    .cxm-burger-input:checked ~ .cxm-menu {
+	      max-height: 1000px;
+	    }
+    
+	    /* Add margin below the navigation for content separation */
+	    .cxm-content-container {
+	      margin-top: 40px;
+	      padding: 20px;
+	    }
+    
+	    /* Active/current page highlight */
+	    .cxm-menu-item.active {
+	      background-color: #F5F5F5;
+	    }
+    
+	    .cxm-menu-item.active .cxm-menu-link {
+	      font-weight: bold;
+	    }
+		
+/* SERVICE ADS */
+	.serviceads {
+	    background-color: #F4F4F4;
+	    padding: 20px;
+	    margin: 30px 0;
+	    border-radius: 8px;
+	    border-left: 5px solid #50C878;
+	    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	}
+
+	.serviceads h2 {
+	    color: #2c3e50;
+	    margin-top: 10px;
+	    margin-bottom: 5px;
+	    font-size: 1.5em;
+	}
+
+	.serviceads p {
+	    color: #7f8c8d;
+	    font-size: 1.1em;
+	    line-height: 1.5;
+	    margin-bottom: 15px;
+	}
+
+	.serviceads a {
+	    display: inline-block;
+	    color: #50C878;
+	    text-decoration: none;
+	    font-size: 1.1em;
+	    transition: color 0.3s;
+	}
+
+	.serviceads a:hover {
+	    color:#000;background:#ff0;text-decoration:underline solid 1px black;
+	}
+	
+	
+
+/* Next Article */
+.nextart {
+    background-color: #F4F4F4;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+    border-left: 5px solid #3498db;
+
+}
+
+.nextart h2 {
+    color: #2c3e50;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.nextart p {
+    color: #7f8c8d;
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.nextart a {
+    display: inline-block;
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.nextart a:hover {
+    color:#000;background:#ff0;text-decoration:underline solid 1px black;
+}
