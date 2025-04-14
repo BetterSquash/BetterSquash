@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Create the HTML content
   serviceCta.innerHTML = `
     <div style="display: flex; align-items: center; margin-bottom: 12px;">
-      <span style="font-size: 36px; margin-right: 10px;">✅&nbsp;</span>
+      <span style="font-size: 24px; margin-right: 10px;">✅&nbsp;</span>
       <h2 style="font-weight: bold; margin: 0;">${randomOption.title}</h2>
     </div>
     <div style="font-size: 1.2em;">
