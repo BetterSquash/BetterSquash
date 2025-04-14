@@ -415,8 +415,44 @@ a:hover[href^="/articles.html#features"] {
 	      font-weight: bold;
 	    }
 		
-/* SERVICE ADS 
-.serviceads {border-left: 3px solid #000; margin-top: 10px; margin-bottom: 10px; padding: 0 10px 0 10px; background:#F4F4F4;}*/
+/* SERVICE ADS */
+	.serviceads {
+	    background-color: #F4F4F4;
+	    padding: 20px;
+	    margin: 30px 0;
+	    border-radius: 8px;
+	    border-left: 5px solid #78281f;
+	    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	}
+
+	.serviceads h2 {
+	    color: #2c3e50;
+	    margin-top: 10px;
+	    margin-bottom: 5px;
+	    font-size: 1.5em;
+	}
+
+	.serviceads p {
+	    color: #7f8c8d;
+	    font-size: 1.1em;
+	    line-height: 1.5;
+	    margin-bottom: 15px;
+	}
+
+	.serviceads a {
+	    display: inline-block;
+	    color: #3498db;
+	    text-decoration: none;
+	    font-size: 1.1em;
+	    transition: color 0.3s;
+	}
+
+	.serviceads a:hover {
+	    color: #2980b9;
+	    text-decoration: underline;
+	}
+	
+	
 
 /* Next Article */
 .nextart {

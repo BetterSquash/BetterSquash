@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const options = [
     {
       title: "Want to improve your ball control?",
-      text: "These <a href=\"/soloroutines.html\">Solo Routines</a> help transform solo court time from filler into something focused and rewarding."
+      text: "These <a class=\"nointlink\" href=\"/soloroutines.html\">Solo Routines</a> help transform solo court time from filler into something focused and rewarding."
     },
     {
       title: "Make solo drilling easier with this free app?",
-      text: "My FREE <a href=\"/routinetimer.html\">Routine Timer</a> app simplifies your solo training with one tap, but must be used with the <a href=\"/soloroutines.html\">Solo Routines</a>."
+      text: "My FREE <a class=\"nointlink\" href=\"/routinetimer.html\">Routine Timer</a> app simplifies your solo training with one tap, but must be used with the <a href=\"/soloroutines.html\">Solo Routines</a>."
     },
     {
       title: "Looking to challenge yourself?",
@@ -22,11 +22,11 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     {
       title: "Want to hear the truth about your squash?",
-      text: "You might find my <a href=\"/videoanalysis.html\">Video Analysis</a> service useful for highlighting patterns, habits, and blind spots that might otherwise go unnoticed."
+      text: "You might find my <a class=\"nointlink\" href=\"/videoanalysis.html\">Video Analysis</a> service useful for highlighting patterns, habits, and blind spots that might otherwise go unnoticed."
     },
     {
       title: "There's nothing better than a customised training plan.",
-      text: "Get a <a href=\"/personalised.html\">Personalised Practice Plan</a> that covers solo and pairs routines based on your objectives and weaker areas."
+      text: "Get a <a class=\"nointlink\" href=\"/personalised.html\">Personalised Practice Plan</a> that covers solo and pairs routines based on your objectives and weaker areas."
     }
   ];
   
