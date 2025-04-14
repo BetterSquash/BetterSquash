@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     {
       title: "Make solo drilling easier with this free app?",
-      text: "My FREE <a class=\"nointlink\" href=\"/routinetimer.html\">Routine Timer</a> app simplifies your solo training with one tap, but must be used with the <a href=\"/soloroutines.html\">Solo Routines</a>."
+      text: "My FREE <a class=\"nointlink\" href=\"/routinetimer.html\">Routine Timer</a> app simplifies your solo training with one tap, but must be used with the <a class=\"nointlink\" href=\"/soloroutines.html\">Solo Routines</a>."
     },
     {
       title: "Looking to challenge yourself?",
@@ -33,15 +33,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // Randomly select one of the options
   const randomOption = options[Math.floor(Math.random() * options.length)];
   
-  // Apply styling to the container
-  serviceCta.style.borderLeft = '3px solid';
-  serviceCta.style.backgroundColor = '#EEEEE';
-  serviceCta.style.padding = '15px';
-  serviceCta.style.margin = '20px 0';
   
   // Create the HTML content
   serviceCta.innerHTML = `
-    <div style="display: flex; align-items: center; margin-bottom: 12px;>
+    <div style="display: flex; align-items: center; margin-bottom: 12px;">
       <span style="font-size: 36px; margin-right: 10px;">✅&nbsp;</span>
       <h2 style="font-weight: bold; margin: 0;">${randomOption.title}</h2>
     </div>
