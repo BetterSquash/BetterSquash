@@ -601,15 +601,15 @@ BetterSquash Landing Page CSS version 5
   }
   
   /*DIVIDER COLOURS*/
-  /*INDEX*/ 			.divindex	{background-color:#641e16;}
-  /*SOLO ROUTINES*/		.divsolo	{background-color:#78281f;}
-  /*ROUTINE TIMER*/		.divtimer	{background-color:#512e5f;}
-  /*CHALLENGES*/		.divchall	{background-color:#4a235a;}
-  /*VIDEO ANALYSIS*/	.divvideoa	{background-color:#154360;}
-  /*PPP*/				.divppp		{background-color:#1b4f72;}
-  /*REFERRALS*/			.divref		{background-color:#0e6251;}
-  /*TESTIMONIALS*/		.divdtesti	{background-color:#0b5345;}
-  /*DISCORD*/			.divdiscord	{background-color:#145a32;}
+  /*INDEX Crimson Red */ 				.divindex	{background-color:#E63946;}
+  /*SOLO ROUTINES Golden Yellow */		.divsolo	{background-color:#F4A261;}
+  /*ROUTINE TIMER Bright Lime */		.divtimer	{background-color:#A8E10C;}
+  /*CHALLENGES Sky Blue */				.divchall	{background-color:#00B4D8;}
+  /*VIDEO ANALYSIS Electric Purple */	.divvideoa	{background-color:#9D4EDD;}
+  /*PPP Turquoise*/						.divppp		{background-color:#2EC4B6;}
+  /*REFERRALS Vivid Orange*/			.divref		{background-color:#FF6F00;}
+  /*TESTIMONIALS Chartreuse Green*/		.divdtesti	{background-color:#7FFF00;}
+  /*DISCORD Hot Pink */					.divdiscord	{background-color:#FF4D9B;}
 
 .hero {
   background-size: cover;
