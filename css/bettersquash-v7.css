@@ -600,17 +600,17 @@ BetterSquash Landing Page CSS version 5
     text-align: center;
   }
   
-	/*DIVIDER COLOURS*/
-	/*INDEX Crimson Red */ 				.divindex	{background-color:#E63946;}
-	/*SOLO ROUTINES Solar Yellow */		.divsolo	{background-color:#FFD60A;}
-	/*ROUTINE TIMER Bright Lime */		.divtimer	{background-color:#A8E10C;}
-	/*CHALLENGES Sky Blue */			.divchall	{background-color:#00B4D8;}
-	/*VIDEO ANALYSIS Electric Purple */	.divvideoa	{background-color:#9D4EDD;}
-	/*PPP Turquoise*/					.divppp		{background-color:#2EC4B6;}
-	/*REFERRALS Vivid Orange*/			.divref		{background-color:#FF6F00;}
-	/*TESTIMONIALS Chartreuse Green*/	.divdtesti	{background-color:#7FFF00;}
-	/*DISCORD Hot Pink */				.divdiscord	{background-color:#FF4D9B;}
-	/*IRONMIND Electric Indigo */		.divim		{background-color:#560BAD;}
+/*DIVIDER COLOURS*/
+/*INDEX Crimson Red */ 				.divindex	{background-color:#E63946;}
+/*SOLO ROUTINES Solar Yellow */		.divsolo	{background-color:#FFD60A;}
+/*ROUTINE TIMER Bright Lime */		.divtimer	{background-color:#A8E10C;}
+/*CHALLENGES Sky Blue */			.divchall	{background-color:#00B4D8;}
+/*VIDEO ANALYSIS Electric Purple */	.divvideoa	{background-color:#9D4EDD;}
+/*PPP Turquoise*/					.divppp		{background-color:#2EC4B6;}
+/*REFERRALS Vivid Orange*/			.divref		{background-color:#FF6F00;}
+/*TESTIMONIALS Chartreuse Green*/	.divdtesti	{background-color:#7FFF00;}
+/*DISCORD Hot Pink */				.divdiscord	{background-color:#FF4D9B;}
+/*IRONMIND Electric Indigo */		.divim		{background-color:#560BAD;}
 
 .hero {
   background-size: cover;
