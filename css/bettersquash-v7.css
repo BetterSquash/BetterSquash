@@ -611,6 +611,8 @@ BetterSquash Landing Page CSS version 5
 /*TESTIMONIALS Chartreuse Green*/	.divdtesti	{background-color:#7FFF00;}
 /*DISCORD Hot Pink */				.divdiscord	{background-color:#FF4D9B;}
 /*IRONMIND Electric Indigo */		.divim		{background-color:#560BAD;}
+/*COMMENT GIVEAWAY Bright Aqua */	.divcg		{background-color:#00F5D4;}
+/*AWAITING Neon Coral */			.divabc		{background-color:#FF5E5B;}
 
 .hero {
   background-size: cover;
