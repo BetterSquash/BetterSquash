@@ -39,6 +39,94 @@
 <link rel="stylesheet" href="css/bettersquash-v7.css">
 <style>
 .hero {background-image: url('img/index/hero-index.webp');}
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-collapse: collapse;
+}
+
+.services-grid > div {
+  padding: 2rem;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #999;
+}
+
+/* Remove outer borders by selectively removing edges */
+.services-grid > div:nth-child(1) {
+  border-right: 0.5px solid #999;
+  border-bottom: 0.5px solid #999;
+  border-left: none;
+  border-top: none;
+}
+
+.services-grid > div:nth-child(2) {
+  border-left: 0.5px solid #999;
+  border-bottom: 0.5px solid #999;
+  border-right: none;
+  border-top: none;
+}
+
+.services-grid > div:nth-child(3) {
+  border-right: 0.5px solid #999;
+  border-top: 0.5px solid #999;
+  border-left: none;
+  border-bottom: none;
+}
+
+.services-grid > div:nth-child(4) {
+  border-left: 0.5px solid #999;
+  border-top: 0.5px solid #999;
+  border-right: none;
+  border-bottom: none;
+}
+
+.ball-control h2 {
+  color: #FFD60A;
+}
+
+.tactics h2 {
+  color: #5a9dfd;
+}
+
+.matchplay h2 {
+  color: #d775f5;
+}
+
+.practice-plans h2 {
+  color: #b8d93c;
+}
+
+.btn-custom {
+  margin-top: 1rem;
+  background-color: #000;
+  border: 1px solid transparent;
+  color: #fff;
+  transition: all 0.3s ease;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+.ball-control .btn-custom:hover {
+  background-color: #FFD60A;
+  color: #000;
+}
+
+.tactics .btn-custom:hover {
+  background-color: #5a9dfd;
+  color: #000;
+}
+
+.practice-plans .btn-custom:hover {
+  background-color: #b8d93c;
+  color: #000;
+}
+
+.matchplay .btn-custom:hover {
+  background-color: #d775f5;
+  color: #000;
+}
+
 </style>
 <!-- Javascript -->
 <script src="js/bettersquash.js"></script>	
@@ -113,17 +201,32 @@
 
 
 
-	<section class="section" id="overview">
+	<section class="section" id="guide">
 		<div class="container">
-			<h2>Looking to improve your...</h2>
-			<div class="row">
-			  <div class="col-sm"><h3>General Skill</h3><p>Some text here</p></div>
-			  <div class="col-sm"><h3>Mindset & Improvement</h3><p>Some text here</p></div>
-			  <div class="col-sm"><h3>Tactics & Courtcraft</h3><p>Some text here</p></div>
-			  <div class="col-sm"><h3>Specific Control</h3><p>Some text here</p></div>
+			<h2 class="display-4 ml5">Start Strengthening Your...</h2>
+			<div class="services-grid">
+				
+				<div class="ball-control">
+					<h2>Ball Control</h2>
+					<p><strong>Solo Routines:</strong> Build precision and confidence by training in a way that isolates and strengthens your ball control.</p>
+					<a href="#soloroutinessection" class="btn btn-custom">Master Ball Placement</a>
+				</div>
+				<div class="tactics">
+					<h2>Tactics & Courtcraft</h2>
+					<p><strong>Video Analysis:</strong> Understand your patterns and fix costly mistakes by watching your own game from a coach’s perspective.</p>
+					<a href="#videoanalysissection" class="btn btn-custom">See What You’re Missing</a>
+				</div>
+				<div class="practice-plans">
+					<h2>Targeted Training</h2>
+					<p><strong>Personalised Practice Plans:</strong> These plans give you focused training sessions built around your goals and current weaknesses.</p>
+					<a href="#personalisedsection" class="btn btn-custom">Target Your Weaknesses</a>
+				</div>
+				<div class="matchplay">
+					<h2>Matchplay Mindset</h2>
+					<p><strong>Monthly Squash Challenges:</strong> Whether you train alone or with a partner, the challenges offer tough, realistic scenarios to sharpen your performance.</p>
+					<a href="#challengessection" class="btn btn-custom">Push Your Limits</a>
+				</div>
 			</div>
-			
-
 		</div>
 	</section>
 
@@ -142,7 +245,7 @@
 
 
 	<!-- SOLO ROUTINES -->
-	<section class="class section" id="soloroutine">
+	<section class="class section" id="soloroutinessection">
 		<div class="container">
 			<div class="col-lg-12 col-12 text-center mb-5">
 				<h2>Solo Routines Boost Your Ball Control</h2>
@@ -259,7 +362,7 @@
 
 
 	<!-- VIDEO ANALYSIS -->
-	<section class="class section" id="videoanalysis">
+	<section class="class section" id="videoanalysissection">
 		<div class="container">
 			<div class="col-lg-12 col-12 text-center mb-5">
 				<h2>Video Analysis Finds Invisible Obstacles</h2>
@@ -298,7 +401,7 @@
 
 
 	<!-- PERSONALISED PRACTICE PLANS -->
-	<section class="class section" id="personalised">
+	<section class="class section" id="personalisedsection">
 		<div class="container">
 			<div class="col-lg-12 col-12 text-center mb-5">
 				<h2>Personalised Practice Plans Target Your Weaknesses</h2>
