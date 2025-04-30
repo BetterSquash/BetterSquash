@@ -601,18 +601,18 @@ BetterSquash Landing Page CSS version 5
   }
   
 /*DIVIDER COLOURS*/
-/*INDEX Crimson Red */ 				.divindex	{background-color:#E63946;}
-/*SOLO ROUTINES Solar Yellow */		.divsolo	{background-color:#FFD60A;}
-/*ROUTINE TIMER Bright Lime */		.divtimer	{background-color:#A8E10C;}
-/*CHALLENGES Sky Blue */			.divchall	{background-color:#00B4D8;}
-/*VIDEO ANALYSIS Electric Purple */	.divvideoa	{background-color:#9D4EDD;}
-/*PPP Turquoise*/					.divppp		{background-color:#2EC4B6;}
-/*REFERRALS Vivid Orange*/			.divref		{background-color:#FF6F00;}
-/*TESTIMONIALS Chartreuse Green*/	.divdtesti	{background-color:#7FFF00;}
-/*DISCORD Hot Pink */				.divdiscord	{background-color:#FF4D9B;}
-/*IRONMIND Electric Indigo */		.divim		{background-color:#560BAD;}
-/*COMMENT GIVEAWAY Bright Aqua */	.divcg		{background-color:#00F5D4;}
-/*AWAITING Neon Coral */			.divabc		{background-color:#FF5E5B;}
+.divindex	{background-color:#228B22;} /*INDEX Forest Green */
+.divsolo	{background-color:#DC143C;} /*SOLO ROUTINES Vivid Crimson */
+.divtimer	{background-color:#DC143C;} /*ROUTINE TIMER Vivid Crimson */
+.divchall	{background-color:#0066FF;} /*CHALLENGES Sky Blue */
+.divim		{background-color:#005F5F;} /*IRONMIND Deep Petrol */		
+.divvideoa	{background-color:#8A2BE2;} /*VIDEO ANALYSIS Vibrant Purple */
+.divppp		{background-color:#FF8C00;} /*PPP Tangerine Orange */
+.divref		{background-color:#C2B280;}/*REFERRALS Ecru */			
+.divdtesti	{background-color:#C2B280;}/*TESTIMONIALS Ecru */	
+.divdiscord	{background-color:#C2B280;}/*DISCORD Ecru */				
+.divcg		{background-color:#C2B280;}/*COMMENT GIVEAWAY Ecru */	
+.divabc		{background-color:#C2B280;}/*AWAITING Ecru */			
 
 .hero {
   background-size: cover;
