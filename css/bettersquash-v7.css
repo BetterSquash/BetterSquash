@@ -600,19 +600,165 @@ BetterSquash Landing Page CSS version 5
     text-align: center;
   }
   
-/*DIVIDER COLOURS*/
-.divindex	{background-color:#228B22;} /*INDEX Forest Green */
-.divsolo	{background-color:#DC143C;} /*SOLO ROUTINES Vivid Crimson */
-.divtimer	{background-color:#DC143C;} /*ROUTINE TIMER Vivid Crimson */
-.divchall	{background-color:#0066FF;} /*CHALLENGES Sky Blue */
-.divim		{background-color:#005F5F;} /*IRONMIND Deep Petrol */		
-.divvideoa	{background-color:#8A2BE2;} /*VIDEO ANALYSIS Vibrant Purple */
-.divppp		{background-color:#FF8C00;} /*PPP Tangerine Orange */
-.divref		{background-color:#C2B280;}/*REFERRALS Ecru */			
-.divdtesti	{background-color:#C2B280;}/*TESTIMONIALS Ecru */	
-.divdiscord	{background-color:#C2B280;}/*DISCORD Ecru */				
-.divcg		{background-color:#C2B280;}/*COMMENT GIVEAWAY Ecru */	
-.divabc		{background-color:#C2B280;}/*AWAITING Ecru */			
+.divindex {
+  background-color: #228B22;
+  --section-accent: #228B22;
+}
+.divindex .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.divsolo {
+  background-color: #DC143C;
+  --section-accent: #DC143C;
+}
+.divsolo .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.divtimer {
+  background-color: #DC143C;
+  --section-accent: #DC143C;
+}
+.divtimer .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.divchall {
+  background-color: #0066FF;
+  --section-accent: #0066FF;
+}
+.divchall .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.divim {
+  background-color: #005F5F;
+  --section-accent: #005F5F;
+}
+.divim .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.divvideoa {
+  background-color: #8A2BE2;
+  --section-accent: #8A2BE2;
+}
+.divvideoa .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.divppp {
+  background-color: #FF8C00;
+  --section-accent: #FF8C00;
+}
+.divppp .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.divref {
+  background-color: #C2B280;
+  --section-accent: #C2B280;
+}
+.divref .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.divdtesti {
+  background-color: #C2B280;
+  --section-accent: #C2B280;
+}
+.divdtesti .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.divdiscord {
+  background-color: #C2B280;
+  --section-accent: #C2B280;
+}
+.divdiscord .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.divcg {
+  background-color: #C2B280;
+  --section-accent: #C2B280;
+}
+.divcg .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.divabc {
+  background-color: #C2B280;
+  --section-accent: #C2B280;
+}
+.divabc .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+
+
+
 
 .hero {
   background-size: cover;
@@ -844,4 +990,22 @@ table th {
 
 .tred {
   background-color: #CD5C5C;
+}
+
+.btn-solor {
+	background-color: #DC143C; /* your custom color */
+	color: white;
+	border: none;
+	margin-left: 3rem;
+}
+
+.btn-solor:hover {
+  background-color: #B01030;
+    color: white;
+}
+
+@media (max-width: 576px) {
+  .btn-solor {
+    margin-left: 1rem;
+  }
 }
