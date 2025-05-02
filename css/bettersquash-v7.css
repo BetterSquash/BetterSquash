@@ -992,22 +992,46 @@ table th {
   background-color: #CD5C5C;
 }
 
-.btn-solor {
-	background-color: #DC143C; /* your custom color */
-	color: white;
-	border: none;
-	margin-left: 3rem;
-}
-
-.btn-solor:hover {
-  background-color: #B01030;
-    color: white;
-}
-
+/*CUSTOM BUTTON COLOURS */
 @media (max-width: 576px) {
-  .btn-solor {
+  .btn-solor,
+  .btn-chall,
+  .btn-videoa,
+  .btn-ppp,
+  .btn-mindset {
     margin-left: 1rem;
+	  color: white;
   }
 }
 
+.btn-solor,
+.btn-chall,
+.btn-videoa,
+.btn-ppp,
+.btn-mindset {
+  color: white;
+  border: none;
+  margin-left: 3rem;
+}
+
+.btn-solor { background-color: #DC143C; }
+.btn-solor:hover { background-color: #B01030;   color: white;}
+
+.btn-chall { background-color: #0066FF; }
+.btn-chall:hover { background-color: #004FCC;  color: white; }
+
+.btn-videoa { background-color: #8A2BE2; }
+.btn-videoa:hover { background-color: #691FB0;  color: white; }
+
+.btn-ppp { background-color: #FF8C00; }
+.btn-ppp:hover { background-color: #CC7000;  color: white; }
+
+.btn-mindset { background-color: #0047AB; }
+.btn-mindset:hover { background-color: #003785;  color: white; }
+
+
+.solorcolour{color: #DC143C;}
 .challcolour{color: #0066FF;}
+.videoacolour{color: #8A2BE2;}
+.pppcolour{color: #FF8C00;}
+.mindsetcolour{color: #0047AB;}
