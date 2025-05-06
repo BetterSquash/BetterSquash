@@ -1000,7 +1000,25 @@ table th {
   .btn-ppp,
   .btn-mindset {
     margin-left: 1rem;
-	  color: white;
+    color: white !important;
+  }
+
+  .btn-solor:hover,
+  .btn-chall:hover,
+  .btn-videoa:hover,
+  .btn-ppp:hover,
+  .btn-mindset:hover,
+  .btn-solor:focus,
+  .btn-chall:focus,
+  .btn-videoa:focus,
+  .btn-ppp:focus,
+  .btn-mindset:focus,
+  .btn-solor:active,
+  .btn-chall:active,
+  .btn-videoa:active,
+  .btn-ppp:active,
+  .btn-mindset:active {
+    color: white !important;
   }
 }
 
@@ -1009,10 +1027,30 @@ table th {
 .btn-videoa,
 .btn-ppp,
 .btn-mindset {
-  color: white;
+  color: white !important;
   border: none;
   margin-left: 3rem;
 }
+
+.btn-solor:hover,
+.btn-chall:hover,
+.btn-videoa:hover,
+.btn-ppp:hover,
+.btn-mindset:hover,
+.btn-solor:focus,
+.btn-chall:focus,
+.btn-videoa:focus,
+.btn-ppp:focus,
+.btn-mindset:focus,
+.btn-solor:active,
+.btn-chall:active,
+.btn-videoa:active,
+.btn-ppp:active,
+.btn-mindset:active {
+  color: white !important;
+  text-decoration: none;
+}
+
 
 .btn-solor { background-color: #DC143C; }
 .btn-solor:hover { background-color: #B01030;   color: white;}
