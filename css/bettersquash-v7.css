@@ -1079,6 +1079,9 @@ html {
 }
 
 .videoapointer {
-  font-size: 1.5em;
   color: #8A2BE2;
+}
+
+.ppppointer {
+  color: #FF8C00;
 }
