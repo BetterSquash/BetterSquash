@@ -1035,3 +1035,7 @@ table th {
 .videoacolour{color: #8A2BE2;}
 .pppcolour{color: #FF8C00;}
 .mindsetcolour{color: #0047AB;}
+
+html {
+  scroll-behavior: smooth;
+}
