@@ -1,7 +1,7 @@
 html {font-size: 16px;}
 body {margin: 5% auto; background: #f2f2f2; color: #444444; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.8; text-shadow: 0 1px 0 #ffffff; max-width: 73%;}
 code {background: white;}
-h1 {font-size: 3em;color: black; line-height:1em;}
+h1 {font-size: 3em;color: black; line-height:1em;padding-top:1em;}
 h2{margin-bottom:-0.8em;}
 a {border-bottom: 1px solid #444444; color: #048B87; text-decoration: none;transition: color 0.2s ease; /* Smooth color transition when hovering */}
 a:hover {border-bottom: 0;color: #0c47b7;}
@@ -67,6 +67,84 @@ a:active {color: #025250; /* Even darker shade for when link is clicked */}
   border: none;
 }
 
+/* 1. Line between site name/tagline and content */
+.hr-100 {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: #111;
+  margin: 1.5em 0;
+}
+
+/* 2. Line between content and Random Question + services */
+.hr-80 {
+  width: 80%;
+  border: none;
+  height: 1px;
+  background-color: #111;
+  margin: 2em auto;
+}
+
+/* 3. Line between Random Question + services and footer */
+.hr-60 {
+  width: 60%;
+  border: none;
+  height: 1px;
+  background-color: #111;
+  margin: 2em auto;
+}
+
+.quick-check {
+  background: #f8f9fc;
+  border: 1px solid #ccddee;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+.reveal-answers {
+  margin-top: 1rem;
+  background-color: #02386E;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.hidden {
+  display: none;
+}
+
+.quick-check {
+  background: #f8f9fc;
+  border: 1px solid #ccddee;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+
+.quick-check h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.reveal-answers {
+  margin-top: 1rem;
+  background-color: #02386E;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.answers {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.hidden {
+  display: none;
+}
 
 
 
@@ -91,9 +169,7 @@ a:active {color: #025250; /* Even darker shade for when link is clicked */}
 
 
 
-
-
-
+/* Link SVGs */
 a[href^="https:"] {
     background: url("../img/svg/external-link.svg") no-repeat 100% 0;
     background-size: 11px 11px;
@@ -201,31 +277,3 @@ a[href^="rssfeed.xml"] {
 }
 
 
-/* 1. Line between site name/tagline and content */
-.hr-header-separator {
-  width: 100%;
-  border: none;
-  height: 2px;
-  background-color: #0c47b7;
-  margin: 1.5em 0;
-}
-
-/* 2. Line between content and Random Question + services */
-.hr-content-separator {
-  width: 90%;
-  border: none;
-  height: 1px;
-  background-color: #4444;
-  margin: 2em auto;
-}
-
-/* 3. Line between Random Question + services and footer */
-.hr-footer-separator {
-  width: 80%;
-  border: none;
-  height: 1px;
-  background-image: linear-gradient(to right, transparent, #0c47b7, transparent);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin: 2em auto;
-}

@@ -23,3 +23,35 @@ document.addEventListener('DOMContentLoaded', function() {
     promotionContainer.innerHTML = promotions[randomIndex];
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+const checkButtons = document.querySelectorAll('.reveal-answers');
+checkButtons.forEach(button => {
+  const answers = button.nextElementSibling;
+  if (answers) {
+    button.addEventListener('click', () => {
+      answers.classList.toggle('hidden');
+      button.textContent = answers.classList.contains('hidden') ? 'Show Answers' : 'Hide Answers';
+    });
+  }
+});
+
+
+var questionlinks=new Array()
+
+questionlinks[0]="../questions/does-the-ball-have-to-bounce-in-squash.html";
+questionlinks[1]="../questions/what-is-the-difference-between-a-let-and-a-stroke.html";
+
+function RandomQuestion(){
+window.location=questionlinks[Math.floor(Math.random()*questionlinks.length)]
+}
