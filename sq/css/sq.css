@@ -125,8 +125,15 @@ a:active {color: #025250; /* Even darker shade for when link is clicked */}
   display: none;
 }
 
-
-
+.pull-quote {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #444;
+  border-left: 4px solid #EC5800;
+  padding-left: 1rem;
+  margin: 2rem 0 2rem 4rem;
+    font-family: Georgia, serif;
+}
 
 
 
