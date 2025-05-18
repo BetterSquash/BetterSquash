@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+   <channel>
+      <title>SQUASH QUESTIONS</title>
+      <description>Get all your squash questions answered</description>
+      <link>https://squashquestions.com</link>
+      <language>en</language>
+      <copyright>© 2005 Phillip Marlowe</copyright>
+      <webMaster>phillip@squashquestions.com (Phillip Marlowe)</webMaster>
+      <image>
+         <link>https://squashquestions.com</link>
+         <title>Squash Questions</title>
+         <url>https://bettersquash.com/fav/favicon-32x32.png</url>
+         <description>Find Your Answers Here</description>
+         <height>32</height>
+         <width>32</width>
+      </image>
+      <atom:link href="https://squashquestions.com/rssfeed.xml" rel="self" type="application/rss+xml"/>
+      <item>
+         <title>QUESTION HERE</title>
+         <link>https://bettersquash.com/index.html</link>
+         <description>If you are looking to improve your squash, you have visited the right website!</description>
+         <author>squashcoachphillip@gmail.com (Phillip Marlowe)</author>
+         <guid>https://bettersquash.com/index.html</guid>
+         <pubDate> 17:10:54 GMT</pubDate>
+      </item>
+   </channel>
+</rss>
