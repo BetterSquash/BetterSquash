@@ -95,30 +95,9 @@ a:active {color: #025250; /* Even darker shade for when link is clicked */}
 }
 
 .quick-check {
-  background: #f8f9fc;
-  border: 1px solid #ccddee;
+  background: #fff;
+  border: 1px solid #4444;
   padding: 1rem;
-  border-radius: 6px;
-  margin-top: 2rem;
-}
-.reveal-answers {
-  margin-top: 1rem;
-  background-color: #02386E;
-  color: #fff;
-  border: none;
-  padding: 0.4rem 0.8rem;
-  cursor: pointer;
-  border-radius: 4px;
-}
-.hidden {
-  display: none;
-}
-
-.quick-check {
-  background: #f8f9fc;
-  border: 1px solid #ccddee;
-  padding: 1rem;
-  border-radius: 6px;
   margin-top: 2rem;
 }
 

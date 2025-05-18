@@ -35,15 +35,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-const checkButtons = document.querySelectorAll('.reveal-answers');
-checkButtons.forEach(button => {
-  const answers = button.nextElementSibling;
-  if (answers) {
-    button.addEventListener('click', () => {
-      answers.classList.toggle('hidden');
-      button.textContent = answers.classList.contains('hidden') ? 'Show Answers' : 'Hide Answers';
-    });
-  }
+
+document.addEventListener('DOMContentLoaded', function() {
+  const checkButtons = document.querySelectorAll('.reveal-answers');
+  checkButtons.forEach(button => {
+    const answers = button.parentElement.querySelector('.answers');
+    if (answers) {
+      button.addEventListener('click', () => {
+        answers.classList.toggle('hidden');
+        button.textContent = answers.classList.contains('hidden') ? 'Show Answers' : 'Hide Answers';
+      });
+    }
+  });
 });
 
 
