@@ -73,3 +73,30 @@ document.addEventListener('DOMContentLoaded', function() {
     popularLink.href = popularQuestions[popularIndex];
   }
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  const banner = document.getElementById('cookie-banner');
+  const acceptBtn = document.getElementById('accept-cookies');
+  const declineBtn = document.getElementById('decline-cookies');
+
+  if (!localStorage.getItem('cookieConsent')) {
+    banner.style.display = 'block';
+  } else {
+    banner.remove();
+  }
+
+  if (acceptBtn) {
+    acceptBtn.addEventListener('click', function () {
+      localStorage.setItem('cookieConsent', 'accepted');
+      banner.remove();
+    });
+  }
+
+  if (declineBtn) {
+    declineBtn.addEventListener('click', function () {
+      localStorage.setItem('cookieConsent', 'declined');
+      banner.remove();
+    });
+  }
+});
+
