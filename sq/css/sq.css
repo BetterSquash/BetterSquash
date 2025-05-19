@@ -135,6 +135,38 @@ a:active {color: #025250; /* Even darker shade for when link is clicked */}
     font-family: Georgia, serif;
 }
 
+.image-with-caption {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.image-with-caption img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-with-caption .caption {
+  margin-top: 0.5em;
+  font-size: 0.95em;
+  color: #444;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .image-with-caption .caption {
+    font-size: 0.9em;
+  }
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 
 
 
