@@ -167,9 +167,15 @@ a:active {color: #025250; /* Even darker shade for when link is clicked */}
   margin: 0 auto;
 }
 
+#cookie-banner {
+position:fixed; bottom:0; left:0; right:0; background:#fff; border-top:1px solid #ccc; padding:1em; font-size:14px; z-index:1000; text-align:center;
+}
+#accept-cookies, #decline-cookies {margin:0 0.5em;}
 
-
-
+#cookie-banner button {
+  border-color: #EC5800;
+  cursor: pointer;
+}
 
 
 
