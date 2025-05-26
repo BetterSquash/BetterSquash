@@ -2,12 +2,12 @@
 document.addEventListener('DOMContentLoaded', function() {
 	// Array of promotional content elements with their HTML
 	const promotions = [
-		`<p>🎯 SHARPEN YOUR BALL CONTROL with Solo Routines: Build precision and confidence by training in a way that isolates and strengthens your ball control. <a href="">MASTER BALL PLACEMENT</a></p>`,
-		`<p>💥 TIGHTEN YOU ADAPTIVE EDGE with Monthly Squash Challenges: Whether you train alone or with a partner, the challenges offer tough, realistic scenarios to sharpen your performance. <a href="">PUSH YOUR LIMITS</a></p>`,
-		`<p>🎯 SHARPEN YOUR BALL CONTROL with Solo Routines: Build precision and confidence by training in a way that isolates and strengthens your ball control. <a href="">MASTER BALL PLACEMENT</a></p>`,
-		`<p>📝 ADDRESS YOUR TECHNICAL PRIORITIES with Personalised Practice Plans: These plans give you focused training sessions built around your goals and current weaknesses. <a href="">TARGET YOUR WEAKNESSES</a></p>`,
-		`<p>🎯 SHARPEN YOUR BALL CONTROL with Solo Routines: Build precision and confidence by training in a way that isolates and strengthens your ball control. <a href="">MASTER BALL PLACEMENT</a></p>`,
-		`<p>🎬 REFINE YOUR TACTICS & COURTCRAFT with Video Analysis: Understand your patterns and fix costly mistakes by watching your own game from a coach's perspective. <a href="">SEE WHAT YOU'RE MISSING</a></p>`
+		`<p>🎯 SHARPEN YOUR BALL CONTROL with Solo Routines: Build precision and confidence by training in a way that isolates and strengthens your ball control. <a href="https://bettersquash.com/soloroutines.html">MASTER BALL PLACEMENT</a></p>`,
+		`<p>💥 TIGHTEN YOU ADAPTIVE EDGE with Monthly Squash Challenges: Whether you train alone or with a partner, the challenges offer tough, realistic scenarios to sharpen your performance. <a href="https://bettersquash.com/challenges.html">PUSH YOUR LIMITS</a></p>`,
+		`<p>🎯 SHARPEN YOUR BALL CONTROL with Solo Routines: Build precision and confidence by training in a way that isolates and strengthens your ball control. <a href="https://bettersquash.com/soloroutines.html">MASTER BALL PLACEMENT</a></p>`,
+		`<p>📝 ADDRESS YOUR TECHNICAL PRIORITIES with Personalised Practice Plans: These plans give you focused training sessions built around your goals and current weaknesses. <a href="https://bettersquash.com/personalised.html">TARGET YOUR WEAKNESSES</a></p>`,
+		`<p>🎯 SHARPEN YOUR BALL CONTROL with Solo Routines: Build precision and confidence by training in a way that isolates and strengthens your ball control. <a href="https://bettersquash.com/soloroutines.html">MASTER BALL PLACEMENT</a></p>`,
+		`<p>🎬 REFINE YOUR TACTICS & COURTCRAFT with Video Analysis: Understand your patterns and fix costly mistakes by watching your own game from a coach's perspective. <a href="https://bettersquash.com/videoanalysis.html">SEE WHAT YOU'RE MISSING</a></p>`
 	];
   
   // Get the container where the promotion will be displayed
