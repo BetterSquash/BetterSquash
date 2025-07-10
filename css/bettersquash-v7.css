@@ -1080,6 +1080,7 @@ table th {
 
 .btn-practicep { background-color: #186a3b;   color: white; }
 .btn-practicep:hover { background-color: #1d7b44;  color: white; }
+.btn-practicep:active { background-color: #1d7b44;  color: white; }
 
 .solorcolour{color: #DC143C;}
 .challcolour{color: #0066FF;}
