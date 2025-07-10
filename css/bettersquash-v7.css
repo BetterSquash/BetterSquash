@@ -1079,7 +1079,8 @@ table th {
 .btn-mindset:hover { background-color: #003785;  color: white; }
 
 .btn-practicep { background-color: #186a3b;   color: white; }
-.btn-practicep:visited,.btn-practicep:hover,
+.btn-practicep:visited,
+.btn-practicep:hover,
 .btn-practicep:active {
   background-color: #1d7b44;
   color: white;
