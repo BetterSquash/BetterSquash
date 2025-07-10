@@ -756,7 +756,18 @@ BetterSquash Landing Page CSS version 5
   border-bottom: none;
 }
 
-
+.divpracticep {
+  background-color: #186a3b;
+  --section-accent: #186a3b;
+}
+.divpracticep .section-accent-line {
+  border-top: 3px solid var(--section-accent);
+  width: 75%;
+  margin: 0 auto 1.25rem auto;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
 
 
 
