@@ -1078,12 +1078,16 @@ table th {
 .btn-mindset { background-color: #0047AB; }
 .btn-mindset:hover { background-color: #003785;  color: white; }
 
+.btn-practicep { background-color: #186a3b;   color: white; }
+.btn-practicep:hover { background-color: #1d7b44;  color: white; }
 
 .solorcolour{color: #DC143C;}
 .challcolour{color: #0066FF;}
 .videoacolour{color: #8A2BE2;}
 .pppcolour{color: #FF8C00;}
 .mindsetcolour{color: #0047AB;}
+.practicepcolour{color: #186a3b;}
+
 
 html {
   scroll-behavior: smooth;
