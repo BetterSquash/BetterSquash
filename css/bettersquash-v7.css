@@ -1078,7 +1078,7 @@ table th {
 .btn-mindset { background-color: #0047AB; }
 .btn-mindset:hover { background-color: #003785;  color: white; }
 
-.btn-practicep, .btn-practicep:visited {background-color: #186a3b;color: white;}
+.btn-practicep:link, .btn-practicep:visited {background-color: #186a3b;color: white;}
 .btn-practicep:hover, .btn-practicep:active {background-color: #1d7b44;color: white;}
 
 .solorcolour{color: #DC143C;}
@@ -1088,9 +1088,7 @@ table th {
 .mindsetcolour{color: #0047AB;}
 .practicepcolour{color: #186a3b;}
 
-.ppc1{color: #5a0f2a;}
-.ppc2{color: #8a183e;}
-.ppc3{color: #b64565;}
+.ppc1{color: #ffdf00;}
 
 html {
   scroll-behavior: smooth;
