@@ -600,11 +600,11 @@ BetterSquash Landing Page CSS version 5
     text-align: center;
   }
   
-.divindex {
-  background-color: #228B22;
-  --section-accent: #228B22;
+.divRed {
+  background-color: #BE0F17;
+  --section-accent: #BE0F17;
 }
-.divindex .section-accent-line {
+.divRed .section-accent-line {
   border-top: 3px solid var(--section-accent);
   width: 75%;
   margin: 0 auto 1.25rem auto;
@@ -613,11 +613,11 @@ BetterSquash Landing Page CSS version 5
   border-bottom: none;
 }
 
-.divsolo {
-  background-color: #DC143C;
-  --section-accent: #DC143C;
+.divPetrol {
+  background-color: #2A4C69;
+  --section-accent: #2A4C69;
 }
-.divsolo .section-accent-line {
+.divPetrol .section-accent-line {
   border-top: 3px solid var(--section-accent);
   width: 75%;
   margin: 0 auto 1.25rem auto;
@@ -626,149 +626,7 @@ BetterSquash Landing Page CSS version 5
   border-bottom: none;
 }
 
-.divtimer {
-  background-color: #DC143C;
-  --section-accent: #DC143C;
-}
-.divtimer .section-accent-line {
-  border-top: 3px solid var(--section-accent);
-  width: 75%;
-  margin: 0 auto 1.25rem auto;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
-.divchall {
-  background-color: #0066FF;
-  --section-accent: #0066FF;
-}
-.divchall .section-accent-line {
-  border-top: 3px solid var(--section-accent);
-  width: 75%;
-  margin: 0 auto 1.25rem auto;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
-.divim {
-  background-color: #005F5F;
-  --section-accent: #005F5F;
-}
-.divim .section-accent-line {
-  border-top: 3px solid var(--section-accent);
-  width: 75%;
-  margin: 0 auto 1.25rem auto;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
-.divvideoa {
-  background-color: #8A2BE2;
-  --section-accent: #8A2BE2;
-}
-.divvideoa .section-accent-line {
-  border-top: 3px solid var(--section-accent);
-  width: 75%;
-  margin: 0 auto 1.25rem auto;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
-.divppp {
-  background-color: #FF8C00;
-  --section-accent: #FF8C00;
-}
-.divppp .section-accent-line {
-  border-top: 3px solid var(--section-accent);
-  width: 75%;
-  margin: 0 auto 1.25rem auto;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
-.divref {
-  background-color: #C2B280;
-  --section-accent: #C2B280;
-}
-.divref .section-accent-line {
-  border-top: 3px solid var(--section-accent);
-  width: 75%;
-  margin: 0 auto 1.25rem auto;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
-.divdtesti {
-  background-color: #C2B280;
-  --section-accent: #C2B280;
-}
-.divdtesti .section-accent-line {
-  border-top: 3px solid var(--section-accent);
-  width: 75%;
-  margin: 0 auto 1.25rem auto;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
-.divdiscord {
-  background-color: #C2B280;
-  --section-accent: #C2B280;
-}
-.divdiscord .section-accent-line {
-  border-top: 3px solid var(--section-accent);
-  width: 75%;
-  margin: 0 auto 1.25rem auto;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
-.divcg {
-  background-color: #C2B280;
-  --section-accent: #C2B280;
-}
-.divcg .section-accent-line {
-  border-top: 3px solid var(--section-accent);
-  width: 75%;
-  margin: 0 auto 1.25rem auto;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
-.divabc {
-  background-color: #C2B280;
-  --section-accent: #C2B280;
-}
-.divabc .section-accent-line {
-  border-top: 3px solid var(--section-accent);
-  width: 75%;
-  margin: 0 auto 1.25rem auto;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
-.divpracticep {
-  background-color: #186a3b;
-  --section-accent: #186a3b;
-}
-.divpracticep .section-accent-line {
-  border-top: 3px solid var(--section-accent);
-  width: 75%;
-  margin: 0 auto 1.25rem auto;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
+.BSYellow{color: #ffdf00;}
 
 
 .hero {
@@ -1005,90 +863,39 @@ table th {
 
 /*CUSTOM BUTTON COLOURS */
 @media (max-width: 576px) {
-  .btn-solor,
-  .btn-chall,
-  .btn-videoa,
-  .btn-ppp,
-  .btn-mindset {
+  .btn-BS {
     margin-left: 1rem;
     color: white !important;
   }
 
-  .btn-solor:hover,
-  .btn-chall:hover,
-  .btn-videoa:hover,
-  .btn-ppp:hover,
-  .btn-mindset:hover,
-  .btn-solor:focus,
-  .btn-chall:focus,
-  .btn-videoa:focus,
-  .btn-ppp:focus,
-  .btn-mindset:focus,
-  .btn-solor:active,
-  .btn-chall:active,
-  .btn-videoa:active,
-  .btn-ppp:active,
-  .btn-mindset:active {
+  .btn-BS:hover,
+  .btn-BS:focus,
+  .btn-BS:active {
     color: white !important;
+	text-decoration: none;
   }
 }
 
-.btn-solor,
-.btn-chall,
-.btn-videoa,
-.btn-ppp,
-.btn-mindset {
+.btn-BS {
   color: white !important;
   border: none;
   margin-left: 3rem;
 }
 
-.btn-solor:hover,
-.btn-chall:hover,
-.btn-videoa:hover,
-.btn-ppp:hover,
-.btn-mindset:hover,
-.btn-solor:focus,
-.btn-chall:focus,
-.btn-videoa:focus,
-.btn-ppp:focus,
-.btn-mindset:focus,
-.btn-solor:active,
-.btn-chall:active,
-.btn-videoa:active,
-.btn-ppp:active,
-.btn-mindset:active {
+.btn-BS:hover,
+.btn-BS:focus,
+.btn-BS:active {
   color: white !important;
   text-decoration: none;
+  
 }
 
+.btn-BS:link, .btn-BS:visited {background-color: #2A4C69;color: white;}
+.btn-BS:hover, .btn-BS:active {background-color: #1F3546;color: white;}
 
-.btn-solor { background-color: #DC143C; }
-.btn-solor:hover { background-color: #B01030;   color: white;}
-
-.btn-chall { background-color: #0066FF; }
-.btn-chall:hover { background-color: #004FCC;  color: white; }
-
-.btn-videoa { background-color: #8A2BE2; }
-.btn-videoa:hover { background-color: #691FB0;  color: white; }
-
-.btn-ppp { background-color: #FF8C00; }
-.btn-ppp:hover { background-color: #CC7000;  color: white; }
-
-.btn-mindset { background-color: #0047AB; }
-.btn-mindset:hover { background-color: #003785;  color: white; }
-
-.btn-practicep:link, .btn-practicep:visited {background-color: #186a3b;color: white;}
-.btn-practicep:hover, .btn-practicep:active {background-color: #1d7b44;color: white;}
-
-.solorcolour{color: #DC143C;}
-.challcolour{color: #0066FF;}
-.videoacolour{color: #8A2BE2;}
-.pppcolour{color: #FF8C00;}
-.mindsetcolour{color: #0047AB;}
-.practicepcolour{color: #186a3b;}
-
-.ppc1{color: #ffdf00;}
+.BSRed{color: #BE0F17;}
+.BSPetrol{color: #2A4C69;}
+.BSDPetrol{color: #1F3546;}
 
 html {
   scroll-behavior: smooth;
