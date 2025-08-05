@@ -55,6 +55,89 @@
 <link rel="stylesheet" href="css/bettersquash-v7.css">
 <style>
 .hero {background-image: url('img/index/hero-practice-plans.webp');}
+
+.tree ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.tree li {
+  margin: 0.4rem 0;
+  list-style-type: disc;
+}
+
+/* Level 1 – Practice Plans */
+.tree > ul > li {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #02386E;
+  margin-top: 2rem;
+  list-style: none;
+}
+
+/* Level 2 – Personalised / Pre-Made */
+.tree > ul > li > ul {
+  padding-left: 3rem;  /* BIG INDENT */
+}
+.tree > ul > li > ul > li {
+  font-size: 1.35rem;
+  font-weight: 700;
+  font-family: "Helvetica", sans-serif;
+  color: #000;
+}
+
+/* Level 3 – Club Players / Beginners */
+.tree > ul > li > ul > li > ul {
+  padding-left: 3rem;
+}
+.tree > ul > li > ul > li > ul > li {
+  font-size: 1.15rem;
+  font-weight: 600;
+  font-family: "Arial", sans-serif;
+  color: #222;
+}
+
+/* Level 4 – Solo Routines / Pairs' Routines */
+.tree > ul > li > ul > li > ul > li > ul {
+  padding-left: 3rem;
+}
+.tree > ul > li > ul > li > ul > li > ul > li {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Verdana", sans-serif;
+  color: #444;
+}
+
+/* Level 5 – Sets */
+.tree > ul > li > ul > li > ul > li > ul > li > ul {
+  padding-left: 3rem;
+}
+.tree > ul > li > ul > li > ul > li > ul > li > ul > li {
+  font-size: 0.95rem;
+  font-weight: 400;
+  font-family: "Courier New", monospace;
+  color: #666;
+}
+/* Notes after each item */
+.note {
+  display: inline;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #666;
+  margin-top: 0.1rem;
+}
+
+/* Alternatively, inline style for shorter notes:
+.note { display: inline; margin-left: 0.5rem; }
+*/
+
+/* Items still in development */
+.ud {
+  color: #999;
+  font-style: italic;
+  opacity: 0.7;
+}
+
 </style>
 <!-- Javascript -->
 <script src="js/bettersquash.js"></script>	
@@ -124,22 +207,25 @@
 
 
 
-	<section class="section" id="overview">
+	<!-- OVERVIEW -->
+		<section class="section" id="overview">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-12 text-center mb-5">
-					<h1>A structured routine beats random hitting</h1>
+			<div class="row align-items-center">
+				<div class="col-md-6 order-1">
 					<h2>Practice time on court is precious, so don’t waste it</h2>
 					<div class="text-left">
 						<hr style="border-color: #ffdf00; border-width: 2px; width:80%" class="mb-5">
-						<p>Practicing without a plan is like baking a cake without a recipe. It's possible, but not the best way to do it</p>
-						<p>A proper plan helps you make better use of your time on court. It keeps your practice focused and gives each session a clear purpose.</p>
-						<p>The FREE <em>BetterPractice app</em> guides you through each routine with clear audio and text instructions, so you can focus on your shots instead of trying to remember what comes next.</p>
-						<p>The first available plan is <em>FastFocus</em>, a set of Solo Routines for Club Players.</p>
-						<p>You can also get a <a href="personalised.html">Personalised Practice Plan</a> tailored to your objectives and preferences.</p>
-						<p>More plans are in development.</p>
-						
+						<h5>A structured routine beats random hitting.<br><br>
+						Practicing without a plan is like baking a cake without a recipe. It's possible, but not the best way to do it.<br><br>
+						A proper plan helps you make <strong>better use of your time</strong> on court.<br><br>
+						It keeps your practice <strong>focused</strong> and gives each session <strong>a clear purpose</strong>.</h5>
 					</div>
+				</div>
+				<div class="col-md-6 order-2">
+					<figure>
+					<img src="img/index/empty-court.jpg" alt="An empty squash court is an opportunity." title="An empty squash court is an opportunity." class="figure-img img-fluid">
+						<figcaption class="figure-caption text-right">An empty squash court is an opportunity.</figcaption>
+					</figure>
 				</div>
 			</div>
 		</div>
@@ -160,12 +246,185 @@
 
 
 
-<!--SETS -->
-	<section class="class section" id="sets">
+	<!-- PRE-MADE OR PERSONALISED -->
+	<section class="section " id="premadeor">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 order-1">
+					<h2>Choose between Personalised or Pre-made practice plans</h2>
+					<div class="text-left">
+						<hr style="border-color: #ffdf00; border-width: 2px; width:80%" class="mb-5">
+						<h5><strong>Personalised plans</strong> are designed for your objectives and ambitions. Choose between the Standard and Premium options.<br><br><h5>
+						<a href="personalised.html" class="btn btn-BS btn-lg"><strong>Start Designing My Personalised Practice Plan</strong></a>
+						<h5><br><strong>Pre-made plans</strong> are based around themes and modes of training.  They come in packs of 12 routines.<br><br>
+						All Pre-made plans come with an <strong>drill explainer video</strong> and PDF sheets.<br><br>
+						Both types of plan have advantages, so select the option that best fits your needs.<br><br>
+						But having a plan is only part of the solution - using it needs to be easy.<br><br></h5>
+					</div>
+				</div>
+				<div class="col-md-6 order-2">
+					<figure class="figure">
+						<img src="img/index/premadeor.jpg" alt="Choose between a pre-made or personalised place plans" title="Nothing beats a carefully planned and themed routine." class="figure-img img-fluid">
+						<figcaption class="figure-caption text-right">Nothing beats a carefully planned and themed routine.</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- DIVIDER03 -->
+	<section class="section divider divRed" id="divider03">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-12 text-center mb-3">
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Consistency Builds Confidence.</h3>
+				</div>
+			</div>
+		</div>
+	</section> 
+
+
+
+	<!-- BETTERPRACTICE APP -->
+		<section class="section " id="bpapp">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 order-1">
+					<h2>Make your practice easier to manage with the <span class="text-success">FREE</span> BetterPractice app</h2>
+					<div class="text-left">
+						<hr style="border-color: #ffdf00; border-width: 2px; width:80%" class="mb-5">
+						<h5>All Pre-made practice plans can be used with the <strong>FREE</strong> BetterPractice companion app.<br><br>
+						The app provides text and voice instructions meaning you don't need to print and follow a PDF file.<br><br>
+						After purchasing one of the Pre-made plans simply use the code displayed on each routine.<br><br>
+						Oh! And it's super easy to use, works offline (once the voices have loaded), and you don't even need to create an account.</h5>
+						<p><br><a href="betterpractice.html" class="btn btn-BS btn-lg"><strong>Show Me How It Works</strong></a></p>
+					</div>
+				</div>
+				<div class="col-md-6 order-2">
+					<figure class="figure">
+						<img src="img/index/easierwithapp.jpg" alt="Using the free companion app makes practicing easier" title="Why struggle with photocopies when you can use the app?" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-right">Why struggle with photocopies when you can use the app?</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- DIVIDER04 -->
+	<section class="section divider divRed" id="divider04">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-12 text-center mb-3">
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Practice Today, Stronger Tomorrow.</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- TYPES OF PRE-MADE -->
+		<section class="section " id="types">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 order-1">
+					<h2>Types of Pre-made Practice Plans</h2>
+					<div class="text-left">
+						<hr style="border-color: #ffdf00; border-width: 2px; width:80%" class="mb-5">
+						<h5>Currently, the only Pre-made plan available is the FastFocus Solo Routines for Club Players.<br><br>Over the coming months, more plans will be introduced.  Below is a list of some of the planned pre-made practice plans.</h5>
+						<div class="tree">
+							<ul>
+								<li>Pre-Made <span class="note">- Built for convenience</span>
+									<ul>
+										<li>Club Players <span class="note">- For regular club-level players</span>
+											<ul>
+												<li>Solo Routines <span class="note">- 12 solo sessions (40-mins each)</span>
+													<ul>
+														<li>Set 1: FastFocus <span class="note">- Short intervals to boost focus</span></li>
+														<li>Set 2: PyramidPower <span class="note">- Gradual increases or decreases in drill time</span></li>
+														<li>Set 3: GhostHit <span class="note">- Every drill followed by ghosting</span></li>
+														<li>Set 4: SelfPressure <span class="note">- One mistake means back to the beginning</span></li>
+														<li>Set 5: TargetTag <span class="note">- Hit the targets to progress</span></li>
+													</ul>
+												</li>
+												<li>Pairs' Routines <span class="note">- 12 pairs' sessions (40-mins each)</span>
+													<ul>
+														<li>Set 1: CompetitiveCooperation <span class="note">- In development</span></li>
+														<li>more to follow</li>
+													</ul>
+												</li>
+												<li>Mixed Plans <span class="note">- Solo and pairs' sessions perfect for pre-match</span>
+													<ul>
+														<li>Set 1: No name yet <span class="note">- In development</span></li>
+														<li>more to follow</li>
+													</ul>
+												</li>
+												<li>Mini Solo Plans <span class="note">- Short, more intense solo routines</span>
+													<ul>
+														<li>Set 1: No name yet <span class="note">- In development</span></li>
+														<li>more to follow</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>Beginners <span class="note">- For players new to squash</span>
+											<ul>
+												<li>Solo Routines <span class="note">- 12 solo sessions (20-mins each)</span>
+													<ul>
+														<li>Set 1: SmoothLines <span class="note">- In development</li>
+														<li>more to follow</li>
+													</ul>
+												</li>
+												<li>Pairs' Routines <span class="note">- 12 pairs' sessions (20-mins each)</span>
+													<ul>
+														<li>Set 1: No name yet  <span class="note">- In development</li>
+														<li>more to follow</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-6 order-2">
+					<figure class="figure">
+						<img src="img/index/plantypes.jpg" alt="Themed practice plans make squash training mroe effective." title="Maybe I should make a plan based on jumping?" class="figure-img img-fluid">
+						<figcaption class="figure-caption text-right">Maybe I should make a plan based on jumping?</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- DIVIDER05 -->
+	<section class="section divider divRed" id="divider05">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-12 text-center mb-3">
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Refine. Repeat. Excel.</h3>
+				</div>
+			</div>
+		</div>
+	</section> 
+
+
+
+	<!--FASTFOCUS -->
+	<section class="class section" id="fastfocus">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-5">
-					<h2>Solo Routines: Club Players:<br>Set One: FastFocus</h2>
+					<h2>Club Players: Solo Routines: <br>Set One: FastFocus</h2>
 					<h6>Designed for confident club players.<br>Consists of 12 solo routines to sharpen your ball control and improve your ability to handle pressure.</h6>
 					<hr style="border-color: #ffdf00; border-width: 2px; width:80%" class="mb-5">
 					<div style="text-align:left">
@@ -189,19 +448,22 @@
 
 				</div>
 				<hr style="margin-top: 3rem; border: none; height: 1px; background-color: #FFD60A;">
-				<a href="fastfocus.html" class="btn btn-BS btn-lg"><strong>Buy The <em>FastFocus</em> Routines</a>
+				<a href="fastfocus.html" class="btn btn-BS btn-lg"><strong>Buy The <em>FastFocus</em> Solo Routines Set</a>
+					<div class="alert alert-success mt-3" role="alert">
+					  There's a free sample routine for you to download and try.  It even works with the BetterPractice App!
+					</div>
 			</div>
 		</div>
 	</section>
 
 
 
-	<!-- DIVIDER03 -->
-	<section class="section divider divRed" id="divider03">
+	<!-- DIVIDER06 -->
+	<section class="section divider divRed" id="divider06">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
-					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Consistency Builds Confidence.</h3>
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200"></h3>
 				</div>
 			</div>
 		</div>
@@ -214,13 +476,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-5">
-					<h2>Two Types of Packages</h2>
+					<h2>Are you a club, facility or organisation?</h2>
 					<hr style="border-color: #ffdf00; border-width: 2px; width:80%" class="mb-5">
-
-					<h3>Overview</h3>
-					<p class="text-left">Two packages are available for each set.</p>
-					<p class="text-left"><strong>Individual</strong>: This is for individuals and a couple of friends.  You can not share or distribute PDF sheets or video links.</p>
-					<p class="text-left"><strong>Commercial</strong>: This is for clubs, sports centres, training squads, coaches or squash organisations.<br>This allows the purchaser to post the PDF sheets on their noticeboard, as well as photocopy and distribute the sheets in one location.</p>
+					<p class="text-left">A <strong>Commercial</strong> licence is available for clubs, sports centres, training squads, coaches or squash organisations.<br>This allows the purchaser to post the PDF sheets on their noticeboard, as well as photocopy and distribute the sheets in one location.</p>
+					<p class="text-left">An <strong>Individual</strong> licence is for individuals and a couple of friends.  You can not share or distribute PDF sheets or video links.</p>
 				</div>
 					<div class="p-3">
 						<h3 class="mb-3 text-center">Feature Comparison Table</h3>
@@ -230,7 +489,7 @@
 						      <th scope="col">Type</th>
 						      <th scope="col">PDF Guide</th>
 						      <th scope="col">Explainer Videos</th>
-							  <th scope="col">Routine Timer App</th>
+							  <th scope="col">BetterPractice APP</th>
 							  <th scope="col">Discord Access</th>
 							  <th scope="col">Noticeboard</th>
 							  <th scope="col">Photocopies</th>
@@ -241,7 +500,7 @@
 						      <td data-label="type">Individual</td>
 						      <td data-label="pdf" class="tgreen">&check;</td>
 						      <td data-label="videos" class="tgreen">&check;</td>
-							  <td data-label="routine timer" class="tgreen">&check;</td>
+							  <td data-label="betterpractice app" class="tgreen">&check;</td>
 							  <td data-label="discord" class="tgreen">&check; <strong>*</strong></td>
 							  <td data-label="noticeboard" class="tred">&cross;</td>
 							  <td data-label="photocopies" class="tred">&cross;</td>
@@ -250,7 +509,7 @@
 						      <td data-label="type">Commercial</td>
 						      <td data-label="pdf" class="tgreen">&check;</td>
 						      <td data-label="videos" class="tgreen">&check;</td>
-							  <td data-label="routine timer" class="tgreen">&check;</td>
+							  <td data-label="betterpractice app" class="tgreen">&check;</td>
 							  <td data-label="discord" class="tgreen">&check; <strong>*</strong></td>
 							  <td data-label="noticeboard" class="tgreen">&check;</td>
 							  <td data-label="photocopies" class="tgreen">&check;</td>
@@ -266,13 +525,13 @@
 				</div>
 				<div class="col-lg-12 col-12 text-left mb-5">
 					<h4 class="mb-2">PDF Sheet:</h4>
-					<p class="mt-3">The PDF sheet displays the drill, its duration, and a basic description.  In most cases, the basic description is enough to perform the drill, but for some more complicated drill, the email or explainer videos should be viewed.  The PDF sheet contains QR codes (also clickable links) to the <a href="routinetimer.html">Routine Timer</a>, the Explainer Video and the Discord Server (only on the Individual package sheets).</p>
-					<h4 class="mb-2">Explainer Videos:</h4>
+					<p class="mt-3">The PDF sheet displays the drill, its duration, and a basic description.  In most cases, the basic description is enough to perform the drill, but for some more complicated drill, the email or explainer videos should be viewed.  The PDF sheet contains QR codes (also clickable links) to the <a href="routinetimer.html">BetterPractice</a>, the Explainer Video and the Discord Server (only on the Individual package sheets).</p>
+					<h4 class="mb-2">Drill Explainer Videos:</h4>
 					<p class="mt-3">Each routine has its own private explainer video, which shows you how to perform the drill. This video is linked to in the email and on the PDF sheet for easy access.</p>
-					<h4 class="mb-2">Routine Timer:</h4>
-					<p class="mt-3">The <a href="routinetimer.html">Routine Timer</a> is a free companion app to the Solo Routines programme that allows you to perform the routine without referring to the PDF sheet.</p>
+					<h4 class="mb-2">BetterPractice App:</h4>
+					<p class="mt-3">The <a href="betterpractice.html">BetterPractice App</a> is a <strong>free</strong> companion app for the Pre-made Practice Plans that allows you to perform the routines without referring to the PDF sheet.</p>
 					<h4 class="mb-2">Discord Access:</h4>
-					<p class="mt-3">When you purchase a Solo Routine Set you gain access to the BetterSquash Discord Server, where you can discuss each routine or drill with Phillip and other users. <br><strong>*</strong> Your referral code is used to grant access to private channels.</p>
+					<p class="mt-3">When you purchase a Pre-made Practice Plan you gain access to the BetterSquash Discord Server, where you can discuss each routine or drill with Phillip and other users. <br><strong>*</strong> A referral code is used to grant access to private channels.</p>
 					<h4 class="mb-2">Noticeboard:</h4>
 					<p class="mt-3">The Commercial package allows the purchaser the right to display the PDF sheet on their noticeboard(s) within one location.</p>
 					<h4 class="mb-2">Photocopies:</h4>
@@ -284,48 +543,8 @@
 
 
 
-
-
-	<!-- DIVIDER04 -->
-	<section class="section divider divRed" id="divider04">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-12 text-center mb-3">
-					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Solo Today, Stronger Tomorrow.</h3>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-	<!-- SAMPLES -->
-	<section class="about section" id="sample">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-12 text-center ">
-					<h2>Try The Free FastFocus Sample</h2>
-					<hr style="border-color: #ffdf00; border-width: 2px; width:80%" class="mb-5">
-				</div>
-				<div class="mt-lg-50 mb-lg-0 mb-4 col-lg-4 col-md-10 col-12">
-					<a href="/sr/pdf/DF6.pdf"><img src="img/index/DF6.webp" class="img-fluid" alt="The sample of Solo Routines: Club Players: Set One"></a>
-				</div>
-				<div class="ml-lg-auto col-lg-8 col-md-6 col-12">
-					<p>Click the image to download the free sample PDF file.</p>
-					<p>Save it to your device and optionally print it.</p>
-					<p>Follow the instructions on the sheet.</p>
-					<p>Download the <a href="gsp-app.html">Guided Squash Practice</a> companion app.  Enter the shortcode on the Start page: DF6.</p>
-					<p>Follow the instructions on the app.</p>
-					<p>If you have any questions, please contact me at <strong>gsp-app@bettersquash.com</strong>.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-	<!-- DIVIDER05 -->
-	<section class="section divider divRed" id="divider05">
+	<!-- DIVIDER07 -->
+	<section class="section divider divRed" id="divider07">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
@@ -345,7 +564,7 @@
 					<h2>Frequently Asked Questions</h2>
 					<hr style="border-color: #ffdf00; border-width: 2px; width:80%" class="mb-5">
 						<div class="text-left">
-							<p><span style="color:#FFD60A"><strong>&#10148;</strong></span> The Routine Timer app has its own webpage with its own <a href="routinetimer.html#faqs">FAQ</a> section.</p>
+							<p><span style="color:#FFD60A"><strong>&#10148;</strong></span> The BetterPractice app has its own webpage with its own <a href="betterpractice.html#faqs">FAQ</a> section.</p>
 							<hr>
 							<h4>Equipment & Space Requirements</h4>
 							<button class="accordion mb-2"><strong>Do I need any special equipment to perform these routines?</strong></button>
@@ -362,13 +581,13 @@
 							</div>
 							<hr>
 							<h4>Skill Level & Progression</h4>
-							<button class="accordion mb-2"><strong>What makes the Solo Routines programme different from other squash training programmes?</strong></button>
+							<button class="accordion mb-2"><strong>What makes your practice plans different from other squash training programmes?</strong></button>
 							<div class="panel">
-								<p><em>The Solo Routines programme is uniquely structured around themed routines and focused drills that are designed to improve specific aspects of your game. Each routine comes with a detailed PDF guide sheet, an explainer video, and access to the Routine Timer app, ensuring you get the most out of every practice session.</em></p>
+								<p><em>The practice plans are uniquely structured around themed routines and focused drills that are designed to improve specific aspects of your game. Each routine comes with a detailed PDF guide sheet, an explainer video, and access to the BetterPractice app, ensuring you get the most out of every practice session.</em></p>
 							</div>
 							<button class="accordion mb-2"><strong>Can I use these routines if I’m a complete beginner?</strong></button>
 							<div class="panel">
-								<p><em>I don't advise using the Club Players Sets.  They are designed for players who play competitive club squash. However, some beginners have purchased Set One and reported that they benefited from it.  Sometime in 2025, I will be releasing a Beginners set, but I have no release date for that.</em></p>
+								<p><em>I don't advise using the Club Players Sets.  They are designed for players who play competitive club squash. However, some beginners have purchased Set One FastFocus and reported that they benefited from it.  Sometime in 2025, I will be releasing a Beginners set, but I have no release date for that.</em></p>
 							</div>
 							<!--<button class="accordion mb-2"><strong>How do I know which set to start with?</strong></button>
 							<div class="panel">
@@ -388,13 +607,13 @@
 							</div>-->
 							<button class="accordion mb-2"><strong>How long does each routine typically last?</strong></button>
 							<div class="panel">
-								<p><em>Between 30 to 40 minutes.</em></p>
+								<p><em>Between 30 to 40 minutes. But one great thing about the routines' structure is you can repeat or jump sections to suit your needs, ambitions and time available.</em></p>
 							</div>
 							<!--<button class="accordion mb-2"><strong>Are the routines suitable for beginners or only for advanced players?</strong></button>
 							<div class="panel">
 								<p><em>Currently, the Solo Routines set is designed for club players, but a new series for Beginners and a second set for club players are being created.  There is not fixed release date.</em></p>
 							</div>-->
-							<button class="accordion mb-2"><strong>How often should I practice each routine?</strong></button>
+							<button class="accordion mb-2"><strong>How often should I practice?</strong></button>
 							<div class="panel">
 								<p><em>Honestly, that's a tough one to answer.  Ideally between 5 and 10 times per month.</em></p>
 							</div>
@@ -445,28 +664,28 @@
 								<p><em>A Commercial license allows you to post the routine on your noticeboard and make a reasonable number of photocopies to distribute WITHIN your facility. Consider posting a "Routine of the Month" on your noticeboard and organising designated solo practice sessions where members can work on the routines together but individually.</em></p>
 							</div>
 							<hr>
-							<h4>Routine Timer App</h4>
-							<button class="accordion mb-2"><strong>Is the Routine Timer app easy to use?</strong></button>
+							<h4>BetterPractice App</h4>
+							<button class="accordion mb-2"><strong>Is the BetterPractice app easy to use?</strong></button>
 							<div class="panel">
-								<p><em>Yes, the Routine Timer app is user-friendly and designed to guide you through each routine with visual and audio cues.</em></p>
+								<p><em>Yes, the BetterPractice app is user-friendly and designed to guide you through each routine with visual and audio cues.</em></p>
 							</div>
 							<hr>
 							<h4>Payment, Licensing & Access</h4>
 							<button class="accordion mb-2"><strong>What payment methods are accepted?</strong></button>
 							<div class="panel">
-								<p><em>Major credit cards and other secure payment methods are accepted through our Stripe payment gateway.</em></p>
+								<p><em>Major credit cards and other secure payment methods are accepted through the Stripe payment gateway.</em></p>
 							</div>
 							<button class="accordion mb-2"><strong>If I purchase the Individual license, can I practice with a friend using my PDF?</strong></button>
 							<div class="panel">
-								<p><em>Yes, I'm not going to send the police to your court.  Just remember, I am an individual trying to make a living from squash - be kind.</em></p>
+								<p><em>Yes, I'm not going to send the squash police to your court.  Just remember, I am an individual trying to make a living from squash - be kind.</em></p>
 							</div>
 							<button class="accordion mb-2"><strong>How long do I have access to the explainer videos?</strong></button>
 							<div class="panel">
 								<p><em>Your access to the explainer videos doesn't expire - you'll have ongoing access to all videos included with your purchased set.</em></p>
 							</div>
-							<button class="accordion mb-2"><strong>If future updates are made to the routines I've purchased, will I receive these updates?</strong></button>
+							<button class="accordion mb-2"><strong>If future updates are made to the plans I've purchased, will I receive these updates?</strong></button>
 							<div class="panel">
-								<p><em>Yes, any refinements or updates to routines you've purchased will be provided to you at no additional cost.</em></p>
+								<p><em>Yes, any refinements or updates to plans you've purchased will be provided to you at no additional cost.</em></p>
 							</div>
 						</div>
 				</div>
@@ -476,12 +695,12 @@
 
 
 
-	<!-- DIVIDER06 -->
-	<section class="section divider divRed" id="divider06">
+	<!-- DIVIDER08 -->
+	<section class="section divider divRed" id="divider08">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
-					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Train with Purpose.</h3>
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">You Have No More Excuses.</h3>
 				</div>
 			</div>
 		</div>
@@ -508,48 +727,16 @@
 
 
 
-	<!-- DIVIDER07 -->
-	<section class="section divider divRed" id="divider07">
+	<!-- DIVIDER09 -->
+	<section class="section divider divRed" id="divider09">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
-					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Your Time, Your Progress.</h3>
+					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Put In The Time, See The Progress.</h3>
 				</div>
 			</div>
 		</div>
 	</section>
-
-
-
-	<!-- APPROACH 
-	<section class="class section" id="approach">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-12 text-center">
-					<h2>My Approach to Solo Drilling</h2>
-					<hr class="section-accent-line">
-					<div class="text-left">
-						<p class="mt-3">Keeping your mind engaged is essential when practicing solo drills. That’s why most of my drills last less than three minutes and incorporate the <em>Set</em> and <em>Mega-Set</em> concepts.</p>
-						<p class="mt-3">Drill repetition is also key—it ensures you spend enough time on each drill without it becoming monotonous.</p>
-						<p class="mt-3">Throughout the year, I adjust the difficulty, type, focus, and duration of drills. During summer, foundational drills take priority, while in-season training includes more aggressive and kill-oriented drills.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-	 DIVIDER08
-	<section class="section divider divRed" id="divider08">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-12 text-center mb-3">
-					<h3 class="text-white" data-aos="fade-up" data-aos-delay="200">Refine. Repeat. Excel.</h3>
-				</div>
-			</div>
-		</div>
-	</section>-->
 
 
 
@@ -558,7 +745,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center">
-					<h2>Solo Drilling Guide</h2>
+					<h2>My Solo Drilling Guide</h2>
 					<hr style="border-color: #ffdf00; border-width: 2px; width:80%" class="mb-5">
 					<div class="text-left">
 							<p class="mt-2"><strong><span style="color: #FFD60A">&#10148;</span></strong> Have a plan.  Hopefully, you are about to sign up for my Solo Routines programme, so that's taken care of.  But it is also a good idea to read and understand the routine BEFORE you go onto the court. I'm not saying memorise it, but at least have read it first.</p>
@@ -576,45 +763,8 @@
 
 
 
-
-	<!--PURCHASE -->
-	 <section class="class section" style="background:#F4F4F4" id="purchase">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-12 text-center mb-5">
-					<h2>Start Training Smarter – Choose Your Package</h2>
-					<h6>Are you an Individual or a club/organisation?</h6>
-					<hr style="border-color: #FFD60A; border-width: 3px; width:75%" class="mb-2">
-				</div>
-
-				<div class="col-lg-12 col-12 text-center mb-5">
-					<h2 style="text-align: center; font-size: 3rem; margin-bottom: 0.5rem;">Returning Soon</h2>
-					<p style="text-align: center; font-size: 1.2rem; color: #555; margin-bottom: 2rem;">The Routine Timer App is in the final stages of testing and once it is ready, the <strong>FastFocus</strong> set of Solo Routines will be available for purchase again.</p>
-					<p style="text-align: center; font-size: 1.2rem; color: #555; margin-bottom: 2rem;">If you would like to be informed when that happens, please send an email to <a href="mailto:FastFocusRelease@BetterSquash.com">FastFocusRelease@BetterSquash.com</a> and you will be notified of the release.</p>
-				</div>
-				<!--<div class="col-lg-6 col-md-6 col-12 mt-1 text-center">
-					<h2 class="text-dark">Club Players: FastFocus Individual Licence</h2>
-						<p class="mt-2">Perfect for you and a couple of playing friends.</p>
-						<stripe-buy-button buy-button-id="buy_btn_1R6vraGLoIyVj0GH50g24MxI" publishable-key="pk_live_hmP3pNOgJJtGJFbEUbW6NYOo"></stripe-buy-button>
-						<hr>
-				</div>
-				<div class="col-lg-6 col-md-6 col-12 mt-1 text-center">
-					<h2 class="text-dark">Club Players: FastFocus: Commercial Licence</h2>
-						<p class="mt-2">This option is for clubs, facilities, training squads, teams etc.</p>
-						<stripe-buy-button buy-button-id="buy_btn_1R6vsCGLoIyVj0GH6z9OAECx" publishable-key="pk_live_hmP3pNOgJJtGJFbEUbW6NYOo"></stripe-buy-button>
-						<hr>
-				</div>
-				<hr>
-					-->
-			</div>
-		</div>
-	</section>
-
-
-
-
-	<!-- DIVIDER12 -->
-	<section class="section divider divRed" id="divider12">
+	<!-- DIVIDER10 -->
+	<section class="section divider divRed" id="divider10">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12 text-center mb-3">
@@ -646,7 +796,6 @@
      <script src="js/aos.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
-	 	<script async src="https://js.stripe.com/v3/buy-button.js"></script>
 	 <script>
 	 var acc = document.getElementsByClassName("accordion");
 	 var i;
